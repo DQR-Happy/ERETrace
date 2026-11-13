@@ -1,0 +1,77 @@
+{
+  "checked_date": "2026-10-09",
+  "resolved_commit": "81ff93ea1d48c0482508d30e75b814df99c25bf0",
+  "commit_date_utc": "2026-09-30T16:09:08Z",
+  "commit_title": "llama: properly handle KV on training (#28520)",
+  "git_tree": "9e3a381db66110a4344fa891e7e74e33b0a721c8",
+  "upstream_url": "https://github.com/ggml-org/llama.cpp/commit/81ff93ea1d48c0482508d30e75b814df99c25bf0",
+  "retrieved_historical_archive": {
+    "ssh_host": "jetson",
+    "remote_path": "/home/jetson/qwen3-neutrino-benchmark/llama.cpp-master.tar.gz",
+    "path": "/Users/dengqirui/Documents/BITS/paper/ISPA/build/llama-source-recovery-20261009/llama.cpp-master.tar.gz",
+    "bytes": 37703882,
+    "sha256": "791671c6e0f7072a808137c929113979c680e662cefbf9dfcb060bad77c39c56",
+    "roots": [
+      "llama.cpp-master"
+    ],
+    "global_pax_headers": {
+      "comment": "81ff93ea1d48c0482508d30e75b814df99c25bf0"
+    },
+    "entries": 4041,
+    "regular_files": 3665,
+    "content_bytes": 173651630
+  },
+  "official_archive": {
+    "url": "https://codeload.github.com/ggml-org/llama.cpp/tar.gz/81ff93ea1d48c0482508d30e75b814df99c25bf0",
+    "path": "/Users/dengqirui/Documents/BITS/paper/ISPA/build/llama-source-recovery-20261009/81ff93ea1d48c0482508d30e75b814df99c25bf0.tar.gz",
+    "bytes": 37716633,
+    "sha256": "16555a6b3f250119d6128a5e2782c75487fc580a4aebd71a1520e02ffe1d88e3",
+    "roots": [
+      "llama.cpp-81ff93ea1d48c0482508d30e75b814df99c25bf0"
+    ],
+    "global_pax_headers": {
+      "comment": "81ff93ea1d48c0482508d30e75b814df99c25bf0"
+    },
+    "entries": 4041,
+    "regular_files": 3665,
+    "content_bytes": 173651630
+  },
+  "historical_provenance_links": [
+    {
+      "file": "reports/neutrino-paper-evaluation-plan-20261005/runs/requalification-20261005/preflight.json",
+      "sha256": "88cf6a43e1c5ea9fae10dd035d484792ae19d6a0dccc2fa63482d35aeeace6f8",
+      "json_keys": [
+        "llama_cpp_source_archive_sha256"
+      ],
+      "source_archive_sha256": "791671c6e0f7072a808137c929113979c680e662cefbf9dfcb060bad77c39c56"
+    },
+    {
+      "file": "reports/neutrino-paper-evaluation-plan-20261005/runs/h800-followup-20261005/provenance.json",
+      "sha256": "18a7ac70fae5321b1da8a7c6fb61b8f939595ddc0b5a670531990d3d8eaf1531",
+      "json_keys": [
+        "llama_cpp",
+        "source_archive_sha256"
+      ],
+      "source_archive_sha256": "791671c6e0f7072a808137c929113979c680e662cefbf9dfcb060bad77c39c56"
+    }
+  ],
+  "comparison": {
+    "normalization": "Strip only the top-level archive directory. Compare normalized paths, member types, permissions, sizes, link targets and SHA-256 for all regular-file contents. No source file is omitted.",
+    "members_compared": 4041,
+    "regular_files_compared": 3665,
+    "content_bytes": 173651630,
+    "only_historical": [],
+    "only_official": [],
+    "different_members": {},
+    "exact_match": true
+  },
+  "manifest_files": {
+    "build/llama-source-recovery-20261009/historical-manifest.json": "606ec092be00e58ade33f6a8502cf902aa10654f142d65fe8c9b3e492059f939",
+    "build/llama-source-recovery-20261009/official-manifest.json": "606ec092be00e58ade33f6a8502cf902aa10654f142d65fe8c9b3e492059f939",
+    "build/llama-source-recovery-20261009/comparison.json": "f1cc3b3229aa3a526bce741dd7a731e2640a4cdbb3c66e63bd98321e057860e0",
+    "build/llama-source-recovery-20261009/known.json": "0fd27bac891af75370175cf324662f76176c52b62807112ac3b66943d755d115"
+  },
+  "conclusion": "The historical source archive is byte-identical to the build input identified in the retained primary preflight and H800 records. Its Git PAX comment names the resolved commit; all normalized members match the official immutable commit archive. This establishes the source revision without inferring it from the experiment date.",
+  "candidate_search": "One candidate commit archive was tested. Nearby commit metadata was enumerated, but further candidates were unnecessary after the original build archive and its embedded Git commit were recovered.",
+  "frozen_results_modified": false
+}

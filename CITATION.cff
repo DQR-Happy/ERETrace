@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the ERETrace paper when using this software."
+title: "ERETrace: Execution-Reference Encoding and Recovery-Aware Collection for GPU Profiling"
+type: software
+version: 1.0.0
+date-released: 2026-11-14
+url: "https://github.com/DQR-Happy/ERETrace"
+repository-code: "https://github.com/DQR-Happy/ERETrace"
+license: MIT
+authors:
+  - family-names: Deng
+    given-names: Qirui
+  - family-names: Fan
+    given-names: Yongxian
+  - family-names: Zhang
+    given-names: Yongwei
+  - family-names: Lai
+    given-names: Zuwen
+preferred-citation:
+  type: conference-paper
+  title: "Execution-Reference Encoding and Recovery-Aware Collection for GPU Profiling"
+  conference:
+    name: "ISPA 2026"
+  year: 2026
+  authors:
+    - family-names: Deng
+      given-names: Qirui
+    - family-names: Fan
+      given-names: Yongxian
+    - family-names: Zhang
+      given-names: Yongwei
+    - family-names: Lai
+      given-names: Zuwen

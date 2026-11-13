@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-10-09",
+  "author_confirmation": {
+    "installation": "The experiment environment pulled the latest available version at setup time.",
+    "ai_use_in_submitted_manuscript": "The author replaced the earlier AI drafts with their own text. OpenAI Codex assisted with language polishing and drawing-code generation; executing the code produced the architecture figure as a vector graphic with editable text."
+  },
+  "nvcomp": {
+    "package": "nvidia-libnvcomp-cu12",
+    "version": "5.3.0.16",
+    "basis": [
+      "Early retained pip metadata explicitly gives 5.3.0.16.",
+      "Author confirms latest-version installation at experiment setup.",
+      "Official PyPI release history gives 5.3.0.16 as the latest release from July 14 through the experiment period."
+    ],
+    "official_release_history": "https://pypi.org/pypi/nvidia-libnvcomp-cu12/json",
+    "official_release_page": "https://pypi.org/project/nvidia-libnvcomp-cu12/5.3.0.16/",
+    "release_dates": {
+      "5.1.0.21": "2025-12-02",
+      "5.2.0.10": "2026-04-03",
+      "5.2.0.13": "2026-04-08",
+      "5.3.0.16": "2026-07-14"
+    },
+    "x86_wheel_sha256": "535944be2e37ead56ad1ef80e9dd58a3126fc2ccf238ddffc9d1cb7a48f5300a",
+    "early_installed_library_sha256": "3f1e969bb2a767fea4b5bd91169831e7b8b15742ff74d997b7ce357dbe986316",
+    "main_adapter_sha256": "aad94373261fb7c1f6d7956e11caf78626d5182f07dc2fb3cecb99c31d9938b3",
+    "evidence_scope": "The package version is reconstructed from author confirmation and release history, corroborated by the early install manifest. The early library hash and public wheel hash are not presented as direct hashes of the library loaded in the main runs."
+  },
+  "llama_cpp": {
+    "main_source_archive_sha256": "791671c6e0f7072a808137c929113979c680e662cefbf9dfcb060bad77c39c56",
+    "main_upstream_commit": "81ff93ea1d48c0482508d30e75b814df99c25bf0",
+    "early_and_reviewer_source_record_commit": "81ff93ea1d48c0482508d30e75b814df99c25bf0",
+    "verified_upstream_commit_date_utc": "2026-09-30T16:09:08Z",
+    "upstream_url": "https://github.com/ggml-org/llama.cpp/commit/81ff93ea1d48c0482508d30e75b814df99c25bf0",
+    "decision": "Report commit 81ff93e for the main source build. The recovered original archive has exactly the recorded primary SHA-256, embeds the full commit in its Git PAX comment, and matches all 3,665 files and 4,041 normalized members in the official commit archive.",
+    "direct_recovery_evidence": "data/llama-source-recovery.json"
+  },
+  "source_sha256": {
+    "reports/neutrino-timing-20261002/experiments/mechanism-20261004/measurements/v1/codec-provenance.json": "29ba0e4f0ca20a3efb70843dc04ba343ad7a9fd63947af9bb3ca124af0ac9437",
+    "reports/neutrino-paper-evaluation-plan-20261005/runs/requalification-20261005/preflight.json": "88cf6a43e1c5ea9fae10dd035d484792ae19d6a0dccc2fa63482d35aeeace6f8",
+    "reports/neutrino-paper-evaluation-plan-20261005/runs/paper-gaps-20261007/provenance.json": "cadccdceea30dbdef4c2283cb7284bd64cd05cf23f30cdad740b6e3ad33eca0c",
+    "reports/neutrino-review-sm-only-20261009/provenance.json": "75608813c9ae1a511dd00fb9c8d64991095d886bf3f5faf134d1b59228bb134d",
+    "xtrace-3090-repro/qwen-config.json": "5a3ef794420e9e105663609f415212f17e5d89de68f7247a11ae145992f296ca",
+    "paper/ISPA/data/llama-source-recovery.json": "ce55a9472816437c8163d000d370695fddec6b2c3a3e20a22e6f18a185202c58"
+  }
+}

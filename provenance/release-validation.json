@@ -1,0 +1,1220 @@
+{
+  "release": "1.0.0",
+  "date": "2026-11-14",
+  "local": {
+    "python": "3.12",
+    "cpu_tests_passed": 61,
+    "cli_help": "passed",
+    "retained_table_regeneration": "passed"
+  },
+  "jetson": {
+    "device": "NVIDIA Jetson Orin",
+    "machine": "aarch64",
+    "cuda_toolkit": "12.6.85",
+    "cpu_python": "3.10.12",
+    "numpy": "1.23.5",
+    "cpu_tests_passed": 58,
+    "cuda_build": {
+      "machine": "aarch64",
+      "arch": "87",
+      "cuda_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2024 NVIDIA Corporation\nBuilt on Tue_Oct_29_23:53:06_PDT_2024\nCuda compilation tools, release 12.6, V12.6.85\nBuild cuda_12.6.r12.6/compiler.35059454_0\n",
+      "driver_sha256": "255b3a41c663bf0fc37255f5b533bb5dd9d63e6608fff66cdb98800a5a0ae200",
+      "artifacts": {
+        "neutrino/build/preload.so": "b55a5bdb308e679abf5ec6041d4cc7483cfd984247d14ddd65b8b7083ad3fcfc",
+        "neutrino/build/libcuda.so.1": "a25f4f196ea0447718ddbe8cfd6a83e07683d5f6bb27b97bd17f23fc1a988b4f",
+        "neutrino/build/libcuda.so": "a25f4f196ea0447718ddbe8cfd6a83e07683d5f6bb27b97bd17f23fc1a988b4f",
+        "build/capture_pack.cubin": "61a5e6fa7624635bba772f43f2aa6603b63a9ce4ffa6a2783ef60d545c886498"
+      }
+    },
+    "codec_checks": {
+      "reference": {
+        "passed": true,
+        "cases": [
+          {
+            "local_bits": 12,
+            "ew": 2,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620289
+          },
+          {
+            "local_bits": 12,
+            "ew": 2,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "local_bits": 12,
+            "ew": 2,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 12,
+            "ew": 2,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 12,
+            "ew": 2,
+            "case": "sm_mismatch",
+            "flags": [
+              0,
+              0,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 12,
+            "ew": 2,
+            "case": "local_escape",
+            "flags": [
+              0,
+              0,
+              16,
+              16,
+              16,
+              16,
+              16,
+              16
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 12,
+            "ew": 3,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620289
+          },
+          {
+            "local_bits": 12,
+            "ew": 3,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "local_bits": 12,
+            "ew": 3,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 12,
+            "ew": 3,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 12,
+            "ew": 3,
+            "case": "sm_mismatch",
+            "flags": [
+              0,
+              0,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 12,
+            "ew": 3,
+            "case": "local_escape",
+            "flags": [
+              0,
+              0,
+              16,
+              16,
+              16,
+              16,
+              16,
+              16
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 16,
+            "ew": 2,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620289
+          },
+          {
+            "local_bits": 16,
+            "ew": 2,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "local_bits": 16,
+            "ew": 2,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 16,
+            "ew": 2,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 16,
+            "ew": 2,
+            "case": "sm_mismatch",
+            "flags": [
+              0,
+              0,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 16,
+            "ew": 2,
+            "case": "local_escape",
+            "flags": [
+              0,
+              0,
+              16,
+              16,
+              16,
+              16,
+              16,
+              16
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 16,
+            "ew": 3,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620289
+          },
+          {
+            "local_bits": 16,
+            "ew": 3,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "local_bits": 16,
+            "ew": 3,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 16,
+            "ew": 3,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "local_bits": 16,
+            "ew": 3,
+            "case": "sm_mismatch",
+            "flags": [
+              0,
+              0,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "exact_records": 34
+          },
+          {
+            "local_bits": 16,
+            "ew": 3,
+            "case": "local_escape",
+            "flags": [
+              0,
+              0,
+              16,
+              16,
+              16,
+              16,
+              16,
+              16
+            ],
+            "exact_records": 34
+          }
+        ]
+      },
+      "flex": {
+        "passed": true,
+        "cases": [
+          {
+            "dw": 2,
+            "ew": 2,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 2,
+            "ew": 2,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 2,
+            "ew": 2,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 2,
+            "ew": 2,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 2,
+            "ew": 3,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 2,
+            "ew": 3,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 2,
+            "ew": 3,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 2,
+            "ew": 3,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 2,
+            "ew": 4,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 2,
+            "ew": 4,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 2,
+            "ew": 4,
+            "case": "elapsed_escape",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 2,
+            "ew": 4,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 4,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 3,
+            "ew": 4,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 3,
+            "ew": 4,
+            "case": "elapsed_escape",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 3,
+            "ew": 4,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 4,
+            "ew": 2,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 4,
+            "ew": 2,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 4,
+            "ew": 2,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 4,
+            "ew": 2,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 4,
+            "ew": 3,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 4,
+            "ew": 3,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 4,
+            "ew": 3,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 4,
+            "ew": 3,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 4,
+            "ew": 4,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 4,
+            "ew": 4,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 4,
+            "ew": 4,
+            "case": "elapsed_escape",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 620067
+          },
+          {
+            "dw": 4,
+            "ew": 4,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          }
+        ]
+      },
+      "hier": {
+        "passed": true,
+        "cases": [
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 626274
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "sm_mismatch",
+            "flags": [
+              0,
+              0,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "exact_records": 34
+          },
+          {
+            "dw": 3,
+            "ew": 2,
+            "case": "local_escape",
+            "flags": [
+              0,
+              0,
+              16,
+              16,
+              16,
+              16,
+              16
+            ],
+            "exact_records": 34
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "exact_wrap",
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "exact_records": 626274
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "delta_escape",
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "exact_records": 1
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "elapsed_escape",
+            "flags": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "sm_escape",
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "exact_records": 0
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "sm_mismatch",
+            "flags": [
+              0,
+              0,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "exact_records": 34
+          },
+          {
+            "dw": 3,
+            "ew": 3,
+            "case": "local_escape",
+            "flags": [
+              0,
+              0,
+              16,
+              16,
+              16,
+              16,
+              16
+            ],
+            "exact_records": 34
+          }
+        ]
+      },
+      "codec": {
+        "passed": true,
+        "cases": [
+          {
+            "records": 5000,
+            "invalid_sm": false,
+            "overflow_flag": 0,
+            "exact_roundtrip": true
+          },
+          {
+            "records": 5000,
+            "invalid_sm": true,
+            "overflow_flag": 1,
+            "exact_roundtrip": false
+          }
+        ]
+      },
+      "batch_delta": {
+        "passed": true,
+        "cases": [
+          {
+            "case": "batch13",
+            "frame_sizes": [
+              1,
+              33,
+              4096,
+              5000,
+              607744,
+              8192,
+              65
+            ],
+            "exact_records": 625131,
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "case": "delta9",
+            "frame_sizes": [
+              1,
+              33,
+              4096,
+              5000,
+              607744,
+              8192,
+              65
+            ],
+            "exact_records": 625131,
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "case": "delta_wrap",
+            "frame_sizes": [
+              1,
+              33,
+              4096,
+              5000,
+              607744,
+              8192,
+              65
+            ],
+            "exact_records": 625131,
+            "flags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "case": "delta_range_fallback",
+            "frame_sizes": [
+              1,
+              33,
+              4096,
+              5000,
+              607744,
+              8192,
+              65
+            ],
+            "exact_records": 1,
+            "flags": [
+              0,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          },
+          {
+            "case": "delta_sm_fallback",
+            "frame_sizes": [
+              1,
+              33,
+              4096,
+              5000,
+              607744,
+              8192,
+              65
+            ],
+            "exact_records": 0,
+            "flags": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    "case_groups_passed": 79
+  },
+  "web": {
+    "desktop_light_and_dark": "visually reviewed",
+    "mobile_390x844": "visually reviewed; no horizontal overflow",
+    "model_selector": "Llama3.2-1B displayed the correct retained rows",
+    "copy_button": "reported Copied",
+    "viewport_override": "reset"
+  },
+  "scope": "Release correctness and packaging checks, separate from retained paper performance; no new full LLM or external frontend performance ranking."
+}

@@ -1,0 +1,21 @@
+--- a/experiments/document-qa/runtime/neutrino/src/common.h
++++ b/experiments/document-qa/runtime/neutrino/src/common.h
+@@ -264,6 +264,7 @@
+     sprintf(cmdpath, "/proc/%d/cmdline", getpid());
+     FILE *cmdfile = fopen(cmdpath, "r");
+     size_t len = fread(cmdline, 1, sizeof(cmdline) - 1, cmdfile);
++    cmdline[len] = '\0';
+     if (len > 0) {
+         // Replace null characters with spaces
+         for (int i = 0; i < len; i++) {
+@@ -602,8 +603,9 @@
+     fseek(file, 0, SEEK_END);
+     long file_size = ftell(file);
+     fseek(file, 0, SEEK_SET);
+-    void* ptr = malloc(file_size);
++    void* ptr = malloc(file_size + 1);
+     size_t read_size = fread(ptr, 1, file_size, file);
++    ((char*)ptr)[read_size] = '\0';
+     if (read_size != file_size)
+         fprintf(stderr, "read size mismatched\n");
+     fclose(file);

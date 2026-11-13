@@ -1,0 +1,1042 @@
+{
+  "source_scope": "Same selected seven rounds as main Figure; 21 measured requests per model. Llama round 1 uses the pre-existing all-method replacement.",
+  "denominators": "Main percentages use all captured Maps or all raw logical bytes. Eligible-only percentages are also retained. Reason bits can overlap; aggregate recovery is counted once.",
+  "direct_raw_derivation": "payload minus reserved_raw_bytes, valid only for the checked incremental, untrimmed, non-template main configuration; calls minus encoder_frames.",
+  "summaries": [
+    {
+      "model": "Qwen3-8B",
+      "rounds": 7,
+      "requests": 21,
+      "all_maps_per_request": 44548.0,
+      "encoded_maps_per_request": 14456.0,
+      "raw_logical_B_per_request": 4739153152.0,
+      "eligible_raw_B_per_request": 4669555200.0,
+      "recovery_maps_per_request": 4.285714285714286,
+      "extra_raw_D2H_B_per_request": 89965.71428571429,
+      "direct_raw_maps_per_request": 30092.0,
+      "direct_raw_B_per_request": 69597952.0,
+      "nominal_payload_B_per_request": 1300897796.0,
+      "nominal_D2H_with_padding_B_per_request": 1300900784.0,
+      "file_B_per_request": 1303450417.7142856,
+      "recovery_maps_pct_all": 0.009620441514129222,
+      "recovery_maps_pct_eligible": 0.02964661238042533,
+      "recovered_raw_pct_all": 0.001898350008961987,
+      "recovered_raw_pct_eligible": 0.001926644196982922,
+      "direct_raw_maps_pct": 67.54960941007452,
+      "direct_raw_bytes_pct": 1.4685735988639348,
+      "extra_raw_pct_nominal_D2H": 0.006915647633717952,
+      "totals": {
+        "all_maps": 935508,
+        "encoded_maps": 303576,
+        "raw_logical_B": 99522216192,
+        "eligible_raw_B": 98060659200,
+        "recovery_maps": 90,
+        "extra_raw_D2H_B": 1889280,
+        "direct_raw_maps": 631932,
+        "direct_raw_B": 1461556992,
+        "nominal_payload_B": 27318853716,
+        "nominal_D2H_with_padding_B": 27318916464,
+        "file_B": 27372458772
+      },
+      "recovery_maps_per_request_range": [
+        3.0,
+        5.0
+      ],
+      "reason_totals": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 90,
+          "raw_B": 1889280
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "rounds": 7,
+      "requests": 21,
+      "all_maps_per_request": 20008.0,
+      "encoded_maps_per_request": 6456.0,
+      "raw_logical_B_per_request": 1596433664.0,
+      "eligible_raw_B_per_request": 1575021056.0,
+      "recovery_maps_per_request": 1.5238095238095237,
+      "extra_raw_D2H_B_per_request": 31987.809523809523,
+      "direct_raw_maps_per_request": 13552.0,
+      "direct_raw_B_per_request": 21412608.0,
+      "nominal_payload_B_per_request": 439921748.0,
+      "nominal_D2H_with_padding_B_per_request": 439923056.0,
+      "file_B_per_request": 441062799.8095238,
+      "recovery_maps_pct_all": 0.007616001218560195,
+      "recovery_maps_pct_eligible": 0.023602997580692748,
+      "recovered_raw_pct_all": 0.002003704271912016,
+      "recovered_raw_pct_eligible": 0.0020309448817812836,
+      "direct_raw_maps_pct": 67.73290683726509,
+      "direct_raw_bytes_pct": 1.3412776542401952,
+      "extra_raw_pct_nominal_D2H": 0.007271228249471317,
+      "totals": {
+        "all_maps": 420168,
+        "encoded_maps": 135576,
+        "raw_logical_B": 33525106944,
+        "eligible_raw_B": 33075442176,
+        "recovery_maps": 32,
+        "extra_raw_D2H_B": 671744,
+        "direct_raw_maps": 284592,
+        "direct_raw_B": 449664768,
+        "nominal_payload_B": 9238356708,
+        "nominal_D2H_with_padding_B": 9238384176,
+        "file_B": 9262318796
+      },
+      "recovery_maps_per_request_range": [
+        0.6666666666666666,
+        2.0
+      ],
+      "reason_totals": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 32,
+          "raw_B": 671744
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "rounds": 7,
+      "requests": 21,
+      "all_maps_per_request": 50764.0,
+      "encoded_maps_per_request": 13759.0,
+      "raw_logical_B_per_request": 3926452480.0,
+      "eligible_raw_B_per_request": 3874570752.0,
+      "recovery_maps_per_request": 71.76190476190476,
+      "extra_raw_D2H_B_per_request": 1472633.9047619049,
+      "direct_raw_maps_per_request": 37005.0,
+      "direct_raw_B_per_request": 51881728.0,
+      "nominal_payload_B_per_request": 1076936276.0,
+      "nominal_D2H_with_padding_B_per_request": 1076938304.0,
+      "file_B_per_request": 1080750321.9047618,
+      "recovery_maps_pct_all": 0.14136377110138043,
+      "recovery_maps_pct_eligible": 0.521563374968419,
+      "recovered_raw_pct_all": 0.03750545593670103,
+      "recovered_raw_pct_eligible": 0.03800766585567579,
+      "direct_raw_maps_pct": 72.89614687573871,
+      "direct_raw_bytes_pct": 1.3213384922972504,
+      "extra_raw_pct_nominal_D2H": 0.13674264340790918,
+      "totals": {
+        "all_maps": 1066044,
+        "encoded_maps": 288939,
+        "raw_logical_B": 82455502080,
+        "eligible_raw_B": 81365985792,
+        "recovery_maps": 1507,
+        "extra_raw_D2H_B": 30925312,
+        "direct_raw_maps": 777105,
+        "direct_raw_B": 1089516288,
+        "nominal_payload_B": 22615661796,
+        "nominal_D2H_with_padding_B": 22615704384,
+        "file_B": 22695756760
+      },
+      "recovery_maps_per_request_range": [
+        71.33333333333333,
+        72.33333333333333
+      ],
+      "reason_totals": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 1507,
+          "raw_B": 30925312
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    }
+  ],
+  "per_process": [
+    {
+      "model": "Qwen3-8B",
+      "round": 1,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r1-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 13,
+      "extra_raw_D2H_B": 272896,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910353184,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 13,
+          "raw_B": 272896
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "round": 2,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r2-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 12,
+      "extra_raw_D2H_B": 251904,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910339668,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 12,
+          "raw_B": 251904
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "round": 3,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r3-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 14,
+      "extra_raw_D2H_B": 293888,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910366700,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 14,
+          "raw_B": 293888
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "round": 4,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r4-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 9,
+      "extra_raw_D2H_B": 188928,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910299120,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 9,
+          "raw_B": 188928
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "round": 5,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r5-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 15,
+      "extra_raw_D2H_B": 314880,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910380216,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 15,
+          "raw_B": 314880
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "round": 6,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r6-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 13,
+      "extra_raw_D2H_B": 272896,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910353184,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 13,
+          "raw_B": 272896
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "round": 7,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r7-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 133644,
+      "encoded_maps": 43368,
+      "raw_logical_B": 14217459456,
+      "eligible_raw_B": 14008665600,
+      "recovery_maps": 14,
+      "extra_raw_D2H_B": 293888,
+      "direct_raw_maps": 90276,
+      "direct_raw_B": 208793856,
+      "nominal_payload_B": 3902693388,
+      "nominal_D2H_with_padding_B": 3902702352,
+      "file_B": 3910366700,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 14,
+          "raw_B": 293888
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 2,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r2-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 5,
+      "extra_raw_D2H_B": 104960,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323194192,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 5,
+          "raw_B": 104960
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 3,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r3-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 3,
+      "extra_raw_D2H_B": 62976,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323167160,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 3,
+          "raw_B": 62976
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 4,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r4-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 5,
+      "extra_raw_D2H_B": 104960,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323194192,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 5,
+          "raw_B": 104960
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 5,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r5-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 6,
+      "extra_raw_D2H_B": 125952,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323207708,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 6,
+          "raw_B": 125952
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 6,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r6-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 5,
+      "extra_raw_D2H_B": 104960,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323194192,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 5,
+          "raw_B": 104960
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 7,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r7-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 6,
+      "extra_raw_D2H_B": 125952,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323207708,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 6,
+          "raw_B": 125952
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Llama3.2-1B",
+      "round": 1,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b-r1-recheck/r1-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 60024,
+      "encoded_maps": 19368,
+      "raw_logical_B": 4789300992,
+      "eligible_raw_B": 4725063168,
+      "recovery_maps": 2,
+      "extra_raw_D2H_B": 41984,
+      "direct_raw_maps": 40656,
+      "direct_raw_B": 64237824,
+      "nominal_payload_B": 1319765244,
+      "nominal_D2H_with_padding_B": 1319769168,
+      "file_B": 1323153644,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 2,
+          "raw_B": 41984
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 1,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r1-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 217,
+      "extra_raw_D2H_B": 4453888,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242274136,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 217,
+          "raw_B": 4453888
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 2,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r2-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 216,
+      "extra_raw_D2H_B": 4432896,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242260620,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 216,
+          "raw_B": 4432896
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 3,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r3-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 215,
+      "extra_raw_D2H_B": 4411904,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242247104,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 215,
+          "raw_B": 4411904
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 4,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r4-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 214,
+      "extra_raw_D2H_B": 4390912,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242233588,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 214,
+          "raw_B": 4390912
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 5,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r5-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 214,
+      "extra_raw_D2H_B": 4390912,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242233588,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 214,
+          "raw_B": 4390912
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 6,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r6-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 216,
+      "extra_raw_D2H_B": 4432896,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242260620,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 216,
+          "raw_B": 4432896
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    },
+    {
+      "model": "Gemma3-4B",
+      "round": 7,
+      "requests": 3,
+      "source": "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r7-R/C01_three_model_fair_full_capture__capture-summary.json",
+      "all_maps": 152292,
+      "encoded_maps": 41277,
+      "raw_logical_B": 11779357440,
+      "eligible_raw_B": 11623712256,
+      "recovery_maps": 215,
+      "extra_raw_D2H_B": 4411904,
+      "direct_raw_maps": 111015,
+      "direct_raw_B": 155645184,
+      "nominal_payload_B": 3230808828,
+      "nominal_D2H_with_padding_B": 3230814912,
+      "file_B": 3242247104,
+      "flags": {
+        "sm_id": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "sm_reference24": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "elapsed16": {
+          "maps": 215,
+          "raw_B": 4411904
+        },
+        "group_sm_mismatch": {
+          "maps": 0,
+          "raw_B": 0
+        },
+        "local12": {
+          "maps": 0,
+          "raw_B": 0
+        }
+      }
+    }
+  ],
+  "sources_sha256": {
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/figure01_space_per_process.json": "fee393e09ae7dea4f0dcd2457698b95881ae0815b20f534cdb042e2830f3c0a0",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r1-R/C01_three_model_fair_full_capture__capture-summary.json": "5541fe9cd32378bf75351082344d40173cc9a4c42e21f56ccd6b9e2b84b9619c",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/C01_three_model_fair_full_capture__config.json": "a0827a0f4caf37d508cfe8a2dff252b110b4c565c0bf0ffb1fc3d2fae787104f",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r2-R/C01_three_model_fair_full_capture__capture-summary.json": "1cca886af6cbea9cf64d3dfbefa1a6c3103db8fc5399c6cb92e51cb774673edd",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r3-R/C01_three_model_fair_full_capture__capture-summary.json": "912de835f253143010c784e6e9cccd4bbcada36527875f262b6b355dccc43fad",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r4-R/C01_three_model_fair_full_capture__capture-summary.json": "94ff383f4c3c803cd520cf9e48a74ceea121ae9832f84a8eb7e3817c38b963ef",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r5-R/C01_three_model_fair_full_capture__capture-summary.json": "81d0d7345a5581286442c4a0f6fe65666afe9215ffaf506c2a22b365b64424ce",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r6-R/C01_three_model_fair_full_capture__capture-summary.json": "ddcc7dd5a6416512db97675c6e0e83e8b5dc048e5a7fa77abaf8ceee2225ae7b",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-qwen8b/r7-R/C01_three_model_fair_full_capture__capture-summary.json": "8b1af5f3c545805038722f0fa8f7e231a2d12f0b6571204cc604691620c6c362",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r2-R/C01_three_model_fair_full_capture__capture-summary.json": "fc61ca4cc951655b669b2926dac8c2aff02aa618f132decbfa543cd5acc4f014",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/C01_three_model_fair_full_capture__config.json": "e289a5ad84920cdf78d6fc80a4ebbea0874a89707761d55039cb923eeb1da283",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r3-R/C01_three_model_fair_full_capture__capture-summary.json": "b3ded001b0fb7b0073b1078a4e765fc52fafdb0cd38e329ed4201063a5a4ae4e",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r4-R/C01_three_model_fair_full_capture__capture-summary.json": "11e2b9a5b793e1b95c05c511808aa1442c14fcc74426e31b1c858c3404532632",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r5-R/C01_three_model_fair_full_capture__capture-summary.json": "b1ad1953f47b51fb69e8579c14db32f5390889a73b24b85edb0583a63e944e22",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r6-R/C01_three_model_fair_full_capture__capture-summary.json": "9f3139c636952f3e6771f9d17bb3105909a070b8fdcdf0a5ac913300dfab1f8b",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b/r7-R/C01_three_model_fair_full_capture__capture-summary.json": "e1eb8af46396b05efd19ec3a1c997fb64f83d610f3b1332ba720d20b636a9d40",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b-r1-recheck/r1-R/C01_three_model_fair_full_capture__capture-summary.json": "a3d48bb193ec84e949ba61f60722a0e81f7d045a7e344fad6c989f5971d2a7b4",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-llama1b-r1-recheck/C01_three_model_fair_full_capture__config.json": "9c3a7f4b9c8ec863fb44c7cb6993e360cf1d433f156c02236e44daa0827fa831",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r1-R/C01_three_model_fair_full_capture__capture-summary.json": "7ec10a23b546981ddaec5ef1a8acf47ac6fd495cb528907c3df7f9b3ba153497",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/C01_three_model_fair_full_capture__config.json": "8ffffd2ba96685ae5e0d5dcffd36ac55c7b8ed554890e116e0fa398be3831429",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r2-R/C01_three_model_fair_full_capture__capture-summary.json": "4a820e435d42eb3e71596b03d6f62a590926254f19ff745c911c5f61e13e6069",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r3-R/C01_three_model_fair_full_capture__capture-summary.json": "43e053660472e551691713ed4c98dd7c060b1c9867c2ca2f22c443f308d176cd",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r4-R/C01_three_model_fair_full_capture__capture-summary.json": "4d1b388f1889501f1e0a4eab39ebf0718211620e3a4c664efd68ba7bb9ff53b2",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r5-R/C01_three_model_fair_full_capture__capture-summary.json": "2053f44c8a6d1009528a7338d75e08a72a9cd83db46bbb1b828472191a683a5b",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r6-R/C01_three_model_fair_full_capture__capture-summary.json": "6eda9c9809f4404f4276815116c1bc8c9a010d97567cee4ed4dde07d5cd38c2f",
+    "reports/neutrino-paper-authoritative-20261007/03_main_evaluation/C01_three_model_fair_full_capture/evidence/main-gemma4/r7-R/C01_three_model_fair_full_capture__capture-summary.json": "70f4f781811d59f6a60b2dbbbad945bb62c7b0454c85d44d8ed75032094ac069"
+  }
+}

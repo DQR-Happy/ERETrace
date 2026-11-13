@@ -1,0 +1,2310 @@
+{
+  "benchmarks/arena_checks.py": {
+    "source": "benchmarks/arena_checks.py",
+    "sha256": "d429e9b38d81e5b2f8a30b4166f0104cd33ff002440b9781dc61004f0a0bfcd9"
+  },
+  "benchmarks/capacity_repeat.cpp": {
+    "source": "benchmarks/capacity_repeat.cpp",
+    "sha256": "42ad487c96b90f3439151f2a5fbcc5ee44a2d021d32539d99e1a36d42d0ff429"
+  },
+  "benchmarks/capture_compact.cuh": {
+    "source": "benchmarks/capture_compact.cuh",
+    "sha256": "fa2f35553461b2c5463814b4fd018b0ae58e87a346d8a3d6bb5c173771281fdd"
+  },
+  "benchmarks/capture_pack.cu": {
+    "source": "benchmarks/capture_pack.cu",
+    "sha256": "a06e50af86047c3508a2ea02149b47060967b8cc578b59f4054fc525794c30c9"
+  },
+  "benchmarks/certified_cases.py": {
+    "source": "benchmarks/certified_cases.py",
+    "sha256": "566fef98d13453ee0c952c8b6a328b0de4d0c151fa02104cb008430657112802"
+  },
+  "benchmarks/certified_compact.cu": {
+    "source": "benchmarks/certified_compact.cu",
+    "sha256": "86020cae9ec0b22bffbe1b8efb9147a5546cd1b0f9a202e0c4d650a102b05524"
+  },
+  "benchmarks/core_3d_validation.py": {
+    "source": "benchmarks/core_3d_validation.py",
+    "sha256": "8bd07479ababdc6c58a9ea86a4f7d7478a103493712ec641c48002e423940acf"
+  },
+  "benchmarks/core_capacity_experiment.py": {
+    "source": "benchmarks/core_capacity_experiment.py",
+    "sha256": "fab1100e4d4588cfcecc030459dab38818c42f137ec1e614964554315b38a34c"
+  },
+  "benchmarks/core_driver.py": {
+    "source": "benchmarks/core_driver.py",
+    "sha256": "defd9964854e0fabda9db0f3a164b086b7576b720ce1e2a7ec85291da9784a89"
+  },
+  "benchmarks/core_event_validation.py": {
+    "source": "benchmarks/core_event_validation.py",
+    "sha256": "5830c952d99af1be75006260dd0aa786e698b63689cb97e44edea8973c2a3d09"
+  },
+  "benchmarks/core_fixture.cu": {
+    "source": "benchmarks/core_fixture.cu",
+    "sha256": "cf489aae7374512dfd3f58334fbfc10f64aa06bf42d88924afd955e172e0258c"
+  },
+  "benchmarks/core_gpu_experiment.py": {
+    "source": "benchmarks/core_gpu_experiment.py",
+    "sha256": "de5f4c92c88cf0f5f39ba1859e9174f8594dcec4df89e4f409ab155cbce2a6a9"
+  },
+  "benchmarks/core_repeat.cpp": {
+    "source": "benchmarks/core_repeat.cpp",
+    "sha256": "bc7d39bcaddd65cc5e81e982c9ac1efdd440d3bde15d8ef3f7ca71b70045e875"
+  },
+  "benchmarks/exact_arena_workload.py": {
+    "source": "benchmarks/exact_arena_workload.py",
+    "sha256": "2d74ce796bfa6f2ebcc16807eef28b53c3b6c73c5ac4c3663a8f71c68198344c"
+  },
+  "benchmarks/gpu_batch_delta_smoke.py": {
+    "source": "benchmarks/gpu_batch_delta_smoke.py",
+    "sha256": "cfab8f2d9952b23c2cb98d8deb900b89b36ea866554f22754177031c2cc6e270"
+  },
+  "benchmarks/gpu_codec_smoke.py": {
+    "source": "benchmarks/gpu_codec_smoke.py",
+    "sha256": "ca4951cc400a9bd037a2ccabcd36a8b1612b59f249ab9da4394b6b024712b9ec"
+  },
+  "benchmarks/gpu_flex_smoke.py": {
+    "source": "benchmarks/gpu_flex_smoke.py",
+    "sha256": "84044dd56961c789951ac43ff069ad4abd6e813ad3469f5182bf90df960a9fa4"
+  },
+  "benchmarks/gpu_hier_smoke.py": {
+    "source": "benchmarks/gpu_hier_smoke.py",
+    "sha256": "2e825a16c1c8b13e3c219c37c34a352b457345cec87fca778c63aa1fdaac6094"
+  },
+  "benchmarks/gpu_reference_smoke.py": {
+    "source": "benchmarks/gpu_reference_smoke.py",
+    "sha256": "2bc5ed1cc4283cf4ab7c414105085130a89c7e3d02bd649c869b5c7946990958"
+  },
+  "benchmarks/llama_adapter_extended.cpp": {
+    "source": "benchmarks/llama_adapter_extended.cpp",
+    "sha256": "f08f56e4022e88d49093966d8af57c2d812aa1fe35b350fbec672e99edc8e0e5"
+  },
+  "benchmarks/nvcomp_pipeline.cu": {
+    "source": "benchmarks/nvcomp_pipeline.cu",
+    "sha256": "8746e4bb38ef30317d0ff0fb1fe9d04e81a6abd17efbbef247dddd4a7fd57397"
+  },
+  "benchmarks/nvpipe_layout_test.cu": {
+    "source": "benchmarks/nvpipe_layout_test.cu",
+    "sha256": "cfb13fa5ffd343d225c14c18a93ad6cf1418e8a208bdeb66d7aac5d69b0d604b"
+  },
+  "benchmarks/reference_shape_workload.cu": {
+    "source": "benchmarks/reference_shape_workload.cu",
+    "sha256": "cb9732ff46f1964ad8558a4ab96eb5ec05488f60e37164568087b8f59df4194e"
+  },
+  "benchmarks/run_arena_matrix.py": {
+    "source": "benchmarks/run_arena_matrix.py",
+    "sha256": "6e54f18779c68089c64fd434e74d43d6bc16356cf2a54e93e023d5ac09a98deb"
+  },
+  "benchmarks/run_certified_core.py": {
+    "source": "benchmarks/run_certified_core.py",
+    "sha256": "2c5729da54ed2b789111836127d053f6f7506dd7fc510702dc48368947c1d4ee"
+  },
+  "benchmarks/table4_cases.py": {
+    "source": "benchmarks/table4_cases.py",
+    "sha256": "6b5a1c5b0d6d1d1d5f3c069dbd84c7a3ca5c715371232978035a8f59a6de8e3b"
+  },
+  "benchmarks/trace_codec.py": {
+    "source": "benchmarks/trace_codec.py",
+    "sha256": "d1f5dea8a2ec88d566f79d47839d5b152657336a7c4730e0e962f5ac5dcf94c9"
+  },
+  "configs/conditions.json": {
+    "source": "configs/conditions.json",
+    "sha256": "27407be0d9a8f4b9da81c6f12ac58ac0a252649beb8116b0e1134620f0045c2d"
+  },
+  "configs/models.json": {
+    "source": "configs/models.json",
+    "sha256": "55a1dd975a1035b90d3818a4d6536d286a70a2d1fcd428ffa42955410ff49c0d"
+  },
+  "neutrino/__init__.py": {
+    "source": "neutrino/__init__.py",
+    "sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+  },
+  "neutrino/build.py": {
+    "source": "neutrino/build.py",
+    "sha256": "7aba87671bcd46fff10399443f09d14868828716693683b1a4ba044014fad3eb"
+  },
+  "neutrino/cli.py": {
+    "source": "neutrino/cli.py",
+    "sha256": "7f8eed905ad450694275c8417d4dcf34d5ed94bc45e5e0bef2c088f0da31b5e8"
+  },
+  "neutrino/common.py": {
+    "source": "neutrino/common.py",
+    "sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+  },
+  "neutrino/language/__init__.py": {
+    "source": "neutrino/language/__init__.py",
+    "sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+  },
+  "neutrino/language/compiler.py": {
+    "source": "neutrino/language/compiler.py",
+    "sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+  },
+  "neutrino/language/frontend.py": {
+    "source": "neutrino/language/frontend.py",
+    "sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+  },
+  "neutrino/language/gcn.py": {
+    "source": "neutrino/language/gcn.py",
+    "sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+  },
+  "neutrino/language/ptx.py": {
+    "source": "neutrino/language/ptx.py",
+    "sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+  },
+  "neutrino/probe/__init__.py": {
+    "source": "neutrino/probe/__init__.py",
+    "sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+  },
+  "neutrino/probe/core_bounds.py": {
+    "source": "neutrino/probe/core_bounds.py",
+    "sha256": "d589463d0ba624b881e21f113a55ffd71b6fb3449d3d0eef9e455edb635cdcef"
+  },
+  "neutrino/probe/core_capacity.py": {
+    "source": "neutrino/probe/core_capacity.py",
+    "sha256": "d50fb00cc937e95c7d38b59833645fa41573935c3b183466ae090a2dc0785a96"
+  },
+  "neutrino/probe/core_certified.py": {
+    "source": "neutrino/probe/core_certified.py",
+    "sha256": "12aeac76672676c68d5318d678b9f99514416fc57922954a8ade150168286feb"
+  },
+  "neutrino/probe/core_codegen.py": {
+    "source": "neutrino/probe/core_codegen.py",
+    "sha256": "621b9b3f18e20b57c2f9d232d9953a41481243e2cccce16881c26e7b0869eec0"
+  },
+  "neutrino/probe/core_events.py": {
+    "source": "neutrino/probe/core_events.py",
+    "sha256": "92fc1613fcfaf8a7732d44c1f14516ed91537d738d3b9935e1ce126e02ae0381"
+  },
+  "neutrino/probe/core_policy.py": {
+    "source": "neutrino/probe/core_policy.py",
+    "sha256": "cb76f0b9e3536ce3c017f45f2c3fba49770cda678988ae737be4e6f662fed6ab"
+  },
+  "neutrino/probe/cuda.py": {
+    "source": "neutrino/probe/cuda.py",
+    "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13"
+  },
+  "neutrino/probe/hip.py": {
+    "source": "neutrino/probe/hip.py",
+    "sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+  },
+  "neutrino/probe/reference_core.py": {
+    "source": "neutrino/probe/reference_core.py",
+    "sha256": "b95b1f00a0e443f9d94ad1e6787ed8ba008b8f4bdd425febfc44b5e041f7e36e"
+  },
+  "neutrino/probe/timing.py": {
+    "source": "neutrino/probe/timing.py",
+    "sha256": "8415363aed450ff57b989ddb4052ef00e84cfab74bfef1c7c5ed2902e4e18b64"
+  },
+  "neutrino/src/ablation.h": {
+    "source": "neutrino/src/ablation.h",
+    "sha256": "65d6cf37b7ad02cac625c8fde9fba9f912934ffc5a77e4bb357468a770d8a96c"
+  },
+  "neutrino/src/arena_capture.h": {
+    "source": "neutrino/src/arena_capture.h",
+    "sha256": "99e11577bef42c49ffd0ff96efb7f6877ca666ec640c17907331cd2b5ca13e85"
+  },
+  "neutrino/src/async_capture.h": {
+    "source": "neutrino/src/async_capture.h",
+    "sha256": "c0f618d232fb324ee5791313e098450c6888d1a0a20412272f15619524d62afc"
+  },
+  "neutrino/src/bulk_capture.h": {
+    "source": "neutrino/src/bulk_capture.h",
+    "sha256": "9d7d9cdb830ab373de2b960c5cd5ace6bac9e4f394ee0113443a002a0b0ddd3e"
+  },
+  "neutrino/src/capture_codec.h": {
+    "source": "neutrino/src/capture_codec.h",
+    "sha256": "06b35f74b98981ce5cc1f84ede340995f5dfff7ec1cae904a2d96e9f7a445a1f"
+  },
+  "neutrino/src/capture_detail.h": {
+    "source": "neutrino/src/capture_detail.h",
+    "sha256": "c244ec7ee4e1bd83ab02631afdf0d2394ffe0487850f86c2323e48c752294185"
+  },
+  "neutrino/src/common.h": {
+    "source": "neutrino/src/common.h",
+    "sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b"
+  },
+  "neutrino/src/cuda.c": {
+    "source": "neutrino/src/cuda.c",
+    "sha256": "df8c3896ce51ebe8b3e192e7318d45dcc77a5914fe14d9c64c9a59c08b72e100"
+  },
+  "neutrino/src/hip.c": {
+    "source": "neutrino/src/hip.c",
+    "sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+  },
+  "neutrino/src/legacy_capture.h": {
+    "source": "neutrino/src/legacy_capture.h",
+    "sha256": "096cbaed4f6ae85cfca5d9fa6643c8849cbe468c4302282b8f8292f784ff11cb"
+  },
+  "neutrino/src/parse.py": {
+    "source": "neutrino/src/parse.py",
+    "sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df"
+  },
+  "neutrino/src/preload.c": {
+    "source": "neutrino/src/preload.c",
+    "sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6"
+  },
+  "neutrino/src/sha1.h": {
+    "source": "neutrino/src/sha1.h",
+    "sha256": "c04a37f08c71293442f94798acd2bc2cd21fa588d97d01fd77155d1b20dd50a2"
+  },
+  "neutrino/src/timing.h": {
+    "source": "neutrino/src/timing.h",
+    "sha256": "956154989544f9c2edb08e395d4136958aa2dd1c5cfd4562ee00f0fcd9f0a085"
+  },
+  "neutrino/src/uthash.h": {
+    "source": "neutrino/src/uthash.h",
+    "sha256": "fd700ef45c979e70d5299f9a51e13cc172ac5a1e26ad4ee30502f93a2b94a08e"
+  },
+  "neutrino/timing_report.py": {
+    "source": "neutrino/timing_report.py",
+    "sha256": "f3374f6816921fd64026223e5645ce7c04c0965068454054d55a58a013b5a7ad"
+  },
+  "neutrino/tools/__init__.py": {
+    "source": "neutrino/tools/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "neutrino/tools/block_sched.py": {
+    "source": "neutrino/tools/block_sched.py",
+    "sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+  },
+  "neutrino/tools/block_sched_callback.py": {
+    "source": "neutrino/tools/block_sched_callback.py",
+    "sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+  },
+  "neutrino/tools/dmat.cc": {
+    "source": "neutrino/tools/dmat.cc",
+    "sha256": "3a8f28357e0dea5962a95e2f32d77e23800c93a1800b0cf904d62fa4e682389f"
+  },
+  "neutrino/tools/dmat.py": {
+    "source": "neutrino/tools/dmat.py",
+    "sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+  },
+  "neutrino/tools/dmat_callback.py": {
+    "source": "neutrino/tools/dmat_callback.py",
+    "sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+  },
+  "neutrino/tools/gmem_bytes.py": {
+    "source": "neutrino/tools/gmem_bytes.py",
+    "sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+  },
+  "neutrino/tools/gmem_bytes_analysis.py": {
+    "source": "neutrino/tools/gmem_bytes_analysis.py",
+    "sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+  },
+  "neutrino/tools/program_progress.py": {
+    "source": "neutrino/tools/program_progress.py",
+    "sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+  },
+  "neutrino/tools/tensorop.py": {
+    "source": "neutrino/tools/tensorop.py",
+    "sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+  },
+  "neutrino/utils/__init__.py": {
+    "source": "neutrino/utils/__init__.py",
+    "sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+  },
+  "neutrino/utils/tensortrace.py": {
+    "source": "neutrino/utils/tensortrace.py",
+    "sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+  },
+  "neutrino/utils/trace_reading.py": {
+    "source": "neutrino/utils/trace_reading.py",
+    "sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+  },
+  "neutrino/utils/verifier.py": {
+    "source": "neutrino/utils/verifier.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "results/paper/appendix-results.json": {
+    "source": "results/paper/appendix-results.json",
+    "sha256": "8a0d4779c62762ca18c28604e0fa11ec57b161efaf9390499e0195c319456233"
+  },
+  "results/paper/discussion-results.json": {
+    "source": "results/paper/discussion-results.json",
+    "sha256": "ce6732a1fc6f08a8d386aa182b46b3be2f51af659b984b7ed4726cd132f86db1"
+  },
+  "results/paper/main-environment.json": {
+    "source": "results/paper/main-environment.json",
+    "sha256": "2add04b3100dbef7c60fd26ee3b166527b0dae9f1c7ff1eac183483d9abbcf48"
+  },
+  "results/paper/main-recovery.json": {
+    "source": "results/paper/main-recovery.json",
+    "sha256": "40366b4e677e1461489012a626df7728210a6c38c51751121377fed48317ea74"
+  },
+  "results/paper/main-results.json": {
+    "source": "results/paper/main-results.json",
+    "sha256": "8b0e716a68d4049b7c18c69d8196d2ca5cdad256ce13a5169db7719efee9e05d"
+  },
+  "results/paper/reference-control.json": {
+    "source": "results/paper/reference-control.json",
+    "sha256": "9b2283e5ba77d4ad1782696bf8097ebb88e68634e26cf8e9b9e284a1d7fd09cc"
+  },
+  "scripts/build.py": {
+    "source": "scripts/build.py",
+    "sha256": "661a5c8937d02a4ab1d91b4561cc18cc6b44d3c01f355e872b9330f1134ffb6d"
+  },
+  "scripts/reproduce.py": {
+    "source": "scripts/reproduce.py",
+    "sha256": "706fa24ea1a6e08f78e55fa1ca3ea50c47a96aa4f40732a2f0ebdf18496edf4a"
+  },
+  "scripts/summarize_paper.py": {
+    "source": "scripts/summarize_paper.py",
+    "sha256": "88260402091f76996b58418d475310f3e68b32c4452b61e6a44d8f68856b091c"
+  },
+  "scripts/summarize_runs.py": {
+    "source": "scripts/summarize_runs.py",
+    "sha256": "89f22c61a190f3eb5a09bb37353468a8d8b19caaadb403a28682e6b30601e9b9"
+  },
+  "tests/callback_smoke.py": {
+    "source": "tests/callback_smoke.py",
+    "sha256": "ffeeb63ac5a49a09faea7d013c20cecd6e70880a11cac9f8309b1ff762c97cd0"
+  },
+  "tests/run_gpu_validation.py": {
+    "source": "tests/run_gpu_validation.py",
+    "sha256": "ca87f0684d79834eeb657d53a6174fa371652af8a818a74c0026868119d8b457"
+  },
+  "tests/test_arena_ring.py": {
+    "source": "tests/test_arena_ring.py",
+    "sha256": "7fdde9aa2737b630dc5ac06ab2c9bdbe915f7b328d4b4bbcd8bc71b6f489f2dd"
+  },
+  "tests/test_artifact_tools.py": {
+    "source": "tests/test_artifact_tools.py",
+    "sha256": "060c7a10faf16f60bc3b1fcd11a22e3165eef17a94d805df147a4e6fb69696ad"
+  },
+  "tests/test_capture_codec.py": {
+    "source": "tests/test_capture_codec.py",
+    "sha256": "430b10ef04ff8bddde0d8e8adf1bda41ca681ca7ac506ea9aa37b4d69b2a2d27"
+  },
+  "tests/test_capture_detail.py": {
+    "source": "tests/test_capture_detail.py",
+    "sha256": "900dcd91ab8c2a4db72b472991ce786d13e18aa3bf7880efda0726c0c9191aa6"
+  },
+  "tests/test_compact_format.py": {
+    "source": "tests/test_compact_format.py",
+    "sha256": "d2371fc819819fe9abda213da73b54490d1e7fca74988027454c8350c8f8b263"
+  },
+  "tests/test_core_bounds.py": {
+    "source": "tests/test_core_bounds.py",
+    "sha256": "2b8e1e1464ffcbb679d632ceb103f3e7d4a739912d56797aa0449325f2085cfb"
+  },
+  "tests/test_core_capacity.py": {
+    "source": "tests/test_core_capacity.py",
+    "sha256": "d1419be9d190a1de70584490fcc7fce58af370e462671fe6aa01c16f83823a47"
+  },
+  "tests/test_core_codegen.py": {
+    "source": "tests/test_core_codegen.py",
+    "sha256": "da180f386617de030412be64e8195314814241a6053ea7b72cf8081ee9391a42"
+  },
+  "tests/test_core_events.py": {
+    "source": "tests/test_core_events.py",
+    "sha256": "4ff34f9322e02069e7a1a26d673f4c06401a08928e1862a8ec7e98ee4ad74b09"
+  },
+  "tests/test_core_policy.py": {
+    "source": "tests/test_core_policy.py",
+    "sha256": "eae630e302a3a9521d73bcf273888c03036adfcb3f6911dd5ab532de07129630"
+  },
+  "tests/test_gpu9_format.py": {
+    "source": "tests/test_gpu9_format.py",
+    "sha256": "5d6fb9c415785c892f9487f2eaee1114d64b8db0f2e3ec1a3db199f17e5cb081"
+  },
+  "tests/test_hier_format.py": {
+    "source": "tests/test_hier_format.py",
+    "sha256": "90ae9431b1e4d48b8f0b38b535cc1d73a09a732c7ee131d775a2ee6aecb7b40d"
+  },
+  "tests/test_reference_format.py": {
+    "source": "tests/test_reference_format.py",
+    "sha256": "d373606953dd944e4771d6aabc7347d3677b04f0b8f48f388a2e599e8ec301ac"
+  },
+  "tests/test_timing.py": {
+    "source": "tests/test_timing.py",
+    "sha256": "da234410340840129de77d16012095c5b25315a31e3579c8382b1d16ca0565c8"
+  },
+  "docs/ARCHITECTURE.md": {
+    "source": "docs/ARCHITECTURE.md",
+    "sha256": "f09fc68ba41e6860d49596802f0eb7d7531c21f9d1b6c3da9df95725b40dea60"
+  },
+  "docs/RESULTS.md": {
+    "source": "docs/RESULTS.md",
+    "sha256": "24356818103471f537ff4763b7fd164861f2c4014838a1d668b6dd574ef75384"
+  },
+  "docs/REPRODUCE.md": {
+    "source": "docs/REPRODUCE.md",
+    "sha256": "f8a77f94fe48ed6b81d6ee44d1d3e220cb76a875174ac01e6b48b8de09984001"
+  },
+  "docs/INSTALL.md": {
+    "source": "docs/INSTALL.md",
+    "sha256": "7004a8030b09138030c275c40458ffb0d0aa750ef1e493197bef25ef6b88886e"
+  },
+  "docs/PROVENANCE.md": {
+    "source": "docs/PROVENANCE.md",
+    "sha256": "1a3e2710bc96b7a3df9bbb27ba8a2c5a6d66176b613bbbde5fd2cf566a2357d2"
+  },
+  "provenance/software-version-audit.json": {
+    "source": "provenance/software-version-audit.json",
+    "sha256": "1390206cedee9282261c2ea862bba7291677ad11ef2e3a74a3aecbf799cbd843"
+  },
+  "provenance/llama-source-recovery.json": {
+    "source": "provenance/llama-source-recovery.json",
+    "sha256": "ce55a9472816437c8163d000d370695fddec6b2c3a3e20a22e6f18a185202c58"
+  },
+  "provenance/source-origins.json": {
+    "source": "provenance/source-origins.json",
+    "sha256": "3aee9d0ba4ffa96330ebf13f557b87c07636b592709ecc482d908fe80f43edfc"
+  },
+  "Makefile": {
+    "source": "Makefile",
+    "sha256": "5190ea202e216f1e99717ba0fc91171cefc83afe5db56c63a033c0ccc0f0d7af"
+  },
+  "experiments/b16/deep_cupti_copy8192.c": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/deep_cupti_copy8192.c",
+    "sha256": "8d1debe8537cee3d4595dedb81abe3d5950bea8d18141fb89d2718f0a28a69c1"
+  },
+  "experiments/b16/finalize.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/finalize.py",
+    "sha256": "f69ffa66dc8d3b087e8198d286b284e6bf6959f270214c98f4ab78344a0b4639"
+  },
+  "experiments/b16/gpu_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/gpu_followup.py",
+    "sha256": "56e7fff42d5c31d59acef6fb3718d116a5d864d9fa5b00c70b497cfc3c7fa54d"
+  },
+  "experiments/b16/gpu_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/gpu_workload.py",
+    "sha256": "f527273fbb3931d8332ab8f684b78f91e115cf2ce052f8f315de77e736c36430"
+  },
+  "experiments/b16/llama_adapter_batch16.cpp": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/llama_adapter_batch16.cpp",
+    "sha256": "4e588fc62d421052a5a030b26767383c26c51b19ded9709d3d6cec6c103d7e58"
+  },
+  "experiments/b16/repair_gpu_copy.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/repair_gpu_copy.py",
+    "sha256": "c1ce74300b56e9379b8653605b59e7b6d763d6c1ff2556759f57b4cef1281e30"
+  },
+  "experiments/b16/run_arena_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/run_arena_matrix.py",
+    "sha256": "6aac282c847fa1aad000aa01c1017187b946aca9605829a3bdc2143838585b37"
+  },
+  "experiments/b16/run_study.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/run_study.py",
+    "sha256": "99389f83988d8a104807e3ddd794d86df8272507a3ef58d7d437d0364a33e7f1"
+  },
+  "experiments/b16/test_distribution.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/test_distribution.py",
+    "sha256": "f7076ea05d4dab78ee8c0610256d07b49a35a3839788521561078360dbb7b45c"
+  },
+  "experiments/b16/trace_distribution.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/trace_distribution.py",
+    "sha256": "ad46a0f97d601c28f7d4c36a8f2f31f65129a7f6fe6741e980c741d5bbaa6d76"
+  },
+  "experiments/b16/workload.py": {
+    "source": "preserved/workspace/reports/neutrino-b16-attribution-20261007/source/workload.py",
+    "sha256": "5f2bd1b46ae0f93859558bead31f52531a2966aaab69028e5f4a108883e8e401"
+  },
+  "experiments/document-qa/runtime/benchmarks/arena_checks.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/arena_checks.py",
+    "sha256": "d429e9b38d81e5b2f8a30b4166f0104cd33ff002440b9781dc61004f0a0bfcd9"
+  },
+  "experiments/document-qa/runtime/benchmarks/arena_gpu_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/arena_gpu_validation.py",
+    "sha256": "246ef076a0a3485ebfdc30378eaf8e52082c82697da8369577495290e2d4b5b2"
+  },
+  "experiments/document-qa/runtime/benchmarks/arena_writer_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/arena_writer_micro.c",
+    "sha256": "60dab554ff4757523a3916214e7df677138a273ae059f7236e7d4df9a1db6dda"
+  },
+  "experiments/document-qa/runtime/benchmarks/bootstrap_reference_cutoff.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/bootstrap_reference_cutoff.py",
+    "sha256": "f18edb972e5ea387ca27a3219a1b215858b675fd0e3abec01fb3ead0c011dbeb"
+  },
+  "experiments/document-qa/runtime/benchmarks/build_core_policy.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/build_core_policy.py",
+    "sha256": "244e2129300f2f4cc768dca5c53c9815db162f9f70ff1a1bc7340f13e34897e0"
+  },
+  "experiments/document-qa/runtime/benchmarks/build_cross_device.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/build_cross_device.py",
+    "sha256": "5f1cdbbe5ecfad93db500c00e802e83ee4044d5a172b85fb1188f1e0e05fab42"
+  },
+  "experiments/document-qa/runtime/benchmarks/cache_python.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/cache_python.py",
+    "sha256": "3410a960efe1bba817edff528ceeeff471d186bb8f03a89525d7e6a2f25a671c"
+  },
+  "experiments/document-qa/runtime/benchmarks/capacity_repeat.cpp": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/capacity_repeat.cpp",
+    "sha256": "42ad487c96b90f3439151f2a5fbcc5ee44a2d021d32539d99e1a36d42d0ff429"
+  },
+  "experiments/document-qa/runtime/benchmarks/capture_compact.cuh": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/capture_compact.cuh",
+    "sha256": "fa2f35553461b2c5463814b4fd018b0ae58e87a346d8a3d6bb5c173771281fdd"
+  },
+  "experiments/document-qa/runtime/benchmarks/capture_pack.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/capture_pack.cu",
+    "sha256": "a06e50af86047c3508a2ea02149b47060967b8cc578b59f4054fc525794c30c9"
+  },
+  "experiments/document-qa/runtime/benchmarks/clock_domains.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/clock_domains.cu",
+    "sha256": "4a41e9b3bce378d2b680ebc8df7900a4336d1896978423f2444a484946e329fc"
+  },
+  "experiments/document-qa/runtime/benchmarks/codec_recorded_control.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/codec_recorded_control.py",
+    "sha256": "bbcf53090af4f8cb13d1aa1994b11599941f4e23a7df480faad44430861ccfc5"
+  },
+  "experiments/document-qa/runtime/benchmarks/codec_service_micro.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/codec_service_micro.cu",
+    "sha256": "3f9a18d6c47323d22712f42065bbe057fcf24affc0738396ba53da458178d792"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_ablation_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_ablation_provenance.py",
+    "sha256": "529d388b2564c4ed2ab191e27978edd3946c4834a5c1a78fb9d55543014838af"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_arena_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_arena_provenance.py",
+    "sha256": "c101da7fa53a59c89eca94f528b9c906693f3bc7ba4b972d808019e7e5d7674f"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_capacity_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_capacity_evidence.py",
+    "sha256": "e395241ca1c4287c9e933dfea6ce5e1088025100cb8f3ac9cc70b6674c745822"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_collection_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_collection_provenance.py",
+    "sha256": "b237625ee8f34d97da5982c6972d68f1604ed22e3195d5e1127a5cbe97e502a8"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_core_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_core_evidence.py",
+    "sha256": "6482c367025e13f57f9e83caa37e23ccc83943641657ae4bb92e438b208b0cb2"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_deep_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_deep_provenance.py",
+    "sha256": "34a3473136cd82d01519f474b0c3c6ea77ab10fbe08be9ea90caac295f9ad574"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_lg64_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_lg64_provenance.py",
+    "sha256": "c4b62d3c6d6bf1c58193472385b293884007044a765ad0a7c7fd53c20f3a7a88"
+  },
+  "experiments/document-qa/runtime/benchmarks/collect_policy_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/collect_policy_evidence.py",
+    "sha256": "9c01de0b8750a5416849e02105754399f572ad66c08308b468db95662b15cece"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_3d_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_3d_validation.py",
+    "sha256": "8bd07479ababdc6c58a9ea86a4f7d7478a103493712ec641c48002e423940acf"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_capacity_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_capacity_experiment.py",
+    "sha256": "fab1100e4d4588cfcecc030459dab38818c42f137ec1e614964554315b38a34c"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_driver.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_driver.py",
+    "sha256": "defd9964854e0fabda9db0f3a164b086b7576b720ce1e2a7ec85291da9784a89"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_event_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_event_validation.py",
+    "sha256": "5830c952d99af1be75006260dd0aa786e698b63689cb97e44edea8973c2a3d09"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_fixture.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_fixture.cu",
+    "sha256": "cf489aae7374512dfd3f58334fbfc10f64aa06bf42d88924afd955e172e0258c"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_gpu_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_gpu_experiment.py",
+    "sha256": "de5f4c92c88cf0f5f39ba1859e9174f8594dcec4df89e4f409ab155cbce2a6a9"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_repeat.cpp": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_repeat.cpp",
+    "sha256": "bc7d39bcaddd65cc5e81e982c9ac1efdd440d3bde15d8ef3f7ca71b70045e875"
+  },
+  "experiments/document-qa/runtime/benchmarks/core_resource_query.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/core_resource_query.py",
+    "sha256": "65eb05fb3f7d770e19531da7d2efc6c95ae740017040324bcd0bc178e8f5beda"
+  },
+  "experiments/document-qa/runtime/benchmarks/counter_probe.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/counter_probe.cu",
+    "sha256": "283b620e225f5fa8f0b122bd29a9aceb689bc3b4162b03b447f01b9312a8f803"
+  },
+  "experiments/document-qa/runtime/benchmarks/cross_device_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/cross_device_provenance.py",
+    "sha256": "1b74235a3f91eda3abd9c01afc6722aa4aa61bcb1c37f59e745d958bf2d03a0d"
+  },
+  "experiments/document-qa/runtime/benchmarks/d2h_cupti_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/d2h_cupti_micro.c",
+    "sha256": "c0a7ab4c0368d4cd1b32a7e04c470801932e80f55c0476ed361694d44d27ccad"
+  },
+  "experiments/document-qa/runtime/benchmarks/d2h_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/d2h_micro.c",
+    "sha256": "6d8f6c13699eb7478bb611d028231cb3e40ea355360692d47e2d8ebb9e82c267"
+  },
+  "experiments/document-qa/runtime/benchmarks/d2h_numa_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/d2h_numa_micro.c",
+    "sha256": "e1b6a2894117710a0bb339f4bf1012770fae261e2c123da66669f01a83b37043"
+  },
+  "experiments/document-qa/runtime/benchmarks/d2h_profile_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/d2h_profile_micro.c",
+    "sha256": "3229dc594da32c377545cf0ca24fdeabcbabad480b4e973daef203eaaff11c4b"
+  },
+  "experiments/document-qa/runtime/benchmarks/deep_cupti.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/deep_cupti.c",
+    "sha256": "dded9592ff5c886107293fd3748eb85a5d8815b2a4fc2899761cb31b4ad4eeff"
+  },
+  "experiments/document-qa/runtime/benchmarks/deep_cupti_activity.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/deep_cupti_activity.c",
+    "sha256": "fb9ec6bfe2153aae6ee28524fe364de09f0009bceb424aa7592c7a99646ede12"
+  },
+  "experiments/document-qa/runtime/benchmarks/deep_cupti_gpuonly.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/deep_cupti_gpuonly.c",
+    "sha256": "81945a0a9697bf702b3509b28558bb27f076f484adb4eade19d50e242283c741"
+  },
+  "experiments/document-qa/runtime/benchmarks/deep_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/deep_workload.py",
+    "sha256": "df859e2933fc9836e1ef02f28796111dc6b634633832c585fef0193736356ec3"
+  },
+  "experiments/document-qa/runtime/benchmarks/file_path_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/file_path_micro.c",
+    "sha256": "1335d497b0b34eee1bd952eb9a03109d53ef3f0b6326609903d4fcd603417fc2"
+  },
+  "experiments/document-qa/runtime/benchmarks/final_trace_queries.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/final_trace_queries.py",
+    "sha256": "774ab7ff356e8e93555547582baac0f8d309f329b6f1397ac96c9fb8d2dab6a6"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_codec_comparison.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_codec_comparison.py",
+    "sha256": "0e87f5cb66da8ab8f80b395a3a6876b9ac14992a6435a634bfef5c48d1ab30fc"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_codec_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_codec_evidence.py",
+    "sha256": "cc8fb61bed0acd134567141f7a284aadf4fbfc974a4beb472affc08332f901e3"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_codec_tuned.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_codec_tuned.py",
+    "sha256": "0127a687a0aec3cafd9861f76a660d9654d5af6e525b12a3a89d841840c8e8db"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_mechanism_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_mechanism_20261004.py",
+    "sha256": "de06366a5cdbfbd95b731f7f39a20b3f7c486048edbeaab6d2065c03ec4fd4c9"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_mechanism_controls.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_mechanism_controls.py",
+    "sha256": "0c9fa4356bce7b35318e67bcf4b2e37e35c939168ea5d7df80eaab715c9540c5"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_reference_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_reference_20261004.py",
+    "sha256": "1ac7f56ee995e43de90beb559b7e0f657a64f705a4e6d16c90defb347aba82f5"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_reference_cutoff_confirm.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_reference_cutoff_confirm.py",
+    "sha256": "66932d8b6ac99a6d5e178cbbd608ca8873b72cdecbb1b00f2748e0cfb466fcc3"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_reference_cutoff_screen.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_reference_cutoff_screen.py",
+    "sha256": "3de7c26bc12b590da0ae6b3d3d6a7da82b03aa801377107c2571e4ca22ee4063"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_reference_cutoff_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_reference_cutoff_tail.py",
+    "sha256": "29ab2b71483fb5f9ca4de13e689cd0713727f6b2edbd360c5a4ee574a584f6ab"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_reference_screen.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_reference_screen.py",
+    "sha256": "a6eef88aed3ee2fc2475752d62fa305dcf32ac19ce60a893da64b5223543a16f"
+  },
+  "experiments/document-qa/runtime/benchmarks/finish_verification_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/finish_verification_20261004.py",
+    "sha256": "4a3bdbcaeed312daca638444d18bcb291f3a068f99a129c6ff4a7d71af9cc1b9"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_batch_delta_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_batch_delta_smoke.py",
+    "sha256": "1eba58e3c9a371cba367e83c0c4ec08e7ce0b29a0f3b43b22e5e4f5a0770b047"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_codec_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_codec_smoke.py",
+    "sha256": "1bd017cd9218a0bfd18f024990dee44593cea1e7946086f6b364c440e24f9b8d"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_compact_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_compact_smoke.py",
+    "sha256": "b18681a5cedf72d0285dca1832da10c5135f0f5e3321b6300b2ed808133809cd"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_flex_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_flex_smoke.py",
+    "sha256": "f9f317ea0c3ea1905bc3f7a86621f143e89effadfdaf75bcfcfe85c432f911bb"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_hier_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_hier_smoke.py",
+    "sha256": "be08216f17ca6030369687d6f8f74a926a11db82257a9639d3337654551dc860"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_nvpipe_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_nvpipe_smoke.py",
+    "sha256": "024bcbf04e1fed54be1553dd521efc695e485b2409fc75a1334d5f62b073d28e"
+  },
+  "experiments/document-qa/runtime/benchmarks/gpu_reference_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/gpu_reference_smoke.py",
+    "sha256": "ea7723c4b4c77a42db748cd6cff01a7ebe4b0f7d011c365ad072b6a4a54756a9"
+  },
+  "experiments/document-qa/runtime/benchmarks/hier_service_micro.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/hier_service_micro.cu",
+    "sha256": "3a34b8eec11d7c65ea4aa9cce7f6aff49653a2c57d2c845a605b4b9553e0eb75"
+  },
+  "experiments/document-qa/runtime/benchmarks/hotpath_shape_workload.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/hotpath_shape_workload.cu",
+    "sha256": "0f147952d11b26d3058fca110a363a3b3ca5b60ce9f44974d52eeac0cbf3a177"
+  },
+  "experiments/document-qa/runtime/benchmarks/llama_adapter.cpp": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/llama_adapter.cpp",
+    "sha256": "53472159c7c896c3f438bf6586cf2da5288bc3153dadd324d302c9e8f4cd146b"
+  },
+  "experiments/document-qa/runtime/benchmarks/llama_adapter_dynamic.cpp": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/llama_adapter_dynamic.cpp",
+    "sha256": "d899e19d9874824f1914fc6dad49c8bacf52fb51dfc45f37df6e94942b004e35"
+  },
+  "experiments/document-qa/runtime/benchmarks/mmap_register_probe.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/mmap_register_probe.py",
+    "sha256": "a3f329e7f62dbe94967d87382918c8e664c6020306284a4b8cf6fa6249901d82"
+  },
+  "experiments/document-qa/runtime/benchmarks/nsight_sqlite.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/nsight_sqlite.py",
+    "sha256": "3110be45d5c00fdabdb75d20a6d779db75071f95a2c6360ecadba06ea6933e5e"
+  },
+  "experiments/document-qa/runtime/benchmarks/nvcomp_pipeline.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/nvcomp_pipeline.cu",
+    "sha256": "d0868e3267b3c98239fd18db1a90f3abdae6b8f12469b4f3ce02200a18305514"
+  },
+  "experiments/document-qa/runtime/benchmarks/profile_d2h_micro.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/profile_d2h_micro.py",
+    "sha256": "5da9cdae160cfaf2960fbf512b6929101c1a574e564fecf7f7e969d518969740"
+  },
+  "experiments/document-qa/runtime/benchmarks/profile_preload.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/profile_preload.c",
+    "sha256": "bf16d51b7315752d72aa1e10aa7db1ad7eec54d17baa41b26773d2186cfe67ba"
+  },
+  "experiments/document-qa/runtime/benchmarks/profile_root_cause.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/profile_root_cause.py",
+    "sha256": "87890a3911973a792ea35dbb9e8ac489edb669caf0f3466deff1677a2f8f0c88"
+  },
+  "experiments/document-qa/runtime/benchmarks/profiling_tail_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/profiling_tail_workload.py",
+    "sha256": "100ba9e0db529c9584b3ced05ad6d215687edfe73726750e0cf9760630ded4f6"
+  },
+  "experiments/document-qa/runtime/benchmarks/qwen_arena_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/qwen_arena_workload.py",
+    "sha256": "b55411926dfbc2adb7024c2ed2ed9bc5c6f316089febcdf37047a7b7c200706c"
+  },
+  "experiments/document-qa/runtime/benchmarks/qwen_capture_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/qwen_capture_workload.py",
+    "sha256": "cdb4b6a21b76dc24c675cfd3ab80b4e34bd78d52d5afeff683fee6cabce2335c"
+  },
+  "experiments/document-qa/runtime/benchmarks/qwen_lg64_api_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/qwen_lg64_api_workload.py",
+    "sha256": "0af6cc788535e145bbf88367d1b4a20894a4b652eefdfbc4431c1915d4b79957"
+  },
+  "experiments/document-qa/runtime/benchmarks/qwen_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/qwen_workload.py",
+    "sha256": "0cbdb1ccecc77377ddd6729a084305214abd538f797f26881c179891d3644bfd"
+  },
+  "experiments/document-qa/runtime/benchmarks/reference_shape_workload.cu": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/reference_shape_workload.cu",
+    "sha256": "cb9732ff46f1964ad8558a4ab96eb5ec05488f60e37164568087b8f59df4194e"
+  },
+  "experiments/document-qa/runtime/benchmarks/resume_arena_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/resume_arena_suite.py",
+    "sha256": "641bc91a479860a7e8c867312fce3e42ed136e6b3ab4a14c7f6c467bc919a9df"
+  },
+  "experiments/document-qa/runtime/benchmarks/resume_codec_tuned.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/resume_codec_tuned.py",
+    "sha256": "e39debc617d3f0d3a31707790ff67970990aaeb7ed7e61b69d8c9a27fd2f4b22"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_ablation_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_ablation_matrix.py",
+    "sha256": "1142aaec989766ef9999de7f88c2bf57a30daeb5a183b9ab2bd617e0e39c77c9"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_arena_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_arena_experiment.py",
+    "sha256": "b63b4155961f81a2d39cb2b046c9d0a2363369ce74aab43e87d429bf6ade6dee"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_arena_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_arena_followup.py",
+    "sha256": "c46b3a322cffd68d04498fe4f5b9e613a892084adefefead9cfdd420fb05ffaa"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_arena_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_arena_matrix.py",
+    "sha256": "027aaae73f924a9e986b1f9c7aff2950f49a6794a384f1ffa1d5ac591cfc049b"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_arena_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_arena_stateful.py",
+    "sha256": "4594ed43bb66edda8d152c216539a9b24cb54d4a11cb18ae4f1088480f17d156"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_arena_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_arena_suite.py",
+    "sha256": "548c0f5e8d6be5b2fc54a9144fed448af37e30f93cb103283a345137c4869f4d"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_async_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_async_experiment.py",
+    "sha256": "3c129a4a256567b50400b7d74f3b1fb183d96604636d52fd6aa7c68d5fb7d336"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_bulk_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_bulk_matrix.py",
+    "sha256": "a410c69e2a344c590f9b51ff2999ba338b25dcbbd80d58d2625238dbb2df91a0"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_capacity_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_capacity_suite.py",
+    "sha256": "34221312145c2c6488b1c0b406c2f484b8d3a6ecd4a32d635bdb5c4e45e28b49"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_codec_comparison_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_codec_comparison_20261004.py",
+    "sha256": "0528c2dd56f87acb722d80dfbf222207805d569f2d392d442d2e6878c53b458c"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_codec_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_codec_stateful.py",
+    "sha256": "50ba7acf107af24c265e64acdc0754f7a7f072fb80e4c79c6c821633119650c4"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_collection_correction.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_collection_correction.py",
+    "sha256": "aaa70bf1f1c5a870f02cb4845b99e05de8d8aaf3654699fb000a323fe11394c2"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_collection_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_collection_followup.py",
+    "sha256": "18ecaae113272945633d8e94c957069261b1a48a831c749a5f9da3468b7d25d5"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_core_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_core_followup.py",
+    "sha256": "f206188a437f63d97f430cfd3f8446e0e2c897be1e25b4b216dc7d8be524a22a"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_core_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_core_matrix.py",
+    "sha256": "af0e66378c4047a3d8b6401bb2fc3c01addea9874ac71d503b0a97bb6b358fc7"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_core_policy_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_core_policy_followup.py",
+    "sha256": "1d79fdfa17e74915a9b417d87a429bd3ea217d583530720cab2b14a976c8c665"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_core_policy_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_core_policy_matrix.py",
+    "sha256": "7bd46adecfadd4082b5cbc54e6336d4042f4df335aa71af008ab89d9db20885b"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_cross_device.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_cross_device.py",
+    "sha256": "28b0371afd3a0c96fb57a0fcd76a39cef81aecb141dd0f582896d35147e0e71e"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_deep_extension.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_deep_extension.py",
+    "sha256": "c0a726cbdaa0d3abb70169b681ffd2f2dc1219d980ecd88ea93081b874b7cc39"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_deep_final.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_deep_final.py",
+    "sha256": "a88e2eb9e6d994f52c31c6f3a983528482b804650f9fe81613009a61168d67c5"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_deep_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_deep_suite.py",
+    "sha256": "d82b222bccc330590470ea25bb0499d135a59b9825550511b988dff912500cc9"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_file_micro.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_file_micro.py",
+    "sha256": "fe4608cee5f4f501d128b2bf74fae63f8b28ca0f624201afd2c5422922810e38"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_hotpath_shapes.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_hotpath_shapes.py",
+    "sha256": "b689ecce166b79219a27a0553a957b44a72a9cc72557a9522cc1835fb5b92d86"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_lg64_diagnosis.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_lg64_diagnosis.py",
+    "sha256": "4a3968ab424c479196c742e8e94c99acf3c85ec1d9e564208a4224f0dda079c7"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_lg64_gpu_only.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_lg64_gpu_only.py",
+    "sha256": "e52a64fd59cfa16590be030dfe9c5830bb1ce85c78d8c61893b3f18a12234fd1"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_lg64_stalls.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_lg64_stalls.py",
+    "sha256": "3c4c852e2943866951e290a9e490e285fc86d9990effbe356ec4646bafac89cc"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_lg64_syscalls.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_lg64_syscalls.py",
+    "sha256": "d2bbf7237be37f090d51a351ce047aeca4a531ecfe96839737984344aaea6e69"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_lg64_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_lg64_tail.py",
+    "sha256": "972360cdb151e33182513d8bcd4e83c4c733b030932235bd01ef424b19ee34c9"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_mechanism_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_mechanism_20261004.py",
+    "sha256": "f99245625ec0646d388ade7da3b39b05fe020c26d3e95b8deba6e381374aa658"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_mechanism_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_mechanism_stateful.py",
+    "sha256": "001019adf5e0f9b6655410b698b3c89a542f4cc67a33d450bfc06ead2b120a05"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_profiling_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_profiling_tail.py",
+    "sha256": "3b7e6a5d62373342ff3b4fcb6ec8834ec90d2c91450519f1a2d93002e3572753"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_protocol_controls.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_protocol_controls.py",
+    "sha256": "e637d18935006d613c854bc02cc761de80c3f9d91f0d62820889026e152bba05"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_reference_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_reference_20261004.py",
+    "sha256": "9e3d09bf5a5e3605a8ac4c039f3deff544e111911fbf0f17b8ce5e8073380b87"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_reference_cutoff_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_reference_cutoff_stateful.py",
+    "sha256": "9966696b269861aacdbd6047a49e48cba1d02df89a8a054f8466e06348f34129"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_reference_shapes.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_reference_shapes.py",
+    "sha256": "cd9a3bffe5099c4614001444c31913d348dbbeaeb93bdc390b23ff704fb12455"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_reference_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_reference_stateful.py",
+    "sha256": "26a3d08731a385449c80cbcce03e33656179defd388055265fe34274a75068ba"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_reference_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_reference_tail.py",
+    "sha256": "5512f7b17935b6e629b505ede94de30657987e6fef7add2a9fc289a2ff378aee"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_root_cause_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_root_cause_suite.py",
+    "sha256": "a979967e8a52529e4c6f4e3e8f630c9311002b0ce9eca165e01d8336a663e9c3"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_stream_and_final.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_stream_and_final.py",
+    "sha256": "85983609c136319fec92a09aa4445e5622d142f26e2b057205851f8db29f2a68"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_timing_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_timing_matrix.py",
+    "sha256": "2cdec4d6dc6bbe1f65fa9f2245f57512337b7b3e6a2e148dc76bf16731416faf"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_verification_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_verification_20261004.py",
+    "sha256": "2a083dbde6fa9fd1f2955a0cec92169d9b35d071e306eae29d12d01d9d30db88"
+  },
+  "experiments/document-qa/runtime/benchmarks/run_verification_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/run_verification_stateful.py",
+    "sha256": "2be3c27be01638ca55c6b9ef1f6eb11dec13f920e460c2cecce8691a48d36d38"
+  },
+  "experiments/document-qa/runtime/benchmarks/setup_deep_tools.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/setup_deep_tools.py",
+    "sha256": "c5d77f178c50df5a9873f49b211508be22c7db4a54d7dcfcf0b31db7ca71348c"
+  },
+  "experiments/document-qa/runtime/benchmarks/template_confirmation.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/template_confirmation.py",
+    "sha256": "77045147f8634d82547bc1577a0b59996ae61ffbbd2ef0ecdcf20786326e2577"
+  },
+  "experiments/document-qa/runtime/benchmarks/trace_codec.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/trace_codec.py",
+    "sha256": "d1f5dea8a2ec88d566f79d47839d5b152657336a7c4730e0e962f5ac5dcf94c9"
+  },
+  "experiments/document-qa/runtime/benchmarks/triton_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/triton_workload.py",
+    "sha256": "e37c8df905bd79ba554c30c2429df7d61de6f87c5867c2718a3ecfbeacff02b4"
+  },
+  "experiments/document-qa/runtime/benchmarks/verification_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/verification_provenance.py",
+    "sha256": "f8a38c21339f8050051263f9f86ad4a289fd9dfd54d098f7a06583322b698e7a"
+  },
+  "experiments/document-qa/runtime/benchmarks/verify_writer_model.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/benchmarks/verify_writer_model.py",
+    "sha256": "054d1b867837391debe10f2a3ce3d483ce78810140d5dec8e42ef802052b3c39"
+  },
+  "experiments/document-qa/runtime/neutrino/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/__init__.py",
+    "sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+  },
+  "experiments/document-qa/runtime/neutrino/build/config.toml": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/build/config.toml",
+    "sha256": "a1649c2f430a4f9fc87a6aa01882ffdc828efb96373bd1e62b890cfc6a692919"
+  },
+  "experiments/document-qa/runtime/neutrino/build/process.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/build/process.py",
+    "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13"
+  },
+  "experiments/document-qa/runtime/neutrino/build.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/build.py",
+    "sha256": "cb2c4b268dfca9982a2b1d89821896d8e1e40fe3117e5ace5b7fe3fe505c4ff9"
+  },
+  "experiments/document-qa/runtime/neutrino/cli.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/cli.py",
+    "sha256": "b0730a082d62cde61435855c5ba67f40f6dfe03c25fe11aef368356eb713c195"
+  },
+  "experiments/document-qa/runtime/neutrino/common.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/common.py",
+    "sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+  },
+  "experiments/document-qa/runtime/neutrino/language/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/language/__init__.py",
+    "sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+  },
+  "experiments/document-qa/runtime/neutrino/language/compiler.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/language/compiler.py",
+    "sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+  },
+  "experiments/document-qa/runtime/neutrino/language/frontend.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/language/frontend.py",
+    "sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+  },
+  "experiments/document-qa/runtime/neutrino/language/gcn.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/language/gcn.py",
+    "sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+  },
+  "experiments/document-qa/runtime/neutrino/language/ptx.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/language/ptx.py",
+    "sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/__init__.py",
+    "sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/core_capacity.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/core_capacity.py",
+    "sha256": "d50fb00cc937e95c7d38b59833645fa41573935c3b183466ae090a2dc0785a96"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/core_codegen.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/core_codegen.py",
+    "sha256": "621b9b3f18e20b57c2f9d232d9953a41481243e2cccce16881c26e7b0869eec0"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/core_events.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/core_events.py",
+    "sha256": "92fc1613fcfaf8a7732d44c1f14516ed91537d738d3b9935e1ce126e02ae0381"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/core_policy.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/core_policy.py",
+    "sha256": "cb76f0b9e3536ce3c017f45f2c3fba49770cda678988ae737be4e6f662fed6ab"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/cuda.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/cuda.py",
+    "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/hip.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/hip.py",
+    "sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/reference_core.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/reference_core.py",
+    "sha256": "b95b1f00a0e443f9d94ad1e6787ed8ba008b8f4bdd425febfc44b5e041f7e36e"
+  },
+  "experiments/document-qa/runtime/neutrino/probe/timing.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/probe/timing.py",
+    "sha256": "8415363aed450ff57b989ddb4052ef00e84cfab74bfef1c7c5ed2902e4e18b64"
+  },
+  "experiments/document-qa/runtime/neutrino/src/ablation.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/ablation.h",
+    "sha256": "65d6cf37b7ad02cac625c8fde9fba9f912934ffc5a77e4bb357468a770d8a96c"
+  },
+  "experiments/document-qa/runtime/neutrino/src/arena_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/arena_capture.h",
+    "sha256": "49cb0ba6f2f6600609f7ea6b43ac398156987a371671f6c75561b31ee115a5cb"
+  },
+  "experiments/document-qa/runtime/neutrino/src/async_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/async_capture.h",
+    "sha256": "c0f618d232fb324ee5791313e098450c6888d1a0a20412272f15619524d62afc"
+  },
+  "experiments/document-qa/runtime/neutrino/src/bulk_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/bulk_capture.h",
+    "sha256": "9d7d9cdb830ab373de2b960c5cd5ace6bac9e4f394ee0113443a002a0b0ddd3e"
+  },
+  "experiments/document-qa/runtime/neutrino/src/capture_codec.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/capture_codec.h",
+    "sha256": "06b35f74b98981ce5cc1f84ede340995f5dfff7ec1cae904a2d96e9f7a445a1f"
+  },
+  "experiments/document-qa/runtime/neutrino/src/capture_detail.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/capture_detail.h",
+    "sha256": "c244ec7ee4e1bd83ab02631afdf0d2394ffe0487850f86c2323e48c752294185"
+  },
+  "experiments/document-qa/runtime/neutrino/src/common.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/common.h",
+    "sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b"
+  },
+  "experiments/document-qa/runtime/neutrino/src/cuda.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/cuda.c",
+    "sha256": "6613e84c80a23324f0bdc57280c48c3360e519a8695add35df279a2c6f776c55"
+  },
+  "experiments/document-qa/runtime/neutrino/src/hip.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/hip.c",
+    "sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+  },
+  "experiments/document-qa/runtime/neutrino/src/legacy_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/legacy_capture.h",
+    "sha256": "096cbaed4f6ae85cfca5d9fa6643c8849cbe468c4302282b8f8292f784ff11cb"
+  },
+  "experiments/document-qa/runtime/neutrino/src/parse.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/parse.py",
+    "sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df"
+  },
+  "experiments/document-qa/runtime/neutrino/src/preload.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/preload.c",
+    "sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6"
+  },
+  "experiments/document-qa/runtime/neutrino/src/sha1.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/sha1.h",
+    "sha256": "c04a37f08c71293442f94798acd2bc2cd21fa588d97d01fd77155d1b20dd50a2"
+  },
+  "experiments/document-qa/runtime/neutrino/src/signature.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/signature.c",
+    "sha256": "87d8dc99ae7cb328ae40a153c0ec97360bf3bf6705d3248bd9584b176e325ea8"
+  },
+  "experiments/document-qa/runtime/neutrino/src/timing.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/timing.h",
+    "sha256": "956154989544f9c2edb08e395d4136958aa2dd1c5cfd4562ee00f0fcd9f0a085"
+  },
+  "experiments/document-qa/runtime/neutrino/src/unmodified.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/unmodified.c",
+    "sha256": "71978f871853e32434f5916b903b110681e6e56cca53d34aaa669a0fadcf41e5"
+  },
+  "experiments/document-qa/runtime/neutrino/src/uthash.h": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/src/uthash.h",
+    "sha256": "fd700ef45c979e70d5299f9a51e13cc172ac5a1e26ad4ee30502f93a2b94a08e"
+  },
+  "experiments/document-qa/runtime/neutrino/timing_report.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/timing_report.py",
+    "sha256": "f3374f6816921fd64026223e5645ce7c04c0965068454054d55a58a013b5a7ad"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/block_sched.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/block_sched.py",
+    "sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/block_sched_callback.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/block_sched_callback.py",
+    "sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/dmat.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/dmat.py",
+    "sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/dmat_callback.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/dmat_callback.py",
+    "sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/gmem_bytes.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/gmem_bytes.py",
+    "sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/gmem_bytes_analysis.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/gmem_bytes_analysis.py",
+    "sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/program_progress.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/program_progress.py",
+    "sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+  },
+  "experiments/document-qa/runtime/neutrino/tools/tensorop.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/tools/tensorop.py",
+    "sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+  },
+  "experiments/document-qa/runtime/neutrino/utils/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/utils/__init__.py",
+    "sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+  },
+  "experiments/document-qa/runtime/neutrino/utils/tensortrace.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/utils/tensortrace.py",
+    "sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+  },
+  "experiments/document-qa/runtime/neutrino/utils/trace_reading.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/utils/trace_reading.py",
+    "sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+  },
+  "experiments/document-qa/runtime/neutrino/utils/verifier.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/source/neutrino/utils/verifier.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "experiments/document-qa/code/analyze_results.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/analyze_results.py",
+    "sha256": "1e5ee8fc12192b65674c2213f0e664c4d83f708ee4790ded2ef64fc5cbb324f1"
+  },
+  "experiments/document-qa/code/case_analyze.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/case_analyze.py",
+    "sha256": "7b7a96be3f13ac3650f6b1c6216215653f63c7930f216dc0d426ff9b62065d39"
+  },
+  "experiments/document-qa/code/case_frames.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/case_frames.py",
+    "sha256": "9196f5bc769a1460178d89f5284b1e7a3ad602926b7c93e3353555307eb82719"
+  },
+  "experiments/document-qa/code/case_workload.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/case_workload.py",
+    "sha256": "0916a7e7f42968037717d57d7eed0b3b5adb8354c7e8757953040368901abccc"
+  },
+  "experiments/document-qa/code/collect_delivery.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/collect_delivery.py",
+    "sha256": "72bc436d7160dc8495d5178afbbe132d65491b412d231c3cee6896a82a56ca32"
+  },
+  "experiments/document-qa/code/execute.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/execute.py",
+    "sha256": "5b78ae81a51f818efc1298b3cccf5772150da670abaf298a60c590f1e8f627c1"
+  },
+  "experiments/document-qa/code/make_report.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/make_report.py",
+    "sha256": "19d984f090238cfc1f6b0d103b32dea0a4e64eb60193d4e7f86459ada192eb24"
+  },
+  "experiments/document-qa/code/prompts.json": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/prompts.json",
+    "sha256": "342f9dbecf02a501a8df636e53c80ba71be79dda964387b09759e7a9e9364feb"
+  },
+  "experiments/document-qa/code/run_one.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/run_one.py",
+    "sha256": "6b1b18e46f22ccb525e6ff87ed076d8874ee7f568b5404e5995b93770cf8200a"
+  },
+  "experiments/document-qa/code/setup_remote.sh": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/setup_remote.sh",
+    "sha256": "61e44319dfeda9fe8c4c59bed96ad7706443e0f925e5a57b0b750916fee2b3ed"
+  },
+  "experiments/document-qa/code/validate_analysis.py": {
+    "source": "preserved/workspace/reports/ispa-e2e-noverify-20261013/code/validate_analysis.py",
+    "sha256": "18a570e489acd7ef2576f480f08299e0ce25ce8b2602b68a8f2d47c9a3e3a0bb"
+  },
+  "experiments/document-qa/analysis/analyze_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/analyze_matrix.py",
+    "sha256": "32f4cdd12faf484384c037758c9835bf02697f449e99eee269f322d819958d71"
+  },
+  "experiments/document-qa/analysis/case_analyze.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/case_analyze.py",
+    "sha256": "b791b35a79c5f93cdd2acee0e9a9cac64d948ea052ce103a6a13653ee63900dc"
+  },
+  "experiments/document-qa/analysis/case_cupti.c": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/case_cupti.c",
+    "sha256": "4731e5fbe0178f66995931deebaa06186fe6d4c985eed214b6634a5eb5991ba7"
+  },
+  "experiments/document-qa/analysis/case_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/case_workload.py",
+    "sha256": "b13cad5f4e82c18d44f7e524c895483d371ec1b82007d74145d4c69cbf8cfa8f"
+  },
+  "experiments/document-qa/analysis/collect_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/collect_provenance.py",
+    "sha256": "b6caee1a54c3d070f6d1cf87ca49996b3c6853445807721305781f73e12bf976"
+  },
+  "experiments/document-qa/analysis/diagnose_addresses.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/diagnose_addresses.py",
+    "sha256": "5d2b51042620af4ce765a6388d7c93e6ad3db1c7b01c4acbff370ed305f06bcd"
+  },
+  "experiments/document-qa/analysis/diagnostic_probe.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/diagnostic_probe.py",
+    "sha256": "1c6944c15b939deb515758e13a08ee45989ea7b1a2f9c2a777f6334b966b029d"
+  },
+  "experiments/document-qa/analysis/execute_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/execute_matrix.py",
+    "sha256": "bc0e67500a16d29200fdda9c907fcbac132bd5c68c86c1f8734dd7ac6dcc9f65"
+  },
+  "experiments/document-qa/analysis/extract_diagnostic.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/extract_diagnostic.py",
+    "sha256": "450ffb8a031182c01d74d1657b6c5f3858c14439fd9ae9bdab1a3a76d2c3fd8e"
+  },
+  "experiments/document-qa/analysis/finalize_delivery.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/finalize_delivery.py",
+    "sha256": "8a841e641ee9631470543f35c5f1d9bc27b47e87b268c667bd31308e75bfc56a"
+  },
+  "experiments/document-qa/analysis/finalize_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/finalize_provenance.py",
+    "sha256": "c4cfbd0bdc547f4a438aeace17a6f98be82f22938ca3191d485e6f398b54fd0c"
+  },
+  "experiments/document-qa/analysis/make_documents.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/make_documents.py",
+    "sha256": "133e7e43ba96d37feba15d7141fd4f57461077ea23eecdc0919a1388012472d3"
+  },
+  "experiments/document-qa/analysis/make_report.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/make_report.py",
+    "sha256": "28b6151cd6d3e469c54cec294a180c7f32bbc876ee8e4dbaefdaf2cb44464227"
+  },
+  "experiments/document-qa/analysis/native_context.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/native_context.py",
+    "sha256": "81580145524977172631575413e7ac7be0a4bf533f802993b16c5a51b7a9d2c3"
+  },
+  "experiments/document-qa/analysis/patch_nvcomp_decoder.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/patch_nvcomp_decoder.py",
+    "sha256": "7a14660df9f84038b4493e0d47f3cfbfc3b3f1c6c6324d8a3071f4445782c812"
+  },
+  "experiments/document-qa/analysis/plot_case.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/plot_case.py",
+    "sha256": "9033c70291b29e67df4f3e0cc9e68980d796651533e9b34aaf90775e7c153c44"
+  },
+  "experiments/document-qa/analysis/prepare_diagnostic.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/prepare_diagnostic.py",
+    "sha256": "3d690ad090832af952b0de61e12fcbd70dce6aed058f9f247b2a045b533caf8f"
+  },
+  "experiments/document-qa/analysis/prepare_source.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/prepare_source.py",
+    "sha256": "366a059b4e3b53d1c87cdede49e85fd36064dd54935627b18f340ff071942bed"
+  },
+  "experiments/document-qa/analysis/profile_consumer.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/profile_consumer.py",
+    "sha256": "b649eaa8fc0a9e4735f0c096531be2f3e31cb25bc8623cd9013b5aa331748d40"
+  },
+  "experiments/document-qa/analysis/reference_decode.cpp": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/reference_decode.cpp",
+    "sha256": "25f559d08dd5f684beec9eb1cae2ea08b8fb4627942e599dfba4e4e0a91ecc8e"
+  },
+  "experiments/document-qa/analysis/retain_diagnostic.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/retain_diagnostic.py",
+    "sha256": "690a4dab09a0e8046ed635da8100cb5d8764f4adb3e215e54fe1d81078bc7d96"
+  },
+  "experiments/document-qa/analysis/run_one.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/run_one.py",
+    "sha256": "08cd23e329815bec9e3199593b4d51d73ecceccfa9da956176a2ca2c7b7bf3c5"
+  },
+  "experiments/document-qa/analysis/verify_fast_decoder.py": {
+    "source": "preserved/workspace/reports/neutrino-inference-case-20261013/run-20261013/code/verify_fast_decoder.py",
+    "sha256": "f346eed1c388e651db5a472f7c86dad7fa10ee293a6d0a60e93353f66519790d"
+  },
+  "experiments/nvbit/tool/Makefile": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_scope_async/Makefile",
+    "sha256": "cbeab546c667f25acbfd9907f2dc9a10d132885ee5c1edc3d5221e39d60a0eda"
+  },
+  "experiments/nvbit/tool/inject_funcs.cu": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_scope_async/inject_funcs.cu",
+    "sha256": "9164ba8cff6b9ba17c74b1bf91676108d340da1ae55586bf9b219cde6824ec7f"
+  },
+  "experiments/nvbit/tool/instr_count.cu": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_scope_async/instr_count.cu",
+    "sha256": "2d9e8e92a3a30c9bf2e460abaa5cba908c9c4797bc272e7aa1227dcf4fcf1379"
+  },
+  "experiments/nvbit/tool/instr_count_matrix.cu": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_scope_async/instr_count_matrix.cu",
+    "sha256": "3439e00171e024cd20c0f77dbc6883cffcc2eb08ed57d04abb9e41a227a346ea"
+  },
+  "experiments/xtrace/collector.cu": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/paper-task-sparse-ere-gpu-3090new-20261012-unit32-nosys/source/collector.cu",
+    "sha256": "f89b916a2c58673c86035982fcac83fe0ddc02c5fd24f273e2f241d8c86cf2ee"
+  },
+  "experiments/xtrace/env.sh": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/paper-task-sparse-ere-gpu-3090new-20261012-unit32-nosys/source/env.sh",
+    "sha256": "bdb00ac92268016106faf0bdeda2c9b697db198ac8c0c1e7a86e32adda484ac8"
+  },
+  "experiments/xtrace/producer.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/paper-task-sparse-ere-gpu-3090new-20261012-unit32-nosys/source/producer.py",
+    "sha256": "78b223a788c03123da5ba744dcdb6a565ae37783ce66aa4546bcab6982f96a24"
+  },
+  "experiments/xtrace/run.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/paper-task-sparse-ere-gpu-3090new-20261012-unit32-nosys/source/run.py",
+    "sha256": "e09ec1e055829d710749cac444d8790bf3a0aa20272afdcec1431e741372205f"
+  },
+  "experiments/xtrace/test_codec.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/paper-task-sparse-ere-gpu-3090new-20261012-unit32-nosys/source/test_codec.py",
+    "sha256": "365df97eea6c114aa99d2282dfe956efd7da5900158a334b8cf61c7e53db24e0"
+  },
+  "experiments/jetson/benchmarks/arena_checks.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/arena_checks.py",
+    "sha256": "d429e9b38d81e5b2f8a30b4166f0104cd33ff002440b9781dc61004f0a0bfcd9"
+  },
+  "experiments/jetson/benchmarks/arena_gpu_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/arena_gpu_validation.py",
+    "sha256": "246ef076a0a3485ebfdc30378eaf8e52082c82697da8369577495290e2d4b5b2"
+  },
+  "experiments/jetson/benchmarks/arena_writer_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/arena_writer_micro.c",
+    "sha256": "60dab554ff4757523a3916214e7df677138a273ae059f7236e7d4df9a1db6dda"
+  },
+  "experiments/jetson/benchmarks/bootstrap_reference_cutoff.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/bootstrap_reference_cutoff.py",
+    "sha256": "f18edb972e5ea387ca27a3219a1b215858b675fd0e3abec01fb3ead0c011dbeb"
+  },
+  "experiments/jetson/benchmarks/build_core_policy.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/build_core_policy.py",
+    "sha256": "244e2129300f2f4cc768dca5c53c9815db162f9f70ff1a1bc7340f13e34897e0"
+  },
+  "experiments/jetson/benchmarks/build_cross_device.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/build_cross_device.py",
+    "sha256": "5f1cdbbe5ecfad93db500c00e802e83ee4044d5a172b85fb1188f1e0e05fab42"
+  },
+  "experiments/jetson/benchmarks/build_final_closure.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/build_final_closure.py",
+    "sha256": "ac08bdee78da46cb2615b89b39bc2bf5d7455106479a90345b4b28b2b1c017c4"
+  },
+  "experiments/jetson/benchmarks/cache_python.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/cache_python.py",
+    "sha256": "3410a960efe1bba817edff528ceeeff471d186bb8f03a89525d7e6a2f25a671c"
+  },
+  "experiments/jetson/benchmarks/capacity_repeat.cpp": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/capacity_repeat.cpp",
+    "sha256": "42ad487c96b90f3439151f2a5fbcc5ee44a2d021d32539d99e1a36d42d0ff429"
+  },
+  "experiments/jetson/benchmarks/capture_compact.cuh": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/capture_compact.cuh",
+    "sha256": "fa2f35553461b2c5463814b4fd018b0ae58e87a346d8a3d6bb5c173771281fdd"
+  },
+  "experiments/jetson/benchmarks/capture_pack.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/capture_pack.cu",
+    "sha256": "a06e50af86047c3508a2ea02149b47060967b8cc578b59f4054fc525794c30c9"
+  },
+  "experiments/jetson/benchmarks/check_final_closure.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/check_final_closure.py",
+    "sha256": "1f38c4f9fd9f22dc3e796ff1d8977aab1b6744a9b135f73061007dd36ee987ea"
+  },
+  "experiments/jetson/benchmarks/clock_domains.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/clock_domains.cu",
+    "sha256": "4a41e9b3bce378d2b680ebc8df7900a4336d1896978423f2444a484946e329fc"
+  },
+  "experiments/jetson/benchmarks/codec_recorded_control.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/codec_recorded_control.py",
+    "sha256": "bbcf53090af4f8cb13d1aa1994b11599941f4e23a7df480faad44430861ccfc5"
+  },
+  "experiments/jetson/benchmarks/codec_service_micro.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/codec_service_micro.cu",
+    "sha256": "3f9a18d6c47323d22712f42065bbe057fcf24affc0738396ba53da458178d792"
+  },
+  "experiments/jetson/benchmarks/collect_ablation_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_ablation_provenance.py",
+    "sha256": "529d388b2564c4ed2ab191e27978edd3946c4834a5c1a78fb9d55543014838af"
+  },
+  "experiments/jetson/benchmarks/collect_arena_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_arena_provenance.py",
+    "sha256": "c101da7fa53a59c89eca94f528b9c906693f3bc7ba4b972d808019e7e5d7674f"
+  },
+  "experiments/jetson/benchmarks/collect_capacity_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_capacity_evidence.py",
+    "sha256": "e395241ca1c4287c9e933dfea6ce5e1088025100cb8f3ac9cc70b6674c745822"
+  },
+  "experiments/jetson/benchmarks/collect_collection_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_collection_provenance.py",
+    "sha256": "b237625ee8f34d97da5982c6972d68f1604ed22e3195d5e1127a5cbe97e502a8"
+  },
+  "experiments/jetson/benchmarks/collect_core_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_core_evidence.py",
+    "sha256": "6482c367025e13f57f9e83caa37e23ccc83943641657ae4bb92e438b208b0cb2"
+  },
+  "experiments/jetson/benchmarks/collect_deep_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_deep_provenance.py",
+    "sha256": "34a3473136cd82d01519f474b0c3c6ea77ab10fbe08be9ea90caac295f9ad574"
+  },
+  "experiments/jetson/benchmarks/collect_lg64_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_lg64_provenance.py",
+    "sha256": "c4b62d3c6d6bf1c58193472385b293884007044a765ad0a7c7fd53c20f3a7a88"
+  },
+  "experiments/jetson/benchmarks/collect_policy_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/collect_policy_evidence.py",
+    "sha256": "9c01de0b8750a5416849e02105754399f572ad66c08308b468db95662b15cece"
+  },
+  "experiments/jetson/benchmarks/core_3d_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_3d_validation.py",
+    "sha256": "8bd07479ababdc6c58a9ea86a4f7d7478a103493712ec641c48002e423940acf"
+  },
+  "experiments/jetson/benchmarks/core_capacity_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_capacity_experiment.py",
+    "sha256": "fab1100e4d4588cfcecc030459dab38818c42f137ec1e614964554315b38a34c"
+  },
+  "experiments/jetson/benchmarks/core_driver.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_driver.py",
+    "sha256": "defd9964854e0fabda9db0f3a164b086b7576b720ce1e2a7ec85291da9784a89"
+  },
+  "experiments/jetson/benchmarks/core_event_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_event_validation.py",
+    "sha256": "5830c952d99af1be75006260dd0aa786e698b63689cb97e44edea8973c2a3d09"
+  },
+  "experiments/jetson/benchmarks/core_fixture.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_fixture.cu",
+    "sha256": "cf489aae7374512dfd3f58334fbfc10f64aa06bf42d88924afd955e172e0258c"
+  },
+  "experiments/jetson/benchmarks/core_gpu_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_gpu_experiment.py",
+    "sha256": "de5f4c92c88cf0f5f39ba1859e9174f8594dcec4df89e4f409ab155cbce2a6a9"
+  },
+  "experiments/jetson/benchmarks/core_repeat.cpp": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_repeat.cpp",
+    "sha256": "bc7d39bcaddd65cc5e81e982c9ac1efdd440d3bde15d8ef3f7ca71b70045e875"
+  },
+  "experiments/jetson/benchmarks/core_resource_query.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/core_resource_query.py",
+    "sha256": "65eb05fb3f7d770e19531da7d2efc6c95ae740017040324bcd0bc178e8f5beda"
+  },
+  "experiments/jetson/benchmarks/counter_probe.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/counter_probe.cu",
+    "sha256": "283b620e225f5fa8f0b122bd29a9aceb689bc3b4162b03b447f01b9312a8f803"
+  },
+  "experiments/jetson/benchmarks/cross_device_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/cross_device_provenance.py",
+    "sha256": "1b74235a3f91eda3abd9c01afc6722aa4aa61bcb1c37f59e745d958bf2d03a0d"
+  },
+  "experiments/jetson/benchmarks/d2h_cupti_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/d2h_cupti_micro.c",
+    "sha256": "c0a7ab4c0368d4cd1b32a7e04c470801932e80f55c0476ed361694d44d27ccad"
+  },
+  "experiments/jetson/benchmarks/d2h_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/d2h_micro.c",
+    "sha256": "6d8f6c13699eb7478bb611d028231cb3e40ea355360692d47e2d8ebb9e82c267"
+  },
+  "experiments/jetson/benchmarks/d2h_numa_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/d2h_numa_micro.c",
+    "sha256": "e1b6a2894117710a0bb339f4bf1012770fae261e2c123da66669f01a83b37043"
+  },
+  "experiments/jetson/benchmarks/d2h_profile_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/d2h_profile_micro.c",
+    "sha256": "3229dc594da32c377545cf0ca24fdeabcbabad480b4e973daef203eaaff11c4b"
+  },
+  "experiments/jetson/benchmarks/deep_cupti.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/deep_cupti.c",
+    "sha256": "dded9592ff5c886107293fd3748eb85a5d8815b2a4fc2899761cb31b4ad4eeff"
+  },
+  "experiments/jetson/benchmarks/deep_cupti_activity.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/deep_cupti_activity.c",
+    "sha256": "fb9ec6bfe2153aae6ee28524fe364de09f0009bceb424aa7592c7a99646ede12"
+  },
+  "experiments/jetson/benchmarks/deep_cupti_gpuonly.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/deep_cupti_gpuonly.c",
+    "sha256": "81945a0a9697bf702b3509b28558bb27f076f484adb4eade19d50e242283c741"
+  },
+  "experiments/jetson/benchmarks/deep_cupti_portable.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/deep_cupti_portable.c",
+    "sha256": "437f82daaa2a9686b87ccb28e62c05ef5bba86f77ed462179db903889e2b36a8"
+  },
+  "experiments/jetson/benchmarks/deep_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/deep_workload.py",
+    "sha256": "df859e2933fc9836e1ef02f28796111dc6b634633832c585fef0193736356ec3"
+  },
+  "experiments/jetson/benchmarks/file_path_micro.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/file_path_micro.c",
+    "sha256": "1335d497b0b34eee1bd952eb9a03109d53ef3f0b6326609903d4fcd603417fc2"
+  },
+  "experiments/jetson/benchmarks/final_trace_queries.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/final_trace_queries.py",
+    "sha256": "774ab7ff356e8e93555547582baac0f8d309f329b6f1397ac96c9fb8d2dab6a6"
+  },
+  "experiments/jetson/benchmarks/finish_codec_comparison.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_codec_comparison.py",
+    "sha256": "0e87f5cb66da8ab8f80b395a3a6876b9ac14992a6435a634bfef5c48d1ab30fc"
+  },
+  "experiments/jetson/benchmarks/finish_codec_evidence.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_codec_evidence.py",
+    "sha256": "cc8fb61bed0acd134567141f7a284aadf4fbfc974a4beb472affc08332f901e3"
+  },
+  "experiments/jetson/benchmarks/finish_codec_tuned.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_codec_tuned.py",
+    "sha256": "0127a687a0aec3cafd9861f76a660d9654d5af6e525b12a3a89d841840c8e8db"
+  },
+  "experiments/jetson/benchmarks/finish_final_closure.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_final_closure.py",
+    "sha256": "a7bcefeace857d3900ccb0b62fd3fe6dc59d5500ef38e7c54b0bfd236d55fcfc"
+  },
+  "experiments/jetson/benchmarks/finish_mechanism_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_mechanism_20261004.py",
+    "sha256": "de06366a5cdbfbd95b731f7f39a20b3f7c486048edbeaab6d2065c03ec4fd4c9"
+  },
+  "experiments/jetson/benchmarks/finish_mechanism_controls.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_mechanism_controls.py",
+    "sha256": "0c9fa4356bce7b35318e67bcf4b2e37e35c939168ea5d7df80eaab715c9540c5"
+  },
+  "experiments/jetson/benchmarks/finish_reference_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_reference_20261004.py",
+    "sha256": "1ac7f56ee995e43de90beb559b7e0f657a64f705a4e6d16c90defb347aba82f5"
+  },
+  "experiments/jetson/benchmarks/finish_reference_cutoff_confirm.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_reference_cutoff_confirm.py",
+    "sha256": "66932d8b6ac99a6d5e178cbbd608ca8873b72cdecbb1b00f2748e0cfb466fcc3"
+  },
+  "experiments/jetson/benchmarks/finish_reference_cutoff_screen.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_reference_cutoff_screen.py",
+    "sha256": "3de7c26bc12b590da0ae6b3d3d6a7da82b03aa801377107c2571e4ca22ee4063"
+  },
+  "experiments/jetson/benchmarks/finish_reference_cutoff_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_reference_cutoff_tail.py",
+    "sha256": "29ab2b71483fb5f9ca4de13e689cd0713727f6b2edbd360c5a4ee574a584f6ab"
+  },
+  "experiments/jetson/benchmarks/finish_reference_screen.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_reference_screen.py",
+    "sha256": "a6eef88aed3ee2fc2475752d62fa305dcf32ac19ce60a893da64b5223543a16f"
+  },
+  "experiments/jetson/benchmarks/finish_verification_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/finish_verification_20261004.py",
+    "sha256": "4a3bdbcaeed312daca638444d18bcb291f3a068f99a129c6ff4a7d71af9cc1b9"
+  },
+  "experiments/jetson/benchmarks/gpu_batch_delta_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_batch_delta_smoke.py",
+    "sha256": "1eba58e3c9a371cba367e83c0c4ec08e7ce0b29a0f3b43b22e5e4f5a0770b047"
+  },
+  "experiments/jetson/benchmarks/gpu_codec_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_codec_smoke.py",
+    "sha256": "1bd017cd9218a0bfd18f024990dee44593cea1e7946086f6b364c440e24f9b8d"
+  },
+  "experiments/jetson/benchmarks/gpu_compact_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_compact_smoke.py",
+    "sha256": "b18681a5cedf72d0285dca1832da10c5135f0f5e3321b6300b2ed808133809cd"
+  },
+  "experiments/jetson/benchmarks/gpu_flex_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_flex_smoke.py",
+    "sha256": "f9f317ea0c3ea1905bc3f7a86621f143e89effadfdaf75bcfcfe85c432f911bb"
+  },
+  "experiments/jetson/benchmarks/gpu_hier_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_hier_smoke.py",
+    "sha256": "be08216f17ca6030369687d6f8f74a926a11db82257a9639d3337654551dc860"
+  },
+  "experiments/jetson/benchmarks/gpu_nvpipe_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_nvpipe_smoke.py",
+    "sha256": "cb6083875822533a572d7a846586e4e515ed6b36323f7a6557c23b501a23500b"
+  },
+  "experiments/jetson/benchmarks/gpu_reference_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/gpu_reference_smoke.py",
+    "sha256": "ea7723c4b4c77a42db748cd6cff01a7ebe4b0f7d011c365ad072b6a4a54756a9"
+  },
+  "experiments/jetson/benchmarks/hier_service_micro.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/hier_service_micro.cu",
+    "sha256": "3a34b8eec11d7c65ea4aa9cce7f6aff49653a2c57d2c845a605b4b9553e0eb75"
+  },
+  "experiments/jetson/benchmarks/hotpath_shape_workload.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/hotpath_shape_workload.cu",
+    "sha256": "0f147952d11b26d3058fca110a363a3b3ca5b60ce9f44974d52eeac0cbf3a177"
+  },
+  "experiments/jetson/benchmarks/llama_adapter.cpp": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/llama_adapter.cpp",
+    "sha256": "53472159c7c896c3f438bf6586cf2da5288bc3153dadd324d302c9e8f4cd146b"
+  },
+  "experiments/jetson/benchmarks/llama_adapter_dynamic.cpp": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/llama_adapter_dynamic.cpp",
+    "sha256": "97327ea476e952c1f2b9e1c8fc259ba52e388af1aab6a5c17e968540c89e001b"
+  },
+  "experiments/jetson/benchmarks/mmap_register_probe.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/mmap_register_probe.py",
+    "sha256": "a3f329e7f62dbe94967d87382918c8e664c6020306284a4b8cf6fa6249901d82"
+  },
+  "experiments/jetson/benchmarks/nsight_sqlite.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/nsight_sqlite.py",
+    "sha256": "3110be45d5c00fdabdb75d20a6d779db75071f95a2c6360ecadba06ea6933e5e"
+  },
+  "experiments/jetson/benchmarks/nvcomp_pipeline.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/nvcomp_pipeline.cu",
+    "sha256": "8746e4bb38ef30317d0ff0fb1fe9d04e81a6abd17efbbef247dddd4a7fd57397"
+  },
+  "experiments/jetson/benchmarks/nvpipe_layout_test.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/nvpipe_layout_test.cu",
+    "sha256": "cfb13fa5ffd343d225c14c18a93ad6cf1418e8a208bdeb66d7aac5d69b0d604b"
+  },
+  "experiments/jetson/benchmarks/profile_d2h_micro.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/profile_d2h_micro.py",
+    "sha256": "5da9cdae160cfaf2960fbf512b6929101c1a574e564fecf7f7e969d518969740"
+  },
+  "experiments/jetson/benchmarks/profile_preload.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/profile_preload.c",
+    "sha256": "bf16d51b7315752d72aa1e10aa7db1ad7eec54d17baa41b26773d2186cfe67ba"
+  },
+  "experiments/jetson/benchmarks/profile_root_cause.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/profile_root_cause.py",
+    "sha256": "87890a3911973a792ea35dbb9e8ac489edb669caf0f3466deff1677a2f8f0c88"
+  },
+  "experiments/jetson/benchmarks/profiling_tail_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/profiling_tail_workload.py",
+    "sha256": "100ba9e0db529c9584b3ced05ad6d215687edfe73726750e0cf9760630ded4f6"
+  },
+  "experiments/jetson/benchmarks/qwen_arena_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/qwen_arena_workload.py",
+    "sha256": "b55411926dfbc2adb7024c2ed2ed9bc5c6f316089febcdf37047a7b7c200706c"
+  },
+  "experiments/jetson/benchmarks/qwen_capture_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/qwen_capture_workload.py",
+    "sha256": "cdb4b6a21b76dc24c675cfd3ab80b4e34bd78d52d5afeff683fee6cabce2335c"
+  },
+  "experiments/jetson/benchmarks/qwen_lg64_api_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/qwen_lg64_api_workload.py",
+    "sha256": "0af6cc788535e145bbf88367d1b4a20894a4b652eefdfbc4431c1915d4b79957"
+  },
+  "experiments/jetson/benchmarks/qwen_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/qwen_workload.py",
+    "sha256": "0cbdb1ccecc77377ddd6729a084305214abd538f797f26881c179891d3644bfd"
+  },
+  "experiments/jetson/benchmarks/reference_shape_workload.cu": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/reference_shape_workload.cu",
+    "sha256": "cb9732ff46f1964ad8558a4ab96eb5ec05488f60e37164568087b8f59df4194e"
+  },
+  "experiments/jetson/benchmarks/resume_arena_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/resume_arena_suite.py",
+    "sha256": "641bc91a479860a7e8c867312fce3e42ed136e6b3ab4a14c7f6c467bc919a9df"
+  },
+  "experiments/jetson/benchmarks/resume_codec_tuned.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/resume_codec_tuned.py",
+    "sha256": "e39debc617d3f0d3a31707790ff67970990aaeb7ed7e61b69d8c9a27fd2f4b22"
+  },
+  "experiments/jetson/benchmarks/run_ablation_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_ablation_matrix.py",
+    "sha256": "1142aaec989766ef9999de7f88c2bf57a30daeb5a183b9ab2bd617e0e39c77c9"
+  },
+  "experiments/jetson/benchmarks/run_arena_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_arena_experiment.py",
+    "sha256": "b63b4155961f81a2d39cb2b046c9d0a2363369ce74aab43e87d429bf6ade6dee"
+  },
+  "experiments/jetson/benchmarks/run_arena_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_arena_followup.py",
+    "sha256": "c46b3a322cffd68d04498fe4f5b9e613a892084adefefead9cfdd420fb05ffaa"
+  },
+  "experiments/jetson/benchmarks/run_arena_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_arena_matrix.py",
+    "sha256": "3d01cb6b41f9d9734f0983cd5dd7dd6aecf0c7183f8fbb004fcc63f76c877cf4"
+  },
+  "experiments/jetson/benchmarks/run_arena_matrix_selective.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_arena_matrix_selective.py",
+    "sha256": "4867115ffb15844a330f0157a3c68e8f097ddbf9ebccbeab39df566a1bf0d952"
+  },
+  "experiments/jetson/benchmarks/run_arena_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_arena_stateful.py",
+    "sha256": "4594ed43bb66edda8d152c216539a9b24cb54d4a11cb18ae4f1088480f17d156"
+  },
+  "experiments/jetson/benchmarks/run_arena_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_arena_suite.py",
+    "sha256": "548c0f5e8d6be5b2fc54a9144fed448af37e30f93cb103283a345137c4869f4d"
+  },
+  "experiments/jetson/benchmarks/run_async_experiment.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_async_experiment.py",
+    "sha256": "3c129a4a256567b50400b7d74f3b1fb183d96604636d52fd6aa7c68d5fb7d336"
+  },
+  "experiments/jetson/benchmarks/run_bulk_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_bulk_matrix.py",
+    "sha256": "a410c69e2a344c590f9b51ff2999ba338b25dcbbd80d58d2625238dbb2df91a0"
+  },
+  "experiments/jetson/benchmarks/run_capacity_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_capacity_suite.py",
+    "sha256": "34221312145c2c6488b1c0b406c2f484b8d3a6ecd4a32d635bdb5c4e45e28b49"
+  },
+  "experiments/jetson/benchmarks/run_codec_comparison_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_codec_comparison_20261004.py",
+    "sha256": "0528c2dd56f87acb722d80dfbf222207805d569f2d392d442d2e6878c53b458c"
+  },
+  "experiments/jetson/benchmarks/run_codec_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_codec_stateful.py",
+    "sha256": "50ba7acf107af24c265e64acdc0754f7a7f072fb80e4c79c6c821633119650c4"
+  },
+  "experiments/jetson/benchmarks/run_collection_correction.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_collection_correction.py",
+    "sha256": "aaa70bf1f1c5a870f02cb4845b99e05de8d8aaf3654699fb000a323fe11394c2"
+  },
+  "experiments/jetson/benchmarks/run_collection_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_collection_followup.py",
+    "sha256": "18ecaae113272945633d8e94c957069261b1a48a831c749a5f9da3468b7d25d5"
+  },
+  "experiments/jetson/benchmarks/run_core_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_core_followup.py",
+    "sha256": "f206188a437f63d97f430cfd3f8446e0e2c897be1e25b4b216dc7d8be524a22a"
+  },
+  "experiments/jetson/benchmarks/run_core_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_core_matrix.py",
+    "sha256": "af0e66378c4047a3d8b6401bb2fc3c01addea9874ac71d503b0a97bb6b358fc7"
+  },
+  "experiments/jetson/benchmarks/run_core_policy_followup.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_core_policy_followup.py",
+    "sha256": "1d79fdfa17e74915a9b417d87a429bd3ea217d583530720cab2b14a976c8c665"
+  },
+  "experiments/jetson/benchmarks/run_core_policy_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_core_policy_matrix.py",
+    "sha256": "7bd46adecfadd4082b5cbc54e6336d4042f4df335aa71af008ab89d9db20885b"
+  },
+  "experiments/jetson/benchmarks/run_cross_device.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_cross_device.py",
+    "sha256": "28b0371afd3a0c96fb57a0fcd76a39cef81aecb141dd0f582896d35147e0e71e"
+  },
+  "experiments/jetson/benchmarks/run_deep_extension.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_deep_extension.py",
+    "sha256": "c0a726cbdaa0d3abb70169b681ffd2f2dc1219d980ecd88ea93081b874b7cc39"
+  },
+  "experiments/jetson/benchmarks/run_deep_final.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_deep_final.py",
+    "sha256": "a88e2eb9e6d994f52c31c6f3a983528482b804650f9fe81613009a61168d67c5"
+  },
+  "experiments/jetson/benchmarks/run_deep_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_deep_suite.py",
+    "sha256": "d82b222bccc330590470ea25bb0499d135a59b9825550511b988dff912500cc9"
+  },
+  "experiments/jetson/benchmarks/run_file_micro.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_file_micro.py",
+    "sha256": "fe4608cee5f4f501d128b2bf74fae63f8b28ca0f624201afd2c5422922810e38"
+  },
+  "experiments/jetson/benchmarks/run_final_closure.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_final_closure.py",
+    "sha256": "455cfded8308413e35047af4db1170765f0a679945d3f75d22cbd7f32b6d4b72"
+  },
+  "experiments/jetson/benchmarks/run_hotpath_shapes.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_hotpath_shapes.py",
+    "sha256": "b689ecce166b79219a27a0553a957b44a72a9cc72557a9522cc1835fb5b92d86"
+  },
+  "experiments/jetson/benchmarks/run_lg64_diagnosis.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_lg64_diagnosis.py",
+    "sha256": "4a3968ab424c479196c742e8e94c99acf3c85ec1d9e564208a4224f0dda079c7"
+  },
+  "experiments/jetson/benchmarks/run_lg64_gpu_only.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_lg64_gpu_only.py",
+    "sha256": "e52a64fd59cfa16590be030dfe9c5830bb1ce85c78d8c61893b3f18a12234fd1"
+  },
+  "experiments/jetson/benchmarks/run_lg64_stalls.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_lg64_stalls.py",
+    "sha256": "3c4c852e2943866951e290a9e490e285fc86d9990effbe356ec4646bafac89cc"
+  },
+  "experiments/jetson/benchmarks/run_lg64_syscalls.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_lg64_syscalls.py",
+    "sha256": "d2bbf7237be37f090d51a351ce047aeca4a531ecfe96839737984344aaea6e69"
+  },
+  "experiments/jetson/benchmarks/run_lg64_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_lg64_tail.py",
+    "sha256": "972360cdb151e33182513d8bcd4e83c4c733b030932235bd01ef424b19ee34c9"
+  },
+  "experiments/jetson/benchmarks/run_mechanism_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_mechanism_20261004.py",
+    "sha256": "f99245625ec0646d388ade7da3b39b05fe020c26d3e95b8deba6e381374aa658"
+  },
+  "experiments/jetson/benchmarks/run_mechanism_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_mechanism_stateful.py",
+    "sha256": "001019adf5e0f9b6655410b698b3c89a542f4cc67a33d450bfc06ead2b120a05"
+  },
+  "experiments/jetson/benchmarks/run_profiling_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_profiling_tail.py",
+    "sha256": "3b7e6a5d62373342ff3b4fcb6ec8834ec90d2c91450519f1a2d93002e3572753"
+  },
+  "experiments/jetson/benchmarks/run_protocol_controls.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_protocol_controls.py",
+    "sha256": "e637d18935006d613c854bc02cc761de80c3f9d91f0d62820889026e152bba05"
+  },
+  "experiments/jetson/benchmarks/run_reference_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_reference_20261004.py",
+    "sha256": "9e3d09bf5a5e3605a8ac4c039f3deff544e111911fbf0f17b8ce5e8073380b87"
+  },
+  "experiments/jetson/benchmarks/run_reference_cutoff_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_reference_cutoff_stateful.py",
+    "sha256": "9966696b269861aacdbd6047a49e48cba1d02df89a8a054f8466e06348f34129"
+  },
+  "experiments/jetson/benchmarks/run_reference_shapes.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_reference_shapes.py",
+    "sha256": "cd9a3bffe5099c4614001444c31913d348dbbeaeb93bdc390b23ff704fb12455"
+  },
+  "experiments/jetson/benchmarks/run_reference_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_reference_stateful.py",
+    "sha256": "26a3d08731a385449c80cbcce03e33656179defd388055265fe34274a75068ba"
+  },
+  "experiments/jetson/benchmarks/run_reference_tail.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_reference_tail.py",
+    "sha256": "5512f7b17935b6e629b505ede94de30657987e6fef7add2a9fc289a2ff378aee"
+  },
+  "experiments/jetson/benchmarks/run_root_cause_suite.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_root_cause_suite.py",
+    "sha256": "a979967e8a52529e4c6f4e3e8f630c9311002b0ce9eca165e01d8336a663e9c3"
+  },
+  "experiments/jetson/benchmarks/run_stream_and_final.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_stream_and_final.py",
+    "sha256": "85983609c136319fec92a09aa4445e5622d142f26e2b057205851f8db29f2a68"
+  },
+  "experiments/jetson/benchmarks/run_timing_matrix.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_timing_matrix.py",
+    "sha256": "2cdec4d6dc6bbe1f65fa9f2245f57512337b7b3e6a2e148dc76bf16731416faf"
+  },
+  "experiments/jetson/benchmarks/run_verification_20261004.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_verification_20261004.py",
+    "sha256": "2a083dbde6fa9fd1f2955a0cec92169d9b35d071e306eae29d12d01d9d30db88"
+  },
+  "experiments/jetson/benchmarks/run_verification_stateful.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/run_verification_stateful.py",
+    "sha256": "2be3c27be01638ca55c6b9ef1f6eb11dec13f920e460c2cecce8691a48d36d38"
+  },
+  "experiments/jetson/benchmarks/setup_deep_tools.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/setup_deep_tools.py",
+    "sha256": "c5d77f178c50df5a9873f49b211508be22c7db4a54d7dcfcf0b31db7ca71348c"
+  },
+  "experiments/jetson/benchmarks/template_confirmation.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/template_confirmation.py",
+    "sha256": "77045147f8634d82547bc1577a0b59996ae61ffbbd2ef0ecdcf20786326e2577"
+  },
+  "experiments/jetson/benchmarks/trace_codec.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/trace_codec.py",
+    "sha256": "d1f5dea8a2ec88d566f79d47839d5b152657336a7c4730e0e962f5ac5dcf94c9"
+  },
+  "experiments/jetson/benchmarks/triton_workload.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/triton_workload.py",
+    "sha256": "e37c8df905bd79ba554c30c2429df7d61de6f87c5867c2718a3ecfbeacff02b4"
+  },
+  "experiments/jetson/benchmarks/verification_provenance.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/verification_provenance.py",
+    "sha256": "f8a38c21339f8050051263f9f86ad4a289fd9dfd54d098f7a06583322b698e7a"
+  },
+  "experiments/jetson/benchmarks/verify_writer_model.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/benchmarks/verify_writer_model.py",
+    "sha256": "054d1b867837391debe10f2a3ce3d483ce78810140d5dec8e42ef802052b3c39"
+  },
+  "experiments/jetson/examples/analysis.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/examples/analysis.py",
+    "sha256": "762c68c8f5f7c0ecc66cfa88689b6dedcba5af896621d654de2c227186394bd6"
+  },
+  "experiments/jetson/examples/zero_persistent.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/examples/zero_persistent.py",
+    "sha256": "e759af11df482cc926072a6255443888c219fc3339a399b3628ed9054076fd8e"
+  },
+  "experiments/jetson/neutrino/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/__init__.py",
+    "sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+  },
+  "experiments/jetson/neutrino/build/config.toml": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/build/config.toml",
+    "sha256": "7bf7043448aec1c30e9c4ba2eb9c55c900aeae0fe8c6e5ab15d99977a6bfe193"
+  },
+  "experiments/jetson/neutrino/build/process.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/build/process.py",
+    "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13"
+  },
+  "experiments/jetson/neutrino/build.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/build.py",
+    "sha256": "cb2c4b268dfca9982a2b1d89821896d8e1e40fe3117e5ace5b7fe3fe505c4ff9"
+  },
+  "experiments/jetson/neutrino/cli.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/cli.py",
+    "sha256": "b0730a082d62cde61435855c5ba67f40f6dfe03c25fe11aef368356eb713c195"
+  },
+  "experiments/jetson/neutrino/common.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/common.py",
+    "sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+  },
+  "experiments/jetson/neutrino/language/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/language/__init__.py",
+    "sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+  },
+  "experiments/jetson/neutrino/language/compiler.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/language/compiler.py",
+    "sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+  },
+  "experiments/jetson/neutrino/language/frontend.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/language/frontend.py",
+    "sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+  },
+  "experiments/jetson/neutrino/language/gcn.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/language/gcn.py",
+    "sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+  },
+  "experiments/jetson/neutrino/language/ptx.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/language/ptx.py",
+    "sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+  },
+  "experiments/jetson/neutrino/probe/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/__init__.py",
+    "sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+  },
+  "experiments/jetson/neutrino/probe/core_capacity.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/core_capacity.py",
+    "sha256": "d50fb00cc937e95c7d38b59833645fa41573935c3b183466ae090a2dc0785a96"
+  },
+  "experiments/jetson/neutrino/probe/core_codegen.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/core_codegen.py",
+    "sha256": "621b9b3f18e20b57c2f9d232d9953a41481243e2cccce16881c26e7b0869eec0"
+  },
+  "experiments/jetson/neutrino/probe/core_events.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/core_events.py",
+    "sha256": "92fc1613fcfaf8a7732d44c1f14516ed91537d738d3b9935e1ce126e02ae0381"
+  },
+  "experiments/jetson/neutrino/probe/core_policy.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/core_policy.py",
+    "sha256": "cb76f0b9e3536ce3c017f45f2c3fba49770cda678988ae737be4e6f662fed6ab"
+  },
+  "experiments/jetson/neutrino/probe/cuda.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/cuda.py",
+    "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13"
+  },
+  "experiments/jetson/neutrino/probe/hip.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/hip.py",
+    "sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+  },
+  "experiments/jetson/neutrino/probe/reference_core.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/reference_core.py",
+    "sha256": "b95b1f00a0e443f9d94ad1e6787ed8ba008b8f4bdd425febfc44b5e041f7e36e"
+  },
+  "experiments/jetson/neutrino/probe/timing.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/probe/timing.py",
+    "sha256": "8415363aed450ff57b989ddb4052ef00e84cfab74bfef1c7c5ed2902e4e18b64"
+  },
+  "experiments/jetson/neutrino/src/ablation.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/ablation.h",
+    "sha256": "65d6cf37b7ad02cac625c8fde9fba9f912934ffc5a77e4bb357468a770d8a96c"
+  },
+  "experiments/jetson/neutrino/src/arena_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/arena_capture.h",
+    "sha256": "99e11577bef42c49ffd0ff96efb7f6877ca666ec640c17907331cd2b5ca13e85"
+  },
+  "experiments/jetson/neutrino/src/async_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/async_capture.h",
+    "sha256": "c0f618d232fb324ee5791313e098450c6888d1a0a20412272f15619524d62afc"
+  },
+  "experiments/jetson/neutrino/src/bulk_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/bulk_capture.h",
+    "sha256": "9d7d9cdb830ab373de2b960c5cd5ace6bac9e4f394ee0113443a002a0b0ddd3e"
+  },
+  "experiments/jetson/neutrino/src/capture_codec.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/capture_codec.h",
+    "sha256": "06b35f74b98981ce5cc1f84ede340995f5dfff7ec1cae904a2d96e9f7a445a1f"
+  },
+  "experiments/jetson/neutrino/src/capture_detail.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/capture_detail.h",
+    "sha256": "c244ec7ee4e1bd83ab02631afdf0d2394ffe0487850f86c2323e48c752294185"
+  },
+  "experiments/jetson/neutrino/src/common.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/common.h",
+    "sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b"
+  },
+  "experiments/jetson/neutrino/src/cuda.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/cuda.c",
+    "sha256": "770a6103de83362a373d94147ad04a439fd1482bacf7d2a41e13d9bf5161372e"
+  },
+  "experiments/jetson/neutrino/src/hip.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/hip.c",
+    "sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+  },
+  "experiments/jetson/neutrino/src/legacy_capture.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/legacy_capture.h",
+    "sha256": "096cbaed4f6ae85cfca5d9fa6643c8849cbe468c4302282b8f8292f784ff11cb"
+  },
+  "experiments/jetson/neutrino/src/parse.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/parse.py",
+    "sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df"
+  },
+  "experiments/jetson/neutrino/src/preload.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/preload.c",
+    "sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6"
+  },
+  "experiments/jetson/neutrino/src/sha1.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/sha1.h",
+    "sha256": "c04a37f08c71293442f94798acd2bc2cd21fa588d97d01fd77155d1b20dd50a2"
+  },
+  "experiments/jetson/neutrino/src/signature.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/signature.c",
+    "sha256": "0e28e1fc30fc3eaa49239b893514bcfce153be8385cfde38ffc37d94519dc763"
+  },
+  "experiments/jetson/neutrino/src/timing.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/timing.h",
+    "sha256": "956154989544f9c2edb08e395d4136958aa2dd1c5cfd4562ee00f0fcd9f0a085"
+  },
+  "experiments/jetson/neutrino/src/unmodified.c": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/unmodified.c",
+    "sha256": "9251f79317b5ab8728b672032f9a4d51bbddc80bdf1abd0dc3f1bccc380cb85b"
+  },
+  "experiments/jetson/neutrino/src/uthash.h": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/src/uthash.h",
+    "sha256": "fd700ef45c979e70d5299f9a51e13cc172ac5a1e26ad4ee30502f93a2b94a08e"
+  },
+  "experiments/jetson/neutrino/timing_report.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/timing_report.py",
+    "sha256": "f3374f6816921fd64026223e5645ce7c04c0965068454054d55a58a013b5a7ad"
+  },
+  "experiments/jetson/neutrino/tools/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "experiments/jetson/neutrino/tools/block_sched.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/block_sched.py",
+    "sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+  },
+  "experiments/jetson/neutrino/tools/block_sched_callback.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/block_sched_callback.py",
+    "sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+  },
+  "experiments/jetson/neutrino/tools/dmat.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/dmat.py",
+    "sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+  },
+  "experiments/jetson/neutrino/tools/dmat_callback.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/dmat_callback.py",
+    "sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+  },
+  "experiments/jetson/neutrino/tools/gmem_bytes.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/gmem_bytes.py",
+    "sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+  },
+  "experiments/jetson/neutrino/tools/gmem_bytes_analysis.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/gmem_bytes_analysis.py",
+    "sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+  },
+  "experiments/jetson/neutrino/tools/program_progress.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/program_progress.py",
+    "sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+  },
+  "experiments/jetson/neutrino/tools/tensorop.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/tools/tensorop.py",
+    "sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+  },
+  "experiments/jetson/neutrino/utils/__init__.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/utils/__init__.py",
+    "sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+  },
+  "experiments/jetson/neutrino/utils/tensortrace.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/utils/tensortrace.py",
+    "sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+  },
+  "experiments/jetson/neutrino/utils/trace_reading.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/utils/trace_reading.py",
+    "sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+  },
+  "experiments/jetson/neutrino/utils/verifier.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/neutrino/utils/verifier.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "experiments/jetson/pyproject.toml": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/pyproject.toml",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "experiments/jetson/setup.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/setup.py",
+    "sha256": "2c3f1aa9c3d9bd50c6bfd46ff0c3367577c419676e2b5f5dd62755b3f85467c4"
+  },
+  "experiments/jetson/tests/callback_smoke.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/callback_smoke.py",
+    "sha256": "ffeeb63ac5a49a09faea7d013c20cecd6e70880a11cac9f8309b1ff762c97cd0"
+  },
+  "experiments/jetson/tests/run_gpu_validation.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/run_gpu_validation.py",
+    "sha256": "ca87f0684d79834eeb657d53a6174fa371652af8a818a74c0026868119d8b457"
+  },
+  "experiments/jetson/tests/test_arena_ring.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_arena_ring.py",
+    "sha256": "7fdde9aa2737b630dc5ac06ab2c9bdbe915f7b328d4b4bbcd8bc71b6f489f2dd"
+  },
+  "experiments/jetson/tests/test_capture_codec.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_capture_codec.py",
+    "sha256": "430b10ef04ff8bddde0d8e8adf1bda41ca681ca7ac506ea9aa37b4d69b2a2d27"
+  },
+  "experiments/jetson/tests/test_capture_detail.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_capture_detail.py",
+    "sha256": "900dcd91ab8c2a4db72b472991ce786d13e18aa3bf7880efda0726c0c9191aa6"
+  },
+  "experiments/jetson/tests/test_compact_format.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_compact_format.py",
+    "sha256": "d2371fc819819fe9abda213da73b54490d1e7fca74988027454c8350c8f8b263"
+  },
+  "experiments/jetson/tests/test_core_capacity.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_core_capacity.py",
+    "sha256": "d1419be9d190a1de70584490fcc7fce58af370e462671fe6aa01c16f83823a47"
+  },
+  "experiments/jetson/tests/test_core_codegen.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_core_codegen.py",
+    "sha256": "da180f386617de030412be64e8195314814241a6053ea7b72cf8081ee9391a42"
+  },
+  "experiments/jetson/tests/test_core_events.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_core_events.py",
+    "sha256": "4ff34f9322e02069e7a1a26d673f4c06401a08928e1862a8ec7e98ee4ad74b09"
+  },
+  "experiments/jetson/tests/test_core_policy.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_core_policy.py",
+    "sha256": "eae630e302a3a9521d73bcf273888c03036adfcb3f6911dd5ab532de07129630"
+  },
+  "experiments/jetson/tests/test_final_trace_queries.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_final_trace_queries.py",
+    "sha256": "13ded96e6134a655dab97e5aa74b1225065b7d28b0d13096d73e293d37e45389"
+  },
+  "experiments/jetson/tests/test_gpu9_format.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_gpu9_format.py",
+    "sha256": "5d6fb9c415785c892f9487f2eaee1114d64b8db0f2e3ec1a3db199f17e5cb081"
+  },
+  "experiments/jetson/tests/test_hier_format.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_hier_format.py",
+    "sha256": "90ae9431b1e4d48b8f0b38b535cc1d73a09a732c7ee131d775a2ee6aecb7b40d"
+  },
+  "experiments/jetson/tests/test_reference_format.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_reference_format.py",
+    "sha256": "d373606953dd944e4771d6aabc7347d3677b04f0b8f48f388a2e599e8ec301ac"
+  },
+  "experiments/jetson/tests/test_timing.py": {
+    "source": "preserved/workspace/reports/neutrino-jetson-recheck-20261013/source/tests/test_timing.py",
+    "sha256": "da234410340840129de77d16012095c5b25315a31e3579c8382b1d16ca0565c8"
+  },
+  "experiments/nvbit/qwen_exact_nvbit.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_exact_nvbit.py",
+    "sha256": "c36e011f0ebb5c666c7fdd5fb2549f8cb01a0f792dd54b2721ab509371a48607"
+  },
+  "experiments/nvbit/qwen_stream.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_stream.py",
+    "sha256": "efb80ce018f299f0b4ebafae429a9aca1c6aab3221d5987d1a820bef3cd33ebc"
+  },
+  "experiments/nvbit/qwen_matrix_fair.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_matrix_fair.py",
+    "sha256": "5fb3e0ad57df597ea0b1e286fb3d0b40fd49f8cc6217ab4e400fd74e54fa1411"
+  },
+  "experiments/nvbit/qwen_final_compare.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/qwen_final_compare.py",
+    "sha256": "e5cb99f63209f3805c4cb4d8928d6a2d8cdc6be15670e0341abdc2f9aecebf88"
+  },
+  "experiments/nvbit/scope_workload.py": {
+    "source": "preserved/workspace/reviews/review1-3090-20261011/scope_workload.py",
+    "sha256": "e5241ded3ee8b51fd06f700b93c15f7e4d0b35880f80791ebedf773f9b18c603"
+  },
+  "results/document-qa/inputs/capture/r4-serial_neutrino/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-serial_neutrino/workload.json",
+    "sha256": "051667523ec390f9c6d5f5b39852c1d77813158764667274a847944091acd61c"
+  },
+  "results/document-qa/inputs/capture/r4-native_before/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-native_before/workload.json",
+    "sha256": "e08cc35943ef0dba37a8db5de897080c872965faab4674e43609d99a05327ff6"
+  },
+  "results/document-qa/inputs/capture/r1-ispa_ere/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-ispa_ere/workload.json",
+    "sha256": "5f43273821cb4cd060997984bacc0573b6d60667c5ce6d34d4aa0d0cee1a14d1"
+  },
+  "results/document-qa/inputs/capture/r3-native_before/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-native_before/workload.json",
+    "sha256": "27ccd16b721e8a5979d4c5b733f63eb958de871f59421d5d7d103b97f842e874"
+  },
+  "results/document-qa/inputs/capture/r3-serial_neutrino/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-serial_neutrino/workload.json",
+    "sha256": "a74ab1ae8efb19b5a6e9a1e75305781316f66a34d243ce105050a26d819432ad"
+  },
+  "results/document-qa/inputs/capture/r1-async_raw/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-async_raw/workload.json",
+    "sha256": "1a3c177496fadcecda8a8642398e84f108e0086076d845db97482f2cf8ebbe68"
+  },
+  "results/document-qa/inputs/capture/r1-nvcomp_cascaded/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-nvcomp_cascaded/workload.json",
+    "sha256": "8d417a41fc09d0b827bcabb933b4f7b1bdd3e7f7329599cc8af5e9e3c2cd4100"
+  },
+  "results/document-qa/inputs/capture/r2-serial_neutrino/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-serial_neutrino/workload.json",
+    "sha256": "6b5bf9789d7cfaefa5ab2382f4e15b9e1cf3fe584d65dc792458974db7964f24"
+  },
+  "results/document-qa/inputs/capture/r1-native_after/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-native_after/workload.json",
+    "sha256": "c1990b0095c7c609dd0482e1c0bcf56dece022338882de97ec26091fb3155bdc"
+  },
+  "results/document-qa/inputs/capture/r3-nvcomp_cascaded/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-nvcomp_cascaded/workload.json",
+    "sha256": "56bc5a36ea7edb366fd683e0c758b1c5eb0d66f00ae1aa534034ad7b1ab2d9cb"
+  },
+  "results/document-qa/inputs/capture/r2-native_after/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-native_after/workload.json",
+    "sha256": "e8ad79ba7b1f222c5a642e87dc96d9591b7ace21a687d71a0f9862c685d01ec4"
+  },
+  "results/document-qa/inputs/capture/r3-ispa_ere/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-ispa_ere/workload.json",
+    "sha256": "3333c6c7355802811569b11706c42672d6e79db095ce14c6f6b52524dfd2ceb5"
+  },
+  "results/document-qa/inputs/capture/r2-ispa_ere/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-ispa_ere/workload.json",
+    "sha256": "d6c9d38390660f93e8762cbf3fa5026f3dd75d81d306aa169bb6cada8e4b2c24"
+  },
+  "results/document-qa/inputs/capture/r4-native_after/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-native_after/workload.json",
+    "sha256": "58020d4bc138f6534b95fac3d8adfe45e4e3814126aa7ef645aa1bdd672ae1df"
+  },
+  "results/document-qa/inputs/capture/r3-native_after/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-native_after/workload.json",
+    "sha256": "b5aad817ec49a0a1d682db4e99fbccaa1f1f9ad24fceaabc75544d29151da4a9"
+  },
+  "results/document-qa/inputs/capture/r3-async_raw/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-async_raw/workload.json",
+    "sha256": "11602d48d3e8fadcc312cacdf4a1fe6d8ddfa13354550de8b4d27eb64f10afb2"
+  },
+  "results/document-qa/inputs/capture/r4-nvcomp_cascaded/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-nvcomp_cascaded/workload.json",
+    "sha256": "8c12ef7231d45f1e2a0aea65793a3ab9286bf8aa2d673bbc07e5ae37aee9cf4d"
+  },
+  "results/document-qa/inputs/capture/r2-native_before/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-native_before/workload.json",
+    "sha256": "acbf6b2ef6536f0d6e9fb1775f6bab592d2390e8600891186a27067a85e255cb"
+  },
+  "results/document-qa/inputs/capture/r4-ispa_ere/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-ispa_ere/workload.json",
+    "sha256": "2de5d796c1f23e68ce75fffacfc11722f30e47cd4a61b3016a45e95a5e0c2dbe"
+  },
+  "results/document-qa/inputs/capture/r4-async_raw/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-async_raw/workload.json",
+    "sha256": "2df0a331f21491fb3e294196898ed9b9ddd54828bfba5a32b2025da95a961380"
+  },
+  "results/document-qa/inputs/capture/r2-nvcomp_cascaded/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-nvcomp_cascaded/workload.json",
+    "sha256": "a8ab7815cd20d37891dd4e7f880be5b28ec60081521d39e9e8ef6ab982b2d4d4"
+  },
+  "results/document-qa/inputs/capture/r1-serial_neutrino/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-serial_neutrino/workload.json",
+    "sha256": "0df0862662f695ec04235269976501b72b051cdf7bd142f311cbba1c7c565b77"
+  },
+  "results/document-qa/inputs/capture/r2-async_raw/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-async_raw/workload.json",
+    "sha256": "79675b493beb401a0513e1f9a5abff732bdbd9a30a2e223e6997467f2443b423"
+  },
+  "results/document-qa/inputs/capture/r1-native_before/workload.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-native_before/workload.json",
+    "sha256": "457c3877bd80be4864e2000ddbc5efc731e278cc718decbf93d4779127c97e35"
+  },
+  "experiments/document-qa/make_table.py": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/make_table.py",
+    "sha256": "9dc46d71c3ddd69b88b6ff49d6d811ba2bcebe092913adaa36f4055b14d5092d"
+  },
+  "results/document-qa/phase-breakdown.json": {
+    "source": "preserved/workspace/reports/ispa-capture-breakdown-20261013/phase-breakdown.json",
+    "sha256": "abb51ed960f5365a25fa3421e15333b03c681d07c1545303f8ec385a99bf271b"
+  }
+}

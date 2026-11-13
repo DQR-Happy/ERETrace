@@ -1,0 +1,20 @@
+{
+  "scope": "primary three-model paper evaluation",
+  "source": "explicit user confirmation in this conversation",
+  "confirmed_on": "2026-10-09",
+  "gpu": {
+    "model": "NVIDIA RTX 3090",
+    "count": 1,
+    "memory_label_as_provided": "24GB"
+  },
+  "host_cpu": {
+    "allocated_vcpus": 15,
+    "model": "Intel(R) Xeon(R) Platinum 8358P CPU @ 2.60GHz",
+    "nominal_frequency_GHz": 2.6
+  },
+  "host_memory": {
+    "capacity": 90,
+    "unit_as_provided": "GB"
+  },
+  "notes": "Host allocation is distinct from the application's eight inference CPU threads. This user-confirmed supplement does not alter the frozen experiment records."
+}

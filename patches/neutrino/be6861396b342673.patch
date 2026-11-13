@@ -1,0 +1,27 @@
+--- a/neutrino/src/preload.c
++++ b/neutrino/src/preload.c
+@@ -49,6 +49,17 @@
+     // using dlsym with RTLD_NEXT we can extract GLIBC dlopen.
+     if (!real_dlopen) 
+         real_dlopen = dlsym(RTLD_NEXT, "dlopen");
++
++    // Neutrino opens the real CUDA driver during initialization. On systems
++    // whose driver soname matches NEUTRINO_DRIVER_NAME (for example Jetson's
++    // libcuda.so.1.1), that open must bypass our hook to avoid resolving the
++    // hook's symbols back to itself.
++    if (!NEUTRINO_REAL_DRIVER)
++        NEUTRINO_REAL_DRIVER = getenv("NEUTRINO_REAL_DRIVER");
++    if (filename != NULL && NEUTRINO_REAL_DRIVER != NULL &&
++        strcmp(filename, NEUTRINO_REAL_DRIVER) == 0) {
++        return real_dlopen(filename, flags);
++    }
+     
+     if (!NEUTRINO_DRIVER_NAME) {
+         NEUTRINO_DRIVER_NAME = getenv("NEUTRINO_DRIVER_NAME");
+@@ -119,4 +130,4 @@
+         }
+         return ptr;
+     }
+-}
+\ No newline at end of file
++}

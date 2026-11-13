@@ -1,0 +1,410 @@
+{
+  "neutrino/build.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/build.py",
+    "source_sha256": "cb2c4b268dfca9982a2b1d89821896d8e1e40fe3117e5ace5b7fe3fe505c4ff9"
+  },
+  "neutrino/__init__.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/__init__.py",
+    "source_sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+  },
+  "neutrino/cli.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/cli.py",
+    "source_sha256": "b0730a082d62cde61435855c5ba67f40f6dfe03c25fe11aef368356eb713c195"
+  },
+  "neutrino/common.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/common.py",
+    "source_sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+  },
+  "neutrino/timing_report.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/timing_report.py",
+    "source_sha256": "f3374f6816921fd64026223e5645ce7c04c0965068454054d55a58a013b5a7ad"
+  },
+  "neutrino/tools/tensorop.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/tensorop.py",
+    "source_sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+  },
+  "neutrino/tools/dmat_callback.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/dmat_callback.py",
+    "source_sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+  },
+  "neutrino/tools/dmat.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/dmat.py",
+    "source_sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+  },
+  "neutrino/tools/block_sched.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/block_sched.py",
+    "source_sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+  },
+  "neutrino/tools/gmem_bytes_analysis.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/gmem_bytes_analysis.py",
+    "source_sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+  },
+  "neutrino/tools/__init__.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "neutrino/tools/gmem_bytes.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/gmem_bytes.py",
+    "source_sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+  },
+  "neutrino/tools/program_progress.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/program_progress.py",
+    "source_sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+  },
+  "neutrino/tools/block_sched_callback.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/tools/block_sched_callback.py",
+    "source_sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+  },
+  "neutrino/utils/__init__.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/utils/__init__.py",
+    "source_sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+  },
+  "neutrino/utils/tensortrace.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/utils/tensortrace.py",
+    "source_sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+  },
+  "neutrino/utils/verifier.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/utils/verifier.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "neutrino/utils/trace_reading.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/utils/trace_reading.py",
+    "source_sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+  },
+  "neutrino/language/gcn.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/language/gcn.py",
+    "source_sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+  },
+  "neutrino/language/compiler.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/language/compiler.py",
+    "source_sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+  },
+  "neutrino/language/frontend.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/language/frontend.py",
+    "source_sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+  },
+  "neutrino/language/__init__.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/language/__init__.py",
+    "source_sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+  },
+  "neutrino/language/ptx.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/language/ptx.py",
+    "source_sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+  },
+  "neutrino/probe/core_policy.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/core_policy.py",
+    "source_sha256": "cb76f0b9e3536ce3c017f45f2c3fba49770cda678988ae737be4e6f662fed6ab"
+  },
+  "neutrino/probe/core_events.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/core_events.py",
+    "source_sha256": "92fc1613fcfaf8a7732d44c1f14516ed91537d738d3b9935e1ce126e02ae0381"
+  },
+  "neutrino/probe/core_capacity.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/core_capacity.py",
+    "source_sha256": "d50fb00cc937e95c7d38b59833645fa41573935c3b183466ae090a2dc0785a96"
+  },
+  "neutrino/probe/__init__.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/__init__.py",
+    "source_sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+  },
+  "neutrino/probe/reference_core.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/reference_core.py",
+    "source_sha256": "b95b1f00a0e443f9d94ad1e6787ed8ba008b8f4bdd425febfc44b5e041f7e36e"
+  },
+  "neutrino/probe/timing.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/timing.py",
+    "source_sha256": "8415363aed450ff57b989ddb4052ef00e84cfab74bfef1c7c5ed2902e4e18b64"
+  },
+  "neutrino/probe/cuda.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/cuda.py",
+    "source_sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13"
+  },
+  "neutrino/probe/core_codegen.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/core_codegen.py",
+    "source_sha256": "621b9b3f18e20b57c2f9d232d9953a41481243e2cccce16881c26e7b0869eec0"
+  },
+  "neutrino/probe/hip.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/probe/hip.py",
+    "source_sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+  },
+  "neutrino/src/hip.c": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/hip.c",
+    "source_sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+  },
+  "neutrino/src/arena_capture.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/arena_capture.h",
+    "source_sha256": "99e11577bef42c49ffd0ff96efb7f6877ca666ec640c17907331cd2b5ca13e85"
+  },
+  "neutrino/src/cuda.c": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/cuda.c",
+    "source_sha256": "df8c3896ce51ebe8b3e192e7318d45dcc77a5914fe14d9c64c9a59c08b72e100"
+  },
+  "neutrino/src/timing.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/timing.h",
+    "source_sha256": "956154989544f9c2edb08e395d4136958aa2dd1c5cfd4562ee00f0fcd9f0a085"
+  },
+  "neutrino/src/capture_codec.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/capture_codec.h",
+    "source_sha256": "06b35f74b98981ce5cc1f84ede340995f5dfff7ec1cae904a2d96e9f7a445a1f"
+  },
+  "neutrino/src/preload.c": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/preload.c",
+    "source_sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6"
+  },
+  "neutrino/src/uthash.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/uthash.h",
+    "source_sha256": "fd700ef45c979e70d5299f9a51e13cc172ac5a1e26ad4ee30502f93a2b94a08e"
+  },
+  "neutrino/src/common.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/common.h",
+    "source_sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b"
+  },
+  "neutrino/src/bulk_capture.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/bulk_capture.h",
+    "source_sha256": "9d7d9cdb830ab373de2b960c5cd5ace6bac9e4f394ee0113443a002a0b0ddd3e"
+  },
+  "neutrino/src/sha1.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/sha1.h",
+    "source_sha256": "c04a37f08c71293442f94798acd2bc2cd21fa588d97d01fd77155d1b20dd50a2"
+  },
+  "neutrino/src/capture_detail.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/capture_detail.h",
+    "source_sha256": "c244ec7ee4e1bd83ab02631afdf0d2394ffe0487850f86c2323e48c752294185"
+  },
+  "neutrino/src/legacy_capture.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/legacy_capture.h",
+    "source_sha256": "096cbaed4f6ae85cfca5d9fa6643c8849cbe468c4302282b8f8292f784ff11cb"
+  },
+  "neutrino/src/ablation.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/ablation.h",
+    "source_sha256": "65d6cf37b7ad02cac625c8fde9fba9f912934ffc5a77e4bb357468a770d8a96c"
+  },
+  "neutrino/src/parse.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/parse.py",
+    "source_sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df"
+  },
+  "neutrino/src/async_capture.h": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/neutrino/src/async_capture.h",
+    "source_sha256": "c0f618d232fb324ee5791313e098450c6888d1a0a20412272f15619524d62afc"
+  },
+  "tests/test_capture_codec.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_capture_codec.py",
+    "source_sha256": "430b10ef04ff8bddde0d8e8adf1bda41ca681ca7ac506ea9aa37b4d69b2a2d27"
+  },
+  "tests/test_timing.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_timing.py",
+    "source_sha256": "da234410340840129de77d16012095c5b25315a31e3579c8382b1d16ca0565c8"
+  },
+  "tests/test_arena_ring.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_arena_ring.py",
+    "source_sha256": "7fdde9aa2737b630dc5ac06ab2c9bdbe915f7b328d4b4bbcd8bc71b6f489f2dd"
+  },
+  "tests/test_reference_format.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_reference_format.py",
+    "source_sha256": "d373606953dd944e4771d6aabc7347d3677b04f0b8f48f388a2e599e8ec301ac"
+  },
+  "tests/callback_smoke.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/callback_smoke.py",
+    "source_sha256": "ffeeb63ac5a49a09faea7d013c20cecd6e70880a11cac9f8309b1ff762c97cd0"
+  },
+  "tests/run_gpu_validation.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/run_gpu_validation.py",
+    "source_sha256": "ca87f0684d79834eeb657d53a6174fa371652af8a818a74c0026868119d8b457"
+  },
+  "tests/test_core_policy.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_core_policy.py",
+    "source_sha256": "eae630e302a3a9521d73bcf273888c03036adfcb3f6911dd5ab532de07129630"
+  },
+  "tests/test_hier_format.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_hier_format.py",
+    "source_sha256": "90ae9431b1e4d48b8f0b38b535cc1d73a09a732c7ee131d775a2ee6aecb7b40d"
+  },
+  "tests/test_core_events.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_core_events.py",
+    "source_sha256": "4ff34f9322e02069e7a1a26d673f4c06401a08928e1862a8ec7e98ee4ad74b09"
+  },
+  "tests/test_core_capacity.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_core_capacity.py",
+    "source_sha256": "d1419be9d190a1de70584490fcc7fce58af370e462671fe6aa01c16f83823a47"
+  },
+  "tests/test_capture_detail.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_capture_detail.py",
+    "source_sha256": "900dcd91ab8c2a4db72b472991ce786d13e18aa3bf7880efda0726c0c9191aa6"
+  },
+  "tests/test_core_codegen.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_core_codegen.py",
+    "source_sha256": "da180f386617de030412be64e8195314814241a6053ea7b72cf8081ee9391a42"
+  },
+  "tests/test_compact_format.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_compact_format.py",
+    "source_sha256": "d2371fc819819fe9abda213da73b54490d1e7fca74988027454c8350c8f8b263"
+  },
+  "tests/test_gpu9_format.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/tests/test_gpu9_format.py",
+    "source_sha256": "5d6fb9c415785c892f9487f2eaee1114d64b8db0f2e3ec1a3db199f17e5cb081"
+  },
+  "benchmarks/arena_checks.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/arena_checks.py",
+    "source_sha256": "d429e9b38d81e5b2f8a30b4166f0104cd33ff002440b9781dc61004f0a0bfcd9"
+  },
+  "benchmarks/run_arena_matrix.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/run_arena_matrix.py",
+    "source_sha256": "027aaae73f924a9e986b1f9c7aff2950f49a6794a384f1ffa1d5ac591cfc049b"
+  },
+  "benchmarks/trace_codec.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/trace_codec.py",
+    "source_sha256": "d1f5dea8a2ec88d566f79d47839d5b152657336a7c4730e0e962f5ac5dcf94c9"
+  },
+  "benchmarks/capture_pack.cu": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/capture_pack.cu",
+    "source_sha256": "a06e50af86047c3508a2ea02149b47060967b8cc578b59f4054fc525794c30c9"
+  },
+  "benchmarks/capture_compact.cuh": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/capture_compact.cuh",
+    "source_sha256": "fa2f35553461b2c5463814b4fd018b0ae58e87a346d8a3d6bb5c173771281fdd"
+  },
+  "benchmarks/gpu_reference_smoke.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/gpu_reference_smoke.py",
+    "source_sha256": "ea7723c4b4c77a42db748cd6cff01a7ebe4b0f7d011c365ad072b6a4a54756a9"
+  },
+  "benchmarks/gpu_flex_smoke.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/gpu_flex_smoke.py",
+    "source_sha256": "f9f317ea0c3ea1905bc3f7a86621f143e89effadfdaf75bcfcfe85c432f911bb"
+  },
+  "benchmarks/gpu_hier_smoke.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/gpu_hier_smoke.py",
+    "source_sha256": "be08216f17ca6030369687d6f8f74a926a11db82257a9639d3337654551dc860"
+  },
+  "benchmarks/gpu_batch_delta_smoke.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/gpu_batch_delta_smoke.py",
+    "source_sha256": "1eba58e3c9a371cba367e83c0c4ec08e7ce0b29a0f3b43b22e5e4f5a0770b047"
+  },
+  "benchmarks/gpu_codec_smoke.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/gpu_codec_smoke.py",
+    "source_sha256": "1bd017cd9218a0bfd18f024990dee44593cea1e7946086f6b364c440e24f9b8d"
+  },
+  "benchmarks/core_driver.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_driver.py",
+    "source_sha256": "defd9964854e0fabda9db0f3a164b086b7576b720ce1e2a7ec85291da9784a89"
+  },
+  "benchmarks/core_capacity_experiment.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_capacity_experiment.py",
+    "source_sha256": "fab1100e4d4588cfcecc030459dab38818c42f137ec1e614964554315b38a34c"
+  },
+  "benchmarks/capacity_repeat.cpp": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/capacity_repeat.cpp",
+    "source_sha256": "42ad487c96b90f3439151f2a5fbcc5ee44a2d021d32539d99e1a36d42d0ff429"
+  },
+  "benchmarks/core_fixture.cu": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_fixture.cu",
+    "source_sha256": "cf489aae7374512dfd3f58334fbfc10f64aa06bf42d88924afd955e172e0258c"
+  },
+  "benchmarks/core_repeat.cpp": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_repeat.cpp",
+    "source_sha256": "bc7d39bcaddd65cc5e81e982c9ac1efdd440d3bde15d8ef3f7ca71b70045e875"
+  },
+  "benchmarks/core_gpu_experiment.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_gpu_experiment.py",
+    "source_sha256": "de5f4c92c88cf0f5f39ba1859e9174f8594dcec4df89e4f409ab155cbce2a6a9"
+  },
+  "benchmarks/core_event_validation.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_event_validation.py",
+    "source_sha256": "5830c952d99af1be75006260dd0aa786e698b63689cb97e44edea8973c2a3d09"
+  },
+  "benchmarks/core_3d_validation.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/core_3d_validation.py",
+    "source_sha256": "8bd07479ababdc6c58a9ea86a4f7d7478a103493712ec641c48002e423940acf"
+  },
+  "benchmarks/reference_shape_workload.cu": {
+    "source": "reports/neutrino-review-sm-only-20261009/source/benchmarks/reference_shape_workload.cu",
+    "source_sha256": "cb9732ff46f1964ad8558a4ab96eb5ec05488f60e37164568087b8f59df4194e"
+  },
+  "benchmarks/nvcomp_pipeline.cu": {
+    "source": "reports/neutrino-final-closure-20261004/source-primary/benchmarks/nvcomp_pipeline.cu",
+    "source_sha256": "8746e4bb38ef30317d0ff0fb1fe9d04e81a6abd17efbbef247dddd4a7fd57397"
+  },
+  "benchmarks/nvpipe_layout_test.cu": {
+    "source": "reports/neutrino-final-closure-20261004/source-primary/benchmarks/nvpipe_layout_test.cu",
+    "source_sha256": "cfb13fa5ffd343d225c14c18a93ad6cf1418e8a208bdeb66d7aac5d69b0d604b"
+  },
+  "benchmarks/exact_arena_workload.py": {
+    "source": "reports/neutrino-review-sm-only-20261009/runs/3090-unblocked-20261006/exact_arena_workload.py",
+    "source_sha256": "72be0ffbe3f685a5cc4bac318ad8a6d417895fc7608fd8b838166dc8abca9a9c"
+  },
+  "benchmarks/llama_adapter_extended.cpp": {
+    "source": "reports/neutrino-review-sm-only-20261009/runs/3090-unblocked-20261006/llama_adapter_extended.cpp",
+    "source_sha256": "f08f56e4022e88d49093966d8af57c2d812aa1fe35b350fbec672e99edc8e0e5"
+  },
+  "neutrino/probe/core_bounds.py": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/neutrino/probe/core_bounds.py",
+    "source_sha256": "d589463d0ba624b881e21f113a55ffd71b6fb3449d3d0eef9e455edb635cdcef"
+  },
+  "neutrino/probe/core_certified.py": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/neutrino/probe/core_certified.py",
+    "source_sha256": "12aeac76672676c68d5318d678b9f99514416fc57922954a8ade150168286feb"
+  },
+  "tests/test_core_bounds.py": {
+    "source": "neutrino/tests/test_core_bounds.py",
+    "source_sha256": "2b8e1e1464ffcbb679d632ceb103f3e7d4a739912d56797aa0449325f2085cfb"
+  },
+  "results/paper/main-results.json": {
+    "source": "paper/ISPA/data/main-results.json",
+    "source_sha256": "8b0e716a68d4049b7c18c69d8196d2ca5cdad256ce13a5169db7719efee9e05d"
+  },
+  "results/paper/main-recovery.json": {
+    "source": "paper/ISPA/data/main-recovery.json",
+    "source_sha256": "40366b4e677e1461489012a626df7728210a6c38c51751121377fed48317ea74"
+  },
+  "results/paper/main-environment.json": {
+    "source": "paper/ISPA/data/main-environment.json",
+    "source_sha256": "d199c7fbf41897629a4cc962f1547820f06387fc77a51783db626a9b1fa49154"
+  },
+  "results/paper/reference-control.json": {
+    "source": "paper/ISPA/data/reference-control.json",
+    "source_sha256": "ef0a54d1025dc17d0e668ea4649c0053dc7156311de224b4f6ec6c2ef2bcac45"
+  },
+  "results/paper/discussion-results.json": {
+    "source": "paper/ISPA/data/discussion-results.json",
+    "source_sha256": "ce6732a1fc6f08a8d386aa182b46b3be2f51af659b984b7ed4726cd132f86db1"
+  },
+  "results/paper/appendix-results.json": {
+    "source": "paper/ISPA/data/appendix-results.json",
+    "source_sha256": "dd04204f10565f94fb6a68d57a901355734eb93f2da6e4b1d31a7890b780a647"
+  },
+  "third_party/neutrino/UPSTREAM_README.md": {
+    "source": "git:open-neutrino/neutrino@4a82cd22f474c31ac2fecfa174d381a19bb3f469:README.md",
+    "source_sha256": "18ed4a193cd1d249a0a25ddd8716297eb3553d564348ae4a9af6716171ff8a72"
+  },
+  "benchmarks/run_certified_core.py": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/benchmarks/run_certified_core.py",
+    "source_sha256": "2c5729da54ed2b789111836127d053f6f7506dd7fc510702dc48368947c1d4ee"
+  },
+  "benchmarks/table4_cases.py": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/benchmarks/table4_cases.py",
+    "source_sha256": "6b5a1c5b0d6d1d1d5f3c069dbd84c7a3ca5c715371232978035a8f59a6de8e3b"
+  },
+  "benchmarks/certified_cases.py": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/benchmarks/certified_cases.py",
+    "source_sha256": "566fef98d13453ee0c952c8b6a328b0de4d0c151fa02104cb008430657112802"
+  },
+  "benchmarks/certified_compact.cu": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/benchmarks/certified_compact.cu",
+    "source_sha256": "86020cae9ec0b22bffbe1b8efb9147a5546cd1b0f9a202e0c4d650a102b05524"
+  },
+  "fixtures/ptx/rms.ptx": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/inputs/rms.ptx",
+    "source_sha256": "475d677b32a38fdf22d4a8f37feaa0a090e41aa84427faa9c3c3d226b1228448"
+  },
+  "fixtures/ptx/silu.ptx": {
+    "source": "reports/neutrino-capacity-recheck-20261007/source/inputs/silu.ptx",
+    "source_sha256": "a33e3214b84dcfaf41689a270c4178296a4650896e6090ef40ebd1860f2cc70f"
+  },
+  "third_party/neutrino/assets/workflow.png": {
+    "source": "git:open-neutrino/neutrino@4a82cd22f474c31ac2fecfa174d381a19bb3f469:assets/workflow.png",
+    "source_sha256": "b71459ab404a880977dc4f2acba0aca5acfa3df3f34607d216881dc9a83074ea"
+  },
+  "neutrino/tools/dmat.cc": {
+    "source": "git:open-neutrino/neutrino@4a82cd22f474c31ac2fecfa174d381a19bb3f469:neutrino/tools/dmat.cc",
+    "source_sha256": "3a8f28357e0dea5962a95e2f32d77e23800c93a1800b0cf904d62fa4e682389f"
+  }
+}

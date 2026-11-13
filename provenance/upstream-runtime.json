@@ -1,0 +1,482 @@
+{
+  "repository": "https://github.com/open-neutrino/neutrino.git",
+  "commit": "4a82cd22f474c31ac2fecfa174d381a19bb3f469",
+  "files": {
+    "neutrino/__init__.py": {
+      "base_path": "neutrino/__init__.py",
+      "base_sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049",
+      "sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+    },
+    "neutrino/build.py": {
+      "base_path": "neutrino/build.py",
+      "base_sha256": "9f06154fed6d81290e28525aca8e9d4af917b929113f8ed843c2bd271831e3f2",
+      "sha256": "7aba87671bcd46fff10399443f09d14868828716693683b1a4ba044014fad3eb",
+      "patch": "patches/neutrino/666043aa547f3320.patch"
+    },
+    "neutrino/cli.py": {
+      "base_path": "neutrino/cli.py",
+      "base_sha256": "c3942476ad607f127e0ec8f6ada41da1d6e30f2ffe6bbe0b174119a78c30996a",
+      "sha256": "7f8eed905ad450694275c8417d4dcf34d5ed94bc45e5e0bef2c088f0da31b5e8",
+      "patch": "patches/neutrino/2fdeb42c6a16438b.patch"
+    },
+    "neutrino/common.py": {
+      "base_path": "neutrino/common.py",
+      "base_sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f",
+      "sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+    },
+    "neutrino/language/__init__.py": {
+      "base_path": "neutrino/language/__init__.py",
+      "base_sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7",
+      "sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+    },
+    "neutrino/language/compiler.py": {
+      "base_path": "neutrino/language/compiler.py",
+      "base_sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971",
+      "sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+    },
+    "neutrino/language/frontend.py": {
+      "base_path": "neutrino/language/frontend.py",
+      "base_sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434",
+      "sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+    },
+    "neutrino/language/gcn.py": {
+      "base_path": "neutrino/language/gcn.py",
+      "base_sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17",
+      "sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+    },
+    "neutrino/language/ptx.py": {
+      "base_path": "neutrino/language/ptx.py",
+      "base_sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec",
+      "sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+    },
+    "neutrino/probe/__init__.py": {
+      "base_path": "neutrino/probe/__init__.py",
+      "base_sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f",
+      "sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+    },
+    "neutrino/probe/cuda.py": {
+      "base_path": "neutrino/probe/cuda.py",
+      "base_sha256": "aa06654e1307ca045fcc8e7c6809e740a7ee9ac3a484035db35853c76a5861fe",
+      "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13",
+      "patch": "patches/neutrino/8534496b03190a00.patch"
+    },
+    "neutrino/probe/hip.py": {
+      "base_path": "neutrino/probe/hip.py",
+      "base_sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0",
+      "sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+    },
+    "neutrino/src/common.h": {
+      "base_path": "neutrino/src/common.h",
+      "base_sha256": "4156399fdaefb1ae158ea59d173e99901e3290bf633edea261b51bdf648f805d",
+      "sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b",
+      "patch": "patches/neutrino/f73e5edfc9d2d538.patch"
+    },
+    "neutrino/src/cuda.c": {
+      "base_path": "neutrino/src/cuda.c",
+      "base_sha256": "c0107385bf1b6bbde6a46749f74ec3fc697273e3f863932081497f35361f9109",
+      "sha256": "df8c3896ce51ebe8b3e192e7318d45dcc77a5914fe14d9c64c9a59c08b72e100",
+      "patch": "patches/neutrino/459eba12685aaa02.patch"
+    },
+    "neutrino/src/hip.c": {
+      "base_path": "neutrino/src/hip.c",
+      "base_sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37",
+      "sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+    },
+    "neutrino/src/parse.py": {
+      "base_path": "neutrino/src/parse.py",
+      "base_sha256": "1741049e3ed73474b21832e50f69e78d7b28cc30e8dcaa82bb527ad6289f6a7c",
+      "sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df",
+      "patch": "patches/neutrino/74f11b05dca1eea3.patch"
+    },
+    "neutrino/src/preload.c": {
+      "base_path": "neutrino/src/preload.c",
+      "base_sha256": "aeb539726d82ab41f762a0fb4ca9950db127cb1a3a77081c8f5f53fad64127b6",
+      "sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6",
+      "patch": "patches/neutrino/be6861396b342673.patch"
+    },
+    "neutrino/tools/__init__.py": {
+      "base_path": "neutrino/tools/__init__.py",
+      "base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "neutrino/tools/block_sched.py": {
+      "base_path": "neutrino/tools/block_sched.py",
+      "base_sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70",
+      "sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+    },
+    "neutrino/tools/block_sched_callback.py": {
+      "base_path": "neutrino/tools/block_sched_callback.py",
+      "base_sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633",
+      "sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+    },
+    "neutrino/tools/dmat.cc": {
+      "base_path": "neutrino/tools/dmat.cc",
+      "base_sha256": "3a8f28357e0dea5962a95e2f32d77e23800c93a1800b0cf904d62fa4e682389f",
+      "sha256": "3a8f28357e0dea5962a95e2f32d77e23800c93a1800b0cf904d62fa4e682389f"
+    },
+    "neutrino/tools/dmat.py": {
+      "base_path": "neutrino/tools/dmat.py",
+      "base_sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd",
+      "sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+    },
+    "neutrino/tools/dmat_callback.py": {
+      "base_path": "neutrino/tools/dmat_callback.py",
+      "base_sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340",
+      "sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+    },
+    "neutrino/tools/gmem_bytes.py": {
+      "base_path": "neutrino/tools/gmem_bytes.py",
+      "base_sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff",
+      "sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+    },
+    "neutrino/tools/gmem_bytes_analysis.py": {
+      "base_path": "neutrino/tools/gmem_bytes_analysis.py",
+      "base_sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef",
+      "sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+    },
+    "neutrino/tools/program_progress.py": {
+      "base_path": "neutrino/tools/program_progress.py",
+      "base_sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a",
+      "sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+    },
+    "neutrino/tools/tensorop.py": {
+      "base_path": "neutrino/tools/tensorop.py",
+      "base_sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7",
+      "sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+    },
+    "neutrino/utils/__init__.py": {
+      "base_path": "neutrino/utils/__init__.py",
+      "base_sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735",
+      "sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+    },
+    "neutrino/utils/tensortrace.py": {
+      "base_path": "neutrino/utils/tensortrace.py",
+      "base_sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520",
+      "sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+    },
+    "neutrino/utils/trace_reading.py": {
+      "base_path": "neutrino/utils/trace_reading.py",
+      "base_sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81",
+      "sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+    },
+    "neutrino/utils/verifier.py": {
+      "base_path": "neutrino/utils/verifier.py",
+      "base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/document-qa/runtime/neutrino/__init__.py": {
+      "base_path": "neutrino/__init__.py",
+      "base_sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049",
+      "sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+    },
+    "experiments/document-qa/runtime/neutrino/build.py": {
+      "base_path": "neutrino/build.py",
+      "base_sha256": "9f06154fed6d81290e28525aca8e9d4af917b929113f8ed843c2bd271831e3f2",
+      "sha256": "cb2c4b268dfca9982a2b1d89821896d8e1e40fe3117e5ace5b7fe3fe505c4ff9",
+      "patch": "patches/neutrino/1185b96cc317a9b4.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/cli.py": {
+      "base_path": "neutrino/cli.py",
+      "base_sha256": "c3942476ad607f127e0ec8f6ada41da1d6e30f2ffe6bbe0b174119a78c30996a",
+      "sha256": "b0730a082d62cde61435855c5ba67f40f6dfe03c25fe11aef368356eb713c195",
+      "patch": "patches/neutrino/1229ab5e06e7211b.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/common.py": {
+      "base_path": "neutrino/common.py",
+      "base_sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f",
+      "sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+    },
+    "experiments/document-qa/runtime/neutrino/language/__init__.py": {
+      "base_path": "neutrino/language/__init__.py",
+      "base_sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7",
+      "sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+    },
+    "experiments/document-qa/runtime/neutrino/language/compiler.py": {
+      "base_path": "neutrino/language/compiler.py",
+      "base_sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971",
+      "sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+    },
+    "experiments/document-qa/runtime/neutrino/language/frontend.py": {
+      "base_path": "neutrino/language/frontend.py",
+      "base_sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434",
+      "sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+    },
+    "experiments/document-qa/runtime/neutrino/language/gcn.py": {
+      "base_path": "neutrino/language/gcn.py",
+      "base_sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17",
+      "sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+    },
+    "experiments/document-qa/runtime/neutrino/language/ptx.py": {
+      "base_path": "neutrino/language/ptx.py",
+      "base_sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec",
+      "sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+    },
+    "experiments/document-qa/runtime/neutrino/probe/__init__.py": {
+      "base_path": "neutrino/probe/__init__.py",
+      "base_sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f",
+      "sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+    },
+    "experiments/document-qa/runtime/neutrino/probe/cuda.py": {
+      "base_path": "neutrino/probe/cuda.py",
+      "base_sha256": "aa06654e1307ca045fcc8e7c6809e740a7ee9ac3a484035db35853c76a5861fe",
+      "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13",
+      "patch": "patches/neutrino/9096e8030597beba.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/probe/hip.py": {
+      "base_path": "neutrino/probe/hip.py",
+      "base_sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0",
+      "sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+    },
+    "experiments/document-qa/runtime/neutrino/src/common.h": {
+      "base_path": "neutrino/src/common.h",
+      "base_sha256": "4156399fdaefb1ae158ea59d173e99901e3290bf633edea261b51bdf648f805d",
+      "sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b",
+      "patch": "patches/neutrino/b09819490ea5e7a4.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/src/cuda.c": {
+      "base_path": "neutrino/src/cuda.c",
+      "base_sha256": "c0107385bf1b6bbde6a46749f74ec3fc697273e3f863932081497f35361f9109",
+      "sha256": "6613e84c80a23324f0bdc57280c48c3360e519a8695add35df279a2c6f776c55",
+      "patch": "patches/neutrino/eb486cd555023010.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/src/hip.c": {
+      "base_path": "neutrino/src/hip.c",
+      "base_sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37",
+      "sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+    },
+    "experiments/document-qa/runtime/neutrino/src/parse.py": {
+      "base_path": "neutrino/src/parse.py",
+      "base_sha256": "1741049e3ed73474b21832e50f69e78d7b28cc30e8dcaa82bb527ad6289f6a7c",
+      "sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df",
+      "patch": "patches/neutrino/ceea77f9c90c59f9.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/src/preload.c": {
+      "base_path": "neutrino/src/preload.c",
+      "base_sha256": "aeb539726d82ab41f762a0fb4ca9950db127cb1a3a77081c8f5f53fad64127b6",
+      "sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6",
+      "patch": "patches/neutrino/2d52f4ccc8871f37.patch"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/__init__.py": {
+      "base_path": "neutrino/tools/__init__.py",
+      "base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/block_sched.py": {
+      "base_path": "neutrino/tools/block_sched.py",
+      "base_sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70",
+      "sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/block_sched_callback.py": {
+      "base_path": "neutrino/tools/block_sched_callback.py",
+      "base_sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633",
+      "sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/dmat.py": {
+      "base_path": "neutrino/tools/dmat.py",
+      "base_sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd",
+      "sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/dmat_callback.py": {
+      "base_path": "neutrino/tools/dmat_callback.py",
+      "base_sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340",
+      "sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/gmem_bytes.py": {
+      "base_path": "neutrino/tools/gmem_bytes.py",
+      "base_sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff",
+      "sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/gmem_bytes_analysis.py": {
+      "base_path": "neutrino/tools/gmem_bytes_analysis.py",
+      "base_sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef",
+      "sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/program_progress.py": {
+      "base_path": "neutrino/tools/program_progress.py",
+      "base_sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a",
+      "sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+    },
+    "experiments/document-qa/runtime/neutrino/tools/tensorop.py": {
+      "base_path": "neutrino/tools/tensorop.py",
+      "base_sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7",
+      "sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+    },
+    "experiments/document-qa/runtime/neutrino/utils/__init__.py": {
+      "base_path": "neutrino/utils/__init__.py",
+      "base_sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735",
+      "sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+    },
+    "experiments/document-qa/runtime/neutrino/utils/tensortrace.py": {
+      "base_path": "neutrino/utils/tensortrace.py",
+      "base_sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520",
+      "sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+    },
+    "experiments/document-qa/runtime/neutrino/utils/trace_reading.py": {
+      "base_path": "neutrino/utils/trace_reading.py",
+      "base_sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81",
+      "sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+    },
+    "experiments/document-qa/runtime/neutrino/utils/verifier.py": {
+      "base_path": "neutrino/utils/verifier.py",
+      "base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/jetson/neutrino/__init__.py": {
+      "base_path": "neutrino/__init__.py",
+      "base_sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049",
+      "sha256": "c5542c42bd49348fbd539a1bf8302bfdb10a33c46814daf71d2b0ba89213d049"
+    },
+    "experiments/jetson/neutrino/build.py": {
+      "base_path": "neutrino/build.py",
+      "base_sha256": "9f06154fed6d81290e28525aca8e9d4af917b929113f8ed843c2bd271831e3f2",
+      "sha256": "cb2c4b268dfca9982a2b1d89821896d8e1e40fe3117e5ace5b7fe3fe505c4ff9",
+      "patch": "patches/neutrino/280b50e7b0aade5a.patch"
+    },
+    "experiments/jetson/neutrino/cli.py": {
+      "base_path": "neutrino/cli.py",
+      "base_sha256": "c3942476ad607f127e0ec8f6ada41da1d6e30f2ffe6bbe0b174119a78c30996a",
+      "sha256": "b0730a082d62cde61435855c5ba67f40f6dfe03c25fe11aef368356eb713c195",
+      "patch": "patches/neutrino/138595f95c04330b.patch"
+    },
+    "experiments/jetson/neutrino/common.py": {
+      "base_path": "neutrino/common.py",
+      "base_sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f",
+      "sha256": "74ef8f88cc7e312cb8a2c1d43c3b748dd0134e55773256a6a617b602af18dd7f"
+    },
+    "experiments/jetson/neutrino/language/__init__.py": {
+      "base_path": "neutrino/language/__init__.py",
+      "base_sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7",
+      "sha256": "ab1b6da766aceb75e767aa9b3f7acf9af06abd5dd7146e98fb612665b513c4e7"
+    },
+    "experiments/jetson/neutrino/language/compiler.py": {
+      "base_path": "neutrino/language/compiler.py",
+      "base_sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971",
+      "sha256": "2d5cf67003df1411da24e674035cf26ff99da3147e6d01ba3c938c538e7e7971"
+    },
+    "experiments/jetson/neutrino/language/frontend.py": {
+      "base_path": "neutrino/language/frontend.py",
+      "base_sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434",
+      "sha256": "46dcc1a6084f4edf66cc862d1c1927155a222bed57b470397bcce48ebdad9434"
+    },
+    "experiments/jetson/neutrino/language/gcn.py": {
+      "base_path": "neutrino/language/gcn.py",
+      "base_sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17",
+      "sha256": "45576166ec51c4d44931f45625c1ddd6e44f3c208829c2ae8147b6b268cb3b17"
+    },
+    "experiments/jetson/neutrino/language/ptx.py": {
+      "base_path": "neutrino/language/ptx.py",
+      "base_sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec",
+      "sha256": "b13dbb64c0be710a8f25316b31ed309f818bcba6c6c5779ea795a652ee906dec"
+    },
+    "experiments/jetson/neutrino/probe/__init__.py": {
+      "base_path": "neutrino/probe/__init__.py",
+      "base_sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f",
+      "sha256": "e3e73785672d2eb1cd6175c043ff42ff73120f234986852b2f20d47cad50c72f"
+    },
+    "experiments/jetson/neutrino/probe/cuda.py": {
+      "base_path": "neutrino/probe/cuda.py",
+      "base_sha256": "aa06654e1307ca045fcc8e7c6809e740a7ee9ac3a484035db35853c76a5861fe",
+      "sha256": "67526b34df42970031183f7e965ab9a3595e8afbf255c64c88b379fc2eb11f13",
+      "patch": "patches/neutrino/45c757432b642eb3.patch"
+    },
+    "experiments/jetson/neutrino/probe/hip.py": {
+      "base_path": "neutrino/probe/hip.py",
+      "base_sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0",
+      "sha256": "6d195d2c96be0f3f37d5d4a71c8f080f42bea122c847bfb454702dd540cacba0"
+    },
+    "experiments/jetson/neutrino/src/common.h": {
+      "base_path": "neutrino/src/common.h",
+      "base_sha256": "4156399fdaefb1ae158ea59d173e99901e3290bf633edea261b51bdf648f805d",
+      "sha256": "6a85d07928a9f4810c43e363b3eeada0314731538b34adec631908072afb559b",
+      "patch": "patches/neutrino/db5e56b1e3715958.patch"
+    },
+    "experiments/jetson/neutrino/src/cuda.c": {
+      "base_path": "neutrino/src/cuda.c",
+      "base_sha256": "c0107385bf1b6bbde6a46749f74ec3fc697273e3f863932081497f35361f9109",
+      "sha256": "770a6103de83362a373d94147ad04a439fd1482bacf7d2a41e13d9bf5161372e",
+      "patch": "patches/neutrino/e4ab5f33c4635a83.patch"
+    },
+    "experiments/jetson/neutrino/src/hip.c": {
+      "base_path": "neutrino/src/hip.c",
+      "base_sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37",
+      "sha256": "a5faeac303f779b3837621d03b8e525a7ee73cabd037aae6737911181bfb3f37"
+    },
+    "experiments/jetson/neutrino/src/parse.py": {
+      "base_path": "neutrino/src/parse.py",
+      "base_sha256": "1741049e3ed73474b21832e50f69e78d7b28cc30e8dcaa82bb527ad6289f6a7c",
+      "sha256": "7192c1f686964b688eb6148b3ae2b80129c56d7ef7c138050a69e84f5c4a54df",
+      "patch": "patches/neutrino/a6dddce7f6b54ced.patch"
+    },
+    "experiments/jetson/neutrino/src/preload.c": {
+      "base_path": "neutrino/src/preload.c",
+      "base_sha256": "aeb539726d82ab41f762a0fb4ca9950db127cb1a3a77081c8f5f53fad64127b6",
+      "sha256": "f9b319b631c756b7a7387721a4a7010400c3e80d5d6c5eac211c0c315168eba6",
+      "patch": "patches/neutrino/f80bcb4e821aaa93.patch"
+    },
+    "experiments/jetson/neutrino/tools/__init__.py": {
+      "base_path": "neutrino/tools/__init__.py",
+      "base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/jetson/neutrino/tools/block_sched.py": {
+      "base_path": "neutrino/tools/block_sched.py",
+      "base_sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70",
+      "sha256": "2142036d649cf66d012afe3df0ecfe676a8a1f56f28b986e606cee84035a9f70"
+    },
+    "experiments/jetson/neutrino/tools/block_sched_callback.py": {
+      "base_path": "neutrino/tools/block_sched_callback.py",
+      "base_sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633",
+      "sha256": "45c9457e64905dc7f3e8e6667a055d4931a108e6b92b5cd7aa0180ebbc124633"
+    },
+    "experiments/jetson/neutrino/tools/dmat.py": {
+      "base_path": "neutrino/tools/dmat.py",
+      "base_sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd",
+      "sha256": "ebff2149bcd61d25e92536d56612497dad6ef7a90d9791ce46d5fc54ce7123fd"
+    },
+    "experiments/jetson/neutrino/tools/dmat_callback.py": {
+      "base_path": "neutrino/tools/dmat_callback.py",
+      "base_sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340",
+      "sha256": "40101fd95cc43cbe341a60764b3172ce4e610f851c8250418985be76596d9340"
+    },
+    "experiments/jetson/neutrino/tools/gmem_bytes.py": {
+      "base_path": "neutrino/tools/gmem_bytes.py",
+      "base_sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff",
+      "sha256": "19fa5ec0493b78025a59480a516fb5d70ec74f8358cbf8eb88bdc0834b44c1ff"
+    },
+    "experiments/jetson/neutrino/tools/gmem_bytes_analysis.py": {
+      "base_path": "neutrino/tools/gmem_bytes_analysis.py",
+      "base_sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef",
+      "sha256": "652e5b30e3556477f4f82f2cebc52b16927df6d0a9b5330aec4ff53ea81cb9ef"
+    },
+    "experiments/jetson/neutrino/tools/program_progress.py": {
+      "base_path": "neutrino/tools/program_progress.py",
+      "base_sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a",
+      "sha256": "7d935cfa00d7cb801a308cebb9ec952fdbf57b48817281fbb5ba13658a31cd0a"
+    },
+    "experiments/jetson/neutrino/tools/tensorop.py": {
+      "base_path": "neutrino/tools/tensorop.py",
+      "base_sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7",
+      "sha256": "792b03b6bd867d4d67facc19bc43a27235a22c7747199c7e4385f4ce9b371bf7"
+    },
+    "experiments/jetson/neutrino/utils/__init__.py": {
+      "base_path": "neutrino/utils/__init__.py",
+      "base_sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735",
+      "sha256": "176b785a2c0ecf09d0b1cd778bd43a81a7b706ff6943f99119784b938b261735"
+    },
+    "experiments/jetson/neutrino/utils/tensortrace.py": {
+      "base_path": "neutrino/utils/tensortrace.py",
+      "base_sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520",
+      "sha256": "ba24bd6948754152fe394773d0a434c86bde63321703065e57b75e74e2b01520"
+    },
+    "experiments/jetson/neutrino/utils/trace_reading.py": {
+      "base_path": "neutrino/utils/trace_reading.py",
+      "base_sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81",
+      "sha256": "8d77bb5825036ad434b86a33caf4abdcee88a8d48367157731158c9b5fd11c81"
+    },
+    "experiments/jetson/neutrino/utils/verifier.py": {
+      "base_path": "neutrino/utils/verifier.py",
+      "base_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

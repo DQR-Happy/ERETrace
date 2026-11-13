@@ -1,0 +1,1419 @@
+{
+  "scope": "October 9 matched Qwen3-8B 256/64, B1, context4096 controls; separate from historical primary figure.",
+  "primary_greedy": {
+    "rounds": 4,
+    "processes": 12,
+    "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+    "conditions": {
+      "N": {
+        "mean_ms": 559.3222035833334,
+        "min_ms": 557.637764,
+        "max_ms": 560.5832846666667,
+        "file_GB_per_request": 0.0,
+        "frames_per_request": 0.0
+      },
+      "CTA12": {
+        "mean_ms": 607.5572541666667,
+        "min_ms": 604.7552133333334,
+        "max_ms": 610.995953,
+        "file_GB_per_request": 1.303453314,
+        "frames_per_request": 44548.0,
+        "captured_calls_per_request": 44548.0,
+        "logical_raw_bytes_per_request": 4739153152.0,
+        "transfer_bytes_per_request": 1300900784.0,
+        "fallback_maps_per_request": 4.5,
+        "extra_raw_d2h_bytes_per_request": 94464.0,
+        "escape_reasons": {
+          "1": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "2": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "4": {
+            "maps_per_request": 4.5,
+            "raw_bytes_per_request": 94464.0
+          },
+          "8": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "16": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          }
+        }
+      },
+      "SM24": {
+        "mean_ms": 649.8893328333334,
+        "min_ms": 643.8237713333333,
+        "max_ms": 653.8920893333334,
+        "file_GB_per_request": 1.8530176386666666,
+        "frames_per_request": 44548.0,
+        "captured_calls_per_request": 44548.0,
+        "logical_raw_bytes_per_request": 4739153152.0,
+        "transfer_bytes_per_request": 1850518336.0,
+        "fallback_maps_per_request": 0.41666666666666663,
+        "extra_raw_d2h_bytes_per_request": 8746.666666666666,
+        "escape_reasons": {
+          "1": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "2": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "4": {
+            "maps_per_request": 0.41666666666666663,
+            "raw_bytes_per_request": 8746.666666666666
+          },
+          "8": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "16": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          }
+        }
+      }
+    },
+    "comparisons": {
+      "SM24-CTA12": {
+        "paired_mean_delta_ms": 42.33207866666666,
+        "paired_delta_range_ms": [
+          36.724574666666626,
+          46.51343566666674
+        ],
+        "bootstrap_mean_interval_ms": [
+          38.604292166666625,
+          45.37844016666668
+        ],
+        "relative_latency_change": 0.06967586737933017,
+        "file_byte_change": 0.4216217940174469
+      }
+    },
+    "by_round": {
+      "1": {
+        "CTA12": {
+          "ms_per_request": 604.7552133333334,
+          "file_bytes_per_request": 1303451061.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 4.333333333333333,
+          "extra_raw_d2h_bytes_per_request": 90965.33333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 4.333333333333333,
+              "raw_bytes_per_request": 90965.33333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "N": {
+          "ms_per_request": 557.637764,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53"
+        },
+        "SM24": {
+          "ms_per_request": 648.998658,
+          "file_bytes_per_request": 1853016717.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.3333333333333333,
+          "extra_raw_d2h_bytes_per_request": 6997.333333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.3333333333333333,
+              "raw_bytes_per_request": 6997.333333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      },
+      "2": {
+        "N": {
+          "ms_per_request": 559.062706,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53"
+        },
+        "SM24": {
+          "ms_per_request": 643.8237713333333,
+          "file_bytes_per_request": 1853016717.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.3333333333333333,
+          "extra_raw_d2h_bytes_per_request": 6997.333333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.3333333333333333,
+              "raw_bytes_per_request": 6997.333333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "CTA12": {
+          "ms_per_request": 607.0991966666667,
+          "file_bytes_per_request": 1303455566.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 4.666666666666667,
+          "extra_raw_d2h_bytes_per_request": 97962.66666666667,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 4.666666666666667,
+              "raw_bytes_per_request": 97962.66666666667
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      },
+      "3": {
+        "SM24": {
+          "ms_per_request": 653.8920893333334,
+          "file_bytes_per_request": 1853020402.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.6666666666666666,
+          "extra_raw_d2h_bytes_per_request": 13994.666666666666,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.6666666666666666,
+              "raw_bytes_per_request": 13994.666666666666
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "CTA12": {
+          "ms_per_request": 607.3786536666667,
+          "file_bytes_per_request": 1303451061.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 4.333333333333333,
+          "extra_raw_d2h_bytes_per_request": 90965.33333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 4.333333333333333,
+              "raw_bytes_per_request": 90965.33333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "N": {
+          "ms_per_request": 560.0050596666666,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53"
+        }
+      },
+      "4": {
+        "CTA12": {
+          "ms_per_request": 610.995953,
+          "file_bytes_per_request": 1303455566.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 4.666666666666667,
+          "extra_raw_d2h_bytes_per_request": 97962.66666666667,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 4.666666666666667,
+              "raw_bytes_per_request": 97962.66666666667
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "N": {
+          "ms_per_request": 560.5832846666667,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53"
+        },
+        "SM24": {
+          "ms_per_request": 652.8428126666666,
+          "file_bytes_per_request": 1853016717.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "fee54d990cb0fd073f4cfe788a10c5748eecd32dccca787651e71495e9f1fa53",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.3333333333333333,
+          "extra_raw_d2h_bytes_per_request": 6997.333333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.3333333333333333,
+              "raw_bytes_per_request": 6997.333333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "fixed_input_confirmation": {
+    "rounds": 5,
+    "processes": 15,
+    "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+    "conditions": {
+      "N": {
+        "mean_ms": 559.6165062666666,
+        "min_ms": 557.725907,
+        "max_ms": 562.58023,
+        "file_GB_per_request": 0.0,
+        "frames_per_request": 0.0
+      },
+      "CTA12": {
+        "mean_ms": 607.0914098666666,
+        "min_ms": 606.5444263333334,
+        "max_ms": 607.9802586666667,
+        "file_GB_per_request": 1.3034546656,
+        "frames_per_request": 44548.0,
+        "captured_calls_per_request": 44548.0,
+        "logical_raw_bytes_per_request": 4739153152.0,
+        "transfer_bytes_per_request": 1300900784.0,
+        "fallback_maps_per_request": 4.6,
+        "extra_raw_d2h_bytes_per_request": 96563.2,
+        "escape_reasons": {
+          "1": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "2": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "4": {
+            "maps_per_request": 4.6,
+            "raw_bytes_per_request": 96563.2
+          },
+          "8": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "16": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          }
+        }
+      },
+      "SM24": {
+        "mean_ms": 648.3233684666667,
+        "min_ms": 614.7907663333333,
+        "max_ms": 745.598705,
+        "file_GB_per_request": 1.8530319248,
+        "frames_per_request": 44548.0,
+        "captured_calls_per_request": 44548.0,
+        "logical_raw_bytes_per_request": 4739153152.0,
+        "transfer_bytes_per_request": 1850518336.0,
+        "fallback_maps_per_request": 0.8,
+        "extra_raw_d2h_bytes_per_request": 32870.40000000001,
+        "escape_reasons": {
+          "1": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "2": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "4": {
+            "maps_per_request": 0.8,
+            "raw_bytes_per_request": 32870.40000000001
+          },
+          "8": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          },
+          "16": {
+            "maps_per_request": 0.0,
+            "raw_bytes_per_request": 0.0
+          }
+        }
+      }
+    },
+    "comparisons": {
+      "SM24-CTA12": {
+        "paired_mean_delta_ms": 41.231958599999984,
+        "paired_delta_range_ms": [
+          6.810507666666581,
+          139.03723933333333
+        ],
+        "bootstrap_mean_interval_ms": [
+          9.718035933333294,
+          92.14302633333332
+        ],
+        "relative_latency_change": 0.06791721630364629,
+        "file_byte_change": 0.4216312800929072
+      }
+    },
+    "by_round": {
+      "1": {
+        "CTA12": {
+          "ms_per_request": 607.047475,
+          "file_bytes_per_request": 1303464577.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 5.333333333333333,
+          "extra_raw_d2h_bytes_per_request": 111957.33333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 5.333333333333333,
+              "raw_bytes_per_request": 111957.33333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "N": {
+          "ms_per_request": 558.431339,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02"
+        },
+        "SM24": {
+          "ms_per_request": 643.840381,
+          "file_bytes_per_request": 1853020402.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.6666666666666666,
+          "extra_raw_d2h_bytes_per_request": 13994.666666666666,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.6666666666666666,
+              "raw_bytes_per_request": 13994.666666666666
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      },
+      "2": {
+        "N": {
+          "ms_per_request": 557.725907,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02"
+        },
+        "SM24": {
+          "ms_per_request": 745.598705,
+          "file_bytes_per_request": 1853024088.0,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 1.0,
+          "extra_raw_d2h_bytes_per_request": 20992.0,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 1.0,
+              "raw_bytes_per_request": 20992.0
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "CTA12": {
+          "ms_per_request": 606.5614656666667,
+          "file_bytes_per_request": 1303451061.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 4.333333333333333,
+          "extra_raw_d2h_bytes_per_request": 90965.33333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 4.333333333333333,
+              "raw_bytes_per_request": 90965.33333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      },
+      "3": {
+        "SM24": {
+          "ms_per_request": 617.9944506666667,
+          "file_bytes_per_request": 1853027773.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 1.3333333333333333,
+          "extra_raw_d2h_bytes_per_request": 27989.333333333332,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 1.3333333333333333,
+              "raw_bytes_per_request": 27989.333333333332
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "CTA12": {
+          "ms_per_request": 606.5444263333334,
+          "file_bytes_per_request": 1303460072.0,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 5.0,
+          "extra_raw_d2h_bytes_per_request": 104960.0,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 5.0,
+              "raw_bytes_per_request": 104960.0
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "N": {
+          "ms_per_request": 562.58023,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02"
+        }
+      },
+      "4": {
+        "CTA12": {
+          "ms_per_request": 607.9802586666667,
+          "file_bytes_per_request": 1303442050.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 3.6666666666666665,
+          "extra_raw_d2h_bytes_per_request": 76970.66666666667,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 3.6666666666666665,
+              "raw_bytes_per_request": 76970.66666666667
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "N": {
+          "ms_per_request": 559.5235873333334,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02"
+        },
+        "SM24": {
+          "ms_per_request": 614.7907663333333,
+          "file_bytes_per_request": 1853070642.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.6666666666666666,
+          "extra_raw_d2h_bytes_per_request": 94378.66666666667,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.6666666666666666,
+              "raw_bytes_per_request": 94378.66666666667
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      },
+      "5": {
+        "N": {
+          "ms_per_request": 559.821468,
+          "file_bytes_per_request": 0.0,
+          "frames_per_request": 0.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02"
+        },
+        "SM24": {
+          "ms_per_request": 619.3925393333334,
+          "file_bytes_per_request": 1853016717.3333333,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1850518336.0,
+          "fallback_maps_per_request": 0.3333333333333333,
+          "extra_raw_d2h_bytes_per_request": 6997.333333333333,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 0.3333333333333333,
+              "raw_bytes_per_request": 6997.333333333333
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        },
+        "CTA12": {
+          "ms_per_request": 607.3234236666667,
+          "file_bytes_per_request": 1303455566.6666667,
+          "frames_per_request": 44548.0,
+          "digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+          "captured_calls_per_request": 44548.0,
+          "logical_raw_bytes_per_request": 4739153152.0,
+          "transfer_bytes_per_request": 1300900784.0,
+          "fallback_maps_per_request": 4.666666666666667,
+          "extra_raw_d2h_bytes_per_request": 97962.66666666667,
+          "escape_reasons": {
+            "1": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "2": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "4": {
+              "maps_per_request": 4.666666666666667,
+              "raw_bytes_per_request": 97962.66666666667
+            },
+            "8": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            },
+            "16": {
+              "maps_per_request": 0.0,
+              "raw_bytes_per_request": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "fixed_input_width_sweep": {
+    "rounds": {
+      "1": {
+        "SM16": {
+          "latency_ms": 1930.7671766666667,
+          "file_bytes": 3678982525.3333335,
+          "fallback_maps": 4674.0,
+          "fallback_raw_bytes": 3094492842.6666665,
+          "nominal_d2h_bytes": 1558671136.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 4673.333333333333,
+            "4": 0.6666666666666666,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "SM32": {
+          "latency_ms": 822.695065,
+          "file_bytes": 2144863480.0,
+          "fallback_maps": 0.3333333333333333,
+          "fallback_raw_bytes": 6997.333333333333,
+          "nominal_d2h_bytes": 2142365536.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.3333333333333333,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "SM24": {
+          "latency_ms": 744.4345976666667,
+          "file_bytes": 1853013032.0,
+          "fallback_maps": 0.0,
+          "fallback_raw_bytes": 0.0,
+          "nominal_d2h_bytes": 1850518336.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.0,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "CTA12": {
+          "latency_ms": 638.1472133333333,
+          "file_bytes": 1303460072.0,
+          "fallback_maps": 5.0,
+          "fallback_raw_bytes": 104960.0,
+          "nominal_d2h_bytes": 1300900784.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 5.0,
+            "8": 0.0,
+            "16": 0.0
+          }
+        }
+      },
+      "2": {
+        "SM32": {
+          "latency_ms": 850.880968,
+          "file_bytes": 2144863480.0,
+          "fallback_maps": 0.3333333333333333,
+          "fallback_raw_bytes": 6997.333333333333,
+          "nominal_d2h_bytes": 2142365536.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.3333333333333333,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "SM24": {
+          "latency_ms": 759.6727416666666,
+          "file_bytes": 1853013032.0,
+          "fallback_maps": 0.0,
+          "fallback_raw_bytes": 0.0,
+          "nominal_d2h_bytes": 1850518336.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.0,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "CTA12": {
+          "latency_ms": 642.665296,
+          "file_bytes": 1303451061.3333333,
+          "fallback_maps": 4.333333333333333,
+          "fallback_raw_bytes": 90965.33333333333,
+          "nominal_d2h_bytes": 1300900784.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 4.333333333333333,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "SM16": {
+          "latency_ms": 1864.2760003333333,
+          "file_bytes": 3678888978.6666665,
+          "fallback_maps": 4673.333333333333,
+          "fallback_raw_bytes": 3094354773.3333335,
+          "nominal_d2h_bytes": 1558671136.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 4673.0,
+            "4": 0.3333333333333333,
+            "8": 0.0,
+            "16": 0.0
+          }
+        }
+      },
+      "3": {
+        "SM24": {
+          "latency_ms": 740.334718,
+          "file_bytes": 1853013032.0,
+          "fallback_maps": 0.0,
+          "fallback_raw_bytes": 0.0,
+          "nominal_d2h_bytes": 1850518336.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.0,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "CTA12": {
+          "latency_ms": 607.5897393333333,
+          "file_bytes": 1303460072.0,
+          "fallback_maps": 5.0,
+          "fallback_raw_bytes": 104960.0,
+          "nominal_d2h_bytes": 1300900784.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 5.0,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "SM16": {
+          "latency_ms": 1808.9185816666666,
+          "file_bytes": 3678897224.0,
+          "fallback_maps": 4674.0,
+          "fallback_raw_bytes": 3094368768.0,
+          "nominal_d2h_bytes": 1558671136.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 4673.0,
+            "4": 1.0,
+            "8": 0.0,
+            "16": 0.0
+          }
+        },
+        "SM32": {
+          "latency_ms": 760.124735,
+          "file_bytes": 2144866728.0,
+          "fallback_maps": 0.6666666666666666,
+          "fallback_raw_bytes": 13994.666666666666,
+          "nominal_d2h_bytes": 2142365536.0,
+          "escape_reasons": {
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.6666666666666666,
+            "8": 0.0,
+            "16": 0.0
+          }
+        }
+      }
+    },
+    "common_digest": "3d52d1df5409d7bb96f757ae1c34e6062675005bb1c4e41df1da528bb1c06c02",
+    "conditions": {
+      "CTA12": {
+        "latency_ms": 629.4674162222223,
+        "file_bytes": 1303457068.4444444,
+        "fallback_maps": 4.777777777777778,
+        "fallback_raw_bytes": 100295.11111111111,
+        "nominal_d2h_bytes": 1300900784.0,
+        "escape_reasons": {
+          "1": 0.0,
+          "2": 0.0,
+          "4": 4.777777777777778,
+          "8": 0.0,
+          "16": 0.0
+        }
+      },
+      "SM16": {
+        "latency_ms": 1867.9872528888889,
+        "file_bytes": 3678922909.3333335,
+        "fallback_maps": 4673.777777777777,
+        "fallback_raw_bytes": 3094405461.3333335,
+        "nominal_d2h_bytes": 1558671136.0,
+        "escape_reasons": {
+          "1": 0.0,
+          "2": 4673.11111111111,
+          "4": 0.6666666666666666,
+          "8": 0.0,
+          "16": 0.0
+        }
+      },
+      "SM24": {
+        "latency_ms": 748.1473524444444,
+        "file_bytes": 1853013032.0,
+        "fallback_maps": 0.0,
+        "fallback_raw_bytes": 0.0,
+        "nominal_d2h_bytes": 1850518336.0,
+        "escape_reasons": {
+          "1": 0.0,
+          "2": 0.0,
+          "4": 0.0,
+          "8": 0.0,
+          "16": 0.0
+        }
+      },
+      "SM32": {
+        "latency_ms": 811.2335893333334,
+        "file_bytes": 2144864562.6666667,
+        "fallback_maps": 0.4444444444444444,
+        "fallback_raw_bytes": 9329.777777777777,
+        "nominal_d2h_bytes": 2142365536.0,
+        "escape_reasons": {
+          "1": 0.0,
+          "2": 0.0,
+          "4": 0.4444444444444444,
+          "8": 0.0,
+          "16": 0.0
+        }
+      }
+    },
+    "comparisons": {
+      "SM16": {
+        "paired_mean_delta_ms": 1238.5198366666666,
+        "paired_delta_range_ms": [
+          1201.3288423333333,
+          1292.6199633333335
+        ],
+        "relative_latency_change": 1.9675678275766846,
+        "relative_file_change": 1.822435044771968
+      },
+      "SM24": {
+        "paired_mean_delta_ms": 118.67993622222222,
+        "paired_delta_range_ms": [
+          106.28738433333342,
+          132.7449786666666
+        ],
+        "relative_latency_change": 0.18854023760989144,
+        "relative_file_change": 0.4216141650230183
+      },
+      "SM32": {
+        "paired_mean_delta_ms": 181.76617311111113,
+        "paired_delta_range_ms": [
+          152.53499566666665,
+          208.21567200000004
+        ],
+        "relative_latency_change": 0.2887618460094237,
+        "relative_file_change": 0.6455199136143122
+      }
+    }
+  },
+  "sm24_same_map_oracle": {
+    "schema_version": 1,
+    "arena_engines": [
+      {
+        "host_capacity_bytes": 134217728,
+        "device_capacity_bytes": 134217732,
+        "segment_bytes": 67108864,
+        "max_frames": 64,
+        "decoupled": 0,
+        "diagnostic": 0,
+        "omit_anchor_locals": 0,
+        "hotpath_mode": 3,
+        "argument_ns": 0,
+        "attribute_calls": 21,
+        "attribute_skips": 44527,
+        "argument_heap_calls": 0,
+        "nv_metadata_bytes": 0,
+        "nv_payload_ns": 0,
+        "nv_validation_ns": 0,
+        "forced_fallbacks": 0,
+        "checked_notifications": 0,
+        "check_first_ns": 0,
+        "fallback_host_peak": 0,
+        "mmap_setup_ns": 0,
+        "mmap_copy_ns": 0,
+        "mmap_unmap_ns": 0,
+        "mmap_calls": 0,
+        "mmap_bytes": 0,
+        "debt_bytes": 6101328,
+        "debt_segments": 2,
+        "debt_requests": 1,
+        "delta_initializers": 789,
+        "delta_fallbacks": 0,
+        "fallback_copy_bytes": 0,
+        "encoder_frames": 14456,
+        "descriptor_bytes": 462592,
+        "writer_syscalls": 792,
+        "writer_prepare_ns": 0,
+        "writer_output_ns": 0,
+        "flush_bytes": 0,
+        "flush_age": 0,
+        "calls": 44548,
+        "payload": 4739153152,
+        "copy_payload": 1850518336,
+        "transfer_bytes": 1850518336,
+        "storage_bytes": 1853013032,
+        "batches": 792,
+        "encoders": 789,
+        "copies": 792,
+        "ready_records": 792,
+        "done_records": 792,
+        "stream_waits": 792,
+        "queries": 0,
+        "device_syncs": 0,
+        "worker_syncs": 792,
+        "host_waits": 0,
+        "device_waits": 0,
+        "descriptor_waits": 0,
+        "host_wait_ns": 0,
+        "device_wait_ns": 0,
+        "prepare_ns": 0,
+        "model_ns": 0,
+        "clear_ns": 0,
+        "encode_enqueue_ns": 0,
+        "copy_enqueue_ns": 0,
+        "flush_ns": 0,
+        "worker_wait_ns": 0,
+        "worker_write_ns": 0,
+        "worker_cpu_ns": 0,
+        "drain_ns": 0,
+        "verified_frames": 14456,
+        "peak_host": 10402736,
+        "peak_raw": 27525120,
+        "peak_out": 10568160,
+        "peak_segments": 4,
+        "peak_frames": 135,
+        "flush_full": 0,
+        "flush_count": 623,
+        "flush_stream": 0,
+        "flush_token": 59,
+        "flush_boundary": 1,
+        "template_hits": 0,
+        "template_invalidations": 0,
+        "template_builds": 0,
+        "reserved_raw_bytes": 4669555200,
+        "reserved_out_bytes": 1850518336,
+        "trimmed_raw_bytes": 0,
+        "trimmed_out_bytes": 0,
+        "incremental_extensions": 43756,
+        "flush_pressure": 109,
+        "write_size_buckets": [
+          {
+            "frames": 0,
+            "bytes": 0,
+            "ns": 0
+          },
+          {
+            "frames": 0,
+            "bytes": 0,
+            "ns": 0
+          },
+          {
+            "frames": 0,
+            "bytes": 0,
+            "ns": 0
+          }
+        ],
+        "condition_wait_owners": [],
+        "delta_codec": 1,
+        "delta_scratch_bytes": 65536,
+        "delta_width": 3,
+        "elapsed_width": 2,
+        "flex_codec": 1,
+        "reference_codec": 0,
+        "tile_records": 0,
+        "local_bits": 16,
+        "codec_min_bytes": 16384,
+        "escape_reasons": [
+          {
+            "flag": 1,
+            "frames": 0,
+            "raw_bytes": 0
+          },
+          {
+            "flag": 2,
+            "frames": 0,
+            "raw_bytes": 0
+          },
+          {
+            "flag": 4,
+            "frames": 0,
+            "raw_bytes": 0
+          },
+          {
+            "flag": 8,
+            "frames": 0,
+            "raw_bytes": 0
+          },
+          {
+            "flag": 16,
+            "frames": 0,
+            "raw_bytes": 0
+          }
+        ],
+        "nvcomp_mode": 0,
+        "nvcomp_chunk": 65536,
+        "nvcomp_device_workspace": 0,
+        "nvcomp_host_workspace": 0,
+        "nvcomp_slots": 0,
+        "descriptor_host_bytes": 1048576,
+        "descriptor_device_bytes": 1048576,
+        "batch_encoder": 1,
+        "writer_mode": 1,
+        "stdio_bytes": 1048576,
+        "metadata_capacity_bytes": 3772616,
+        "published_total": 792,
+        "consumed_total": 792,
+        "retired_total": 792,
+        "outstanding_bytes": 0
+      }
+    ]
+  },
+  "environment": {
+    "hostname": "autodl-container-db94499d91-0adad38a",
+    "os": "Linux-5.15.0-136-generic-x86_64-with-glibc2.35",
+    "cpu_model": "Model name:                           Intel(R) Xeon(R) Platinum 8358P CPU @ 2.60GHz",
+    "memory": "Mem:           755Gi        35Gi        84Gi        77Mi       635Gi       715Gi",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 570.124.04",
+    "cuda_compiler": "Build cuda_12.4.r12.4/compiler.34097967_0",
+    "llama_source_commit_file": "81ff93ea1d48c0482508d30e75b814df99c25bf0",
+    "llama_source_has_git": false,
+    "files": {
+      "model": {
+        "path": "experiment://neutrino-review-sm-only-20261009/models-official/Qwen3-8B-Q4_K_M.gguf",
+        "bytes": 5027783488,
+        "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+      },
+      "adapter": {
+        "path": "experiment://neutrino-review-sm-only-20261009/runs/3090-unblocked-20261006/build/libqwen_extended.so",
+        "bytes": 26048,
+        "sha256": "df707bdff29ea1d6bd506990309106729400972cc958a765534237b089c9182e"
+      },
+      "libllama": {
+        "path": "experiment://neutrino-review-sm-only-20261009/llama-jetson-build/bin/libllama.so.0.5.0",
+        "bytes": 4742488,
+        "sha256": "8293e63c2c1b6abe0947592d05a253c118c580220ee56c5db64ea645ebdb42fb"
+      },
+      "libggml_cuda": {
+        "path": "experiment://neutrino-review-sm-only-20261009/llama-jetson-build/bin/libggml-cuda.so.0",
+        "bytes": 209869488,
+        "sha256": "30c42715f93d04155ede1350f74c82aa28a524d10f001d7bbac0927a4fb97678"
+      },
+      "hook": {
+        "path": "experiment://neutrino-review-sm-only-20261009/source/neutrino/build/libcuda.so.1",
+        "bytes": 518136,
+        "sha256": "6cd137beb3485726a6250d94cdfc50c6cf1245b7f7036220a6d51122360beb1f"
+      },
+      "cuda_source": {
+        "path": "experiment://neutrino-review-sm-only-20261009/source/neutrino/src/cuda.c",
+        "bytes": 54921,
+        "sha256": "df8c3896ce51ebe8b3e192e7318d45dcc77a5914fe14d9c64c9a59c08b72e100"
+      },
+      "arena_source": {
+        "path": "experiment://neutrino-review-sm-only-20261009/source/neutrino/src/arena_capture.h",
+        "bytes": 42203,
+        "sha256": "99e11577bef42c49ffd0ff96efb7f6877ca666ec640c17907331cd2b5ca13e85"
+      },
+      "ablation_source": {
+        "path": "experiment://neutrino-review-sm-only-20261009/source/neutrino/src/ablation.h",
+        "bytes": 18126,
+        "sha256": "65d6cf37b7ad02cac625c8fde9fba9f912934ffc5a77e4bb357468a770d8a96c"
+      },
+      "encoder": {
+        "path": "experiment://neutrino-review-sm-only-20261009/source/benchmarks/capture_pack.cubin",
+        "bytes": 67304,
+        "sha256": "b2ddbe0bf2b77d4a3dcd18f305762ecf9dafbb4013681f5e87cd76fdf937365d"
+      },
+      "workload": {
+        "path": "experiment://neutrino-review-sm-only-20261009/runs/3090-unblocked-20261006/exact_arena_workload.py",
+        "bytes": 13029,
+        "sha256": "72be0ffbe3f685a5cc4bac318ad8a6d417895fc7608fd8b838166dc8abca9a9c"
+      },
+      "fixed_workload": {
+        "path": "experiment://neutrino-review-sm-only-20261009/runs/3090-unblocked-20261006/fixed_decode_workload.py",
+        "bytes": 13190,
+        "sha256": "6b1c52cef0920fbc6d25b24f63c84f01a85bc07e3aee4d3f34065b708750140a"
+      }
+    }
+  },
+  "display": {
+    "latency_reduction_pct_vs_sm24": 6.513736497583489,
+    "file_reduction_pct_vs_sm24": 29.657803206995048,
+    "file_saving_MB": 549.5643246666666,
+    "additional_recovery_KB": 85.71733333333333
+  },
+  "sources_sha256": {
+    "reports/neutrino-review-sm-only-20261009/analysis-matched-primary-runs.json": "c742c7de5aefc50cc4e551f60407646a5f2e06c81e59250d658d9982531f9801",
+    "reports/neutrino-review-sm-only-20261009/analysis-matched-fixed-runs.json": "c27ce68f6ed3c892979d16e45226944886b899525cfb0c7b751fe3b10567cbb2",
+    "reports/neutrino-review-sm-only-20261009/analysis-matched-widths-runs.json": "b6775c3bc50677ea013abe4052a629215a55e84906985a6972db1a783ffc4a4f",
+    "reports/neutrino-review-sm-only-20261009/provenance.json": "75608813c9ae1a511dd00fb9c8d64991095d886bf3f5faf134d1b59228bb134d",
+    "reports/neutrino-review-sm-only-20261009/verified-sm24-runs/r1-SM24/capture-summary.json": "031b072aa08c101dc7524dc31b16aa3014caad97678d57fca668f43631699fb3",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/runs.json": "44b443fc0dc4183704ecda2616bc39552acc7b454b034a30a3964d5aa588e334",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/config.json": "72ab66c6d4ccc3fd9b0db6d759c5f27f7b08767419e4c2f31286bfe1d9d9e03d",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r1-CTA12/capture-summary.json": "4a2e4629f2d1b778aceb19186f0f49d507cf50396da43c23938814bc626a3c36",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r1-SM24/capture-summary.json": "51a5c06123b9f1aaff1c71c34746ef3396fa7171ccc273da9491c074527d3f0d",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r2-CTA12/capture-summary.json": "aa0163ee47b432648168c6d54a2ee07a705e508ecab364ad4e447c1bb7f928c5",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r2-SM24/capture-summary.json": "f8263015e87fe3a09e1a4d44e1dc9ccb221e73ca33bf4d3e412f88e87fb34da4",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r3-CTA12/capture-summary.json": "4a84c0b1bb90fc4fac8c1baa4d7048b397785423a172052b11efbaa3cd81df62",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r3-SM24/capture-summary.json": "ff05aaf7a4858abdb86c64f8ab9ea8ca5f266ae24f633c24bdfb29d76423ee82",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r4-CTA12/capture-summary.json": "8aabf9d186f988aba0bdd70956f57281fde046781f5f5e5859f61da6cd723764",
+    "reports/neutrino-review-sm-only-20261009/matched-primary-runs/r4-SM24/capture-summary.json": "7d471fe39a852212523a8a91e07ad383ece48139425f4ee63332f3e78259bd27",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/runs.json": "2646149cd9a89b5a390d99affc7105b863e2de1d6920e9bdd32bfc07ded3abae",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/config.json": "c595d939644eec9ec0f5d0ac5fefa1589e432ca3171e9ea99032315565116250",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r1-CTA12/capture-summary.json": "00e19470d06a11dab71eebf4e15b94a9f40d94fc39a86baaa6f52854f547b599",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r1-SM24/capture-summary.json": "1c995ab8ecc5b2a60c45a75123f49d0f7fbbf93bac8904111e41079ad70001c8",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r2-CTA12/capture-summary.json": "1b9fcda7a01fe4ef376cfeb69b75f209a1ecf9cf05d1442b82cb52c0b6050536",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r2-SM24/capture-summary.json": "792031b2e40362e005c67e2cbcc6ac14356ee3c7b30930d10a4e710201242101",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r3-CTA12/capture-summary.json": "94e52252c61c41ac2fc4e4d5a58d4f05523e72c2ff0970d8d9988730f6ccb5be",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r3-SM24/capture-summary.json": "d56d3e6a32fd0c0a0974de32daf36f75dd7db34c75d43e916f2bf2c068f295fc",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r4-CTA12/capture-summary.json": "c44e1a2da5e9d0bbd8a6432677e3d0a3f92410bce20c203676f6c39d0fa962a0",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r4-SM24/capture-summary.json": "bb07a081553ae2116044ab044d1cad6fa2a0d9172335b8e76bd6f7f9efae4d5b",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r5-CTA12/capture-summary.json": "b98137d7057a3450422dc8d4b2d7aedec3b0d3123908ff574634b4d52a552c90",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed-runs/r5-SM24/capture-summary.json": "46bf661e801e89ecf435169ec7fcf590ac78b9a5dbc4c8067004cbfbaa15c325",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/runs.json": "fa86fbe8fe489bcd4613943362e50e3a2a3112371a324f8781bc33a20ce5f552",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/config.json": "5a216f3b61f2cc848504ebc13a849e313d8cadc4a238a643f809a53d6ada80ef",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r1-CTA12/capture-summary.json": "28417b282550f635514cf85051c6cf5a52c866267b484dcfb3b7fdaeec6bc371",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r1-SM16/capture-summary.json": "05ff113ae46be21da9385c273c6830015dbd1eb69c8c3b09d87e039c59554c25",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r1-SM24/capture-summary.json": "96ada538b5dee1e4b3cbcfdd0633a64bb473a599d6bdcb0c4e9f7ff4c8ca119d",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r1-SM32/capture-summary.json": "de1c3b71d85243ac40daab0180437c53f998f37a1f7787327486caffe79383ec",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r2-CTA12/capture-summary.json": "7eb32d0fe511110ca0c1183d26e6d682688c5f24e1807af13e59ab6fe0404c45",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r2-SM16/capture-summary.json": "093f40b61b9321325193d5443a29659ee7ceecf2bb5847fa07876206f39dabe5",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r2-SM24/capture-summary.json": "2ae0749782c54adc5efe4d8ae952bd8714a658a4c14b2b1cf06652789852f77a",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r2-SM32/capture-summary.json": "bef46d36c6d94cb0d6c623c9cc4b954d10e3390801395a6623e8ac0be02166eb",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r3-CTA12/capture-summary.json": "f5ef203e41e9ecbdf07ea5880873571685ad9501931e6aa80f3501bb178b1cd3",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r3-SM16/capture-summary.json": "5167ce4229682ee0f48ad1d9098bccf4821533e3b2d60af4db74afe6bc678ec4",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r3-SM24/capture-summary.json": "81478d7bbfa5b558878938bc15155e857a5d3125ca08c2a57db0434ee9f948f4",
+    "reports/neutrino-review-sm-only-20261009/matched-widths-runs/r3-SM32/capture-summary.json": "d970d8d8fb429fa8a149743ab3c42d6cddd9d3103732f2d3ffbe2d91c7fe1b4b",
+    "reports/neutrino-review-sm-only-20261009/matched-primary.log": "1629e1c088eea048906aae90ef8e7a1cc33a3e9d131de47478ae698a6714d388",
+    "reports/neutrino-review-sm-only-20261009/matched-fixed.log": "efab4b191122befb4fc039f7de06496da8b4b84f1e38e63b4cac1c0ca5709a8a",
+    "reports/neutrino-review-sm-only-20261009/matched-widths.log": "cbbec34a81ef749c690a8b063024bacff564e728a3af64fec082e88ac56399df",
+    "reports/neutrino-review-sm-only-20261009/run_sm_only.py": "b853b55263bc31a6874fe95ab3f5c5bbc549ac2d1cdb84d6a7cb05bda0fd4436",
+    "reports/neutrino-review-sm-only-20261009/run_fixed.py": "4eddda32aeeee9af9fc330cc1a6493ccb633435d54b5622b362f3e73fb571d57",
+    "reports/neutrino-review-sm-only-20261009/run_sm_widths.py": "88fd8caf60ada1193a691e531894d1acbb236e89766f3252b49b704d0d532545",
+    "reports/neutrino-review-sm-only-20261009/analyze.py": "9b44e5e116009c699a9da6435789a9c71b4e8b7589354244504e31874c86c503",
+    "reports/neutrino-review-sm-only-20261009/analyze_widths.py": "d74a43bf0f1f83b7a90cc5cc1b3ed7ddb69e2ef46e0fa93fe515f5b3ab389ef1"
+  }
+}

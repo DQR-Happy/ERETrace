@@ -1,0 +1,83 @@
+--- a/experiments/jetson/neutrino/cli.py
++++ b/experiments/jetson/neutrino/cli.py
+@@ -50,10 +50,35 @@
+                         help="enable benchmark mode to evaluate overhead w.r.t. the original kernel")
+     parser.add_argument('--memusage', action='store_true', 
+                         help="prevent the profiling and only measure the memory usage")
++    parser.add_argument('--timing', action='store_true',
++                        help='aggregate CUDA host stages and existing GPU event intervals')
++    parser.add_argument('--timing-dir', help='directory for per-process timing JSON (default: trace directory)')
++    parser.add_argument('--timing-sample-every', type=int, default=1,
++                        help='measure one in N launches per host thread; 1 gives exact stage totals')
++    parser.add_argument('--timing-flush-every', type=int, default=0,
++                        help='snapshot every N completed launches; 0 writes only on flush/normal exit')
++    parser.add_argument('--capture-mode', choices=('capture', 'passthrough'), default='capture',
++                        help='passthrough launches original kernels without capture or new synchronization')
++    parser.add_argument('--ablation-mode', choices=('passthrough', 'framework', 'buffers',
++                        'pruned', 'probe', 'd2h', 'files', 'logged'),
++                        help='experimental CUDA control; fixed single Map and no callback only')
+     # put command at the end of command
+     parser.add_argument("command", nargs=argparse.REMAINDER) 
+     # parse the arguments
+     args = parser.parse_args()
++    if args.timing_sample_every < 1 or args.timing_flush_every < 0:
++        parser.error('timing sample interval must be positive; flush interval must be nonnegative')
++    if NEUTRINO_MODE != 'CUDA' and (args.timing or args.capture_mode != 'capture'):
++        parser.error('stage timing and passthrough mode currently require CUDA')
++    if args.capture_mode == 'passthrough' and (args.benchmark or args.memusage):
++        parser.error('passthrough cannot be combined with benchmark or memusage')
++    if args.ablation_mode and (NEUTRINO_MODE != 'CUDA' or args.benchmark or args.memusage):
++        parser.error('ablation requires CUDA and excludes benchmark/memusage')
++    if args.ablation_mode and args.capture_mode != 'capture':
++        parser.error('select ablation passthrough through --ablation-mode only')
++    if args.timing_dir:
++        args.timing_dir = os.path.abspath(args.timing_dir)
++        os.makedirs(args.timing_dir, exist_ok=True)
+     
+     # same as this executable
+     NEUTRINO_PYTHON: str = args.python # default to be this executable
+@@ -114,6 +139,17 @@
+ 
+     # a copied environment variables
+     env = os.environ.copy()
++    # A previous Neutrino invocation must not silently enable a different mode.
++    for key in ('NEUTRINO_DYNAMIC', 'NEUTRINO_CALLBACK', 'NEUTRINO_TIMING_DIR'):
++        env.pop(key, None)
++    env['NEUTRINO_TIMING'] = str(int(args.timing))
++    env['NEUTRINO_CAPTURE_MODE'] = args.capture_mode
++    modes = ('passthrough', 'framework', 'buffers', 'pruned', 'probe', 'd2h', 'files', 'logged')
++    env['NEUTRINO_ABLATION_MODE'] = str(modes.index(args.ablation_mode) + 1 if args.ablation_mode else 0)
++    env['NEUTRINO_TIMING_SAMPLE_EVERY'] = str(args.timing_sample_every)
++    env['NEUTRINO_TIMING_FLUSH_EVERY'] = str(args.timing_flush_every)
++    if args.timing_dir:
++        env['NEUTRINO_TIMING_DIR'] = args.timing_dir
+     # configure Neutrino related environment variables
+     env["NEUTRINO_REAL_DRIVER"]  = NEUTRINO_REAL_DRIVER
+     env["NEUTRINO_DRIVER_NAME"]  = NEUTRINO_HOOK_DRIVER_NAME
+@@ -125,7 +161,12 @@
+     env["NEUTRINO_TRACEDIR"]     = NEUTRINO_TRACEDIR
+     env["NEUTRINO_PROBES"]       = toml.dumps(NEUTRINO_PROBE) # dump it to string
+     # GNU LD_PRELOAD to overwrite dlopen, https://man7.org/linux/man-pages/man8/ld.so.8.html
+-    env["LD_PRELOAD"]            = os.path.join(NEUTRINO_BUILD_DIR, "preload.so")
++    preload_name = 'profile-preload.so' if os.environ.get('NEUTRINO_PROFILE_COMPAT') == '1' else 'preload.so'
++    env["LD_PRELOAD"] = os.path.join(NEUTRINO_BUILD_DIR, preload_name) + (
++        ':' + env['LD_PRELOAD'] if env.get('LD_PRELOAD') else '')
++    # The probe script must import this checkout, even if another release is installed.
++    env['PYTHONPATH'] = os.path.dirname(CURDIR) + (
++        os.pathsep + env['PYTHONPATH'] if env.get('PYTHONPATH') else '')
+     # Add to the LD_LIBRARY_PATH, this would overwrite ldconfig
+     if "LD_LIBRARY_PATH" in env:
+         env["LD_LIBRARY_PATH"]   = NEUTRINO_BUILD_DIR + ":" + env["LD_LIBRARY_PATH"]
+@@ -159,7 +200,9 @@
+     # start the program with new environment
+     if len(command) > 0:
+         proc = subprocess.Popen(command, env=env)
+-        proc.wait()
++        returncode = proc.wait()
++        if returncode != 0:
++            raise SystemExit(returncode)
+ 
+ if __name__ == "__main__":
+-    main()
+\ No newline at end of file
++    main()

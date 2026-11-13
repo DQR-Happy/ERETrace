@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">ERETrace — lossless GPU traces, lower collection cost</title><desc id="desc">Execution-reference encoding and recovery-aware collection. Accepted at ISPA 2026.</desc>
+<rect width="1280" height="360" rx="16" fill="#111b20"/>
+<g stroke="#294047" stroke-width="1"><path d="M800 0v360M880 0v360M960 0v360M1040 0v360M1120 0v360M1200 0v360M720 80h560M720 160h560M720 240h560M720 320h560"/></g>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<g fill="#83d4bb"><rect x="56" y="50" width="9" height="30" rx="2"/><rect x="71" y="50" width="35" height="7" rx="2"/><rect x="71" y="62" width="26" height="7" rx="2"/><rect x="71" y="74" width="16" height="6" rx="2"/></g>
+<text x="122" y="77" font-size="33" font-weight="650" fill="#f2f6f6">ERETrace</text>
+<text x="56" y="153" font-size="46" font-weight="650" letter-spacing="-1.3" fill="#f2f6f6">Every record. Exactly.</text>
+<text x="56" y="198" font-size="23" fill="#b8cbcd">Lossless GPU trace encoding and bounded collection.</text>
+<text x="56" y="286" font-size="15" font-weight="600" fill="#83d4bb">ISPA 2026</text>
+<text x="157" y="286" font-size="15" fill="#9fb6bb">CUDA · Execution references · Checked raw recovery</text>
+<rect x="839" y="66" width="339" height="64" rx="8" fill="#1c2a30" stroke="#476069"/>
+<text x="863" y="93" font-size="13" fill="#a9bec3">ORIGINAL RECORDS</text><g fill="#6f929b"><rect x="863" y="105" width="272" height="6" rx="3"/><rect x="863" y="117" width="208" height="3" rx="1"/></g>
+<path d="M1008 131v30" stroke="#83d4bb" stroke-width="2"/><path d="m1003 153 5 8 5-8" fill="none" stroke="#83d4bb" stroke-width="2"/>
+<rect x="839" y="166" width="339" height="64" rx="8" fill="#183b35" stroke="#83d4bb"/>
+<text x="863" y="193" font-size="13" fill="#b9eadc">SM / CTA REFERENCE + EXACT DELTAS</text><g fill="#83d4bb"><rect x="863" y="207" width="58" height="7" rx="2"/><rect x="928" y="207" width="78" height="7" rx="2"/><rect x="1013" y="207" width="46" height="7" rx="2"/></g>
+<path d="M1008 231v30" stroke="#83d4bb" stroke-width="2"/><path d="m1003 253 5 8 5-8" fill="none" stroke="#83d4bb" stroke-width="2"/>
+<text x="889" y="289" font-size="16" fill="#d4e6e4">Accept · Write · Release</text>
+<text x="891" y="312" font-size="12" fill="#9fb6bb">Retain raw until recovery is resolved</text>
+</g></svg>

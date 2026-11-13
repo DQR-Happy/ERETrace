@@ -1,0 +1,42 @@
+--- a/experiments/document-qa/runtime/neutrino/src/parse.py
++++ b/experiments/document-qa/runtime/neutrino/src/parse.py
+@@ -39,12 +39,19 @@
+ MODIFIED_FUNCTIONS: Dict[str, List[str]] = {
+     "cu": ["cuMemAlloc_v2", "cuMemFree_v2", "cuModuleLoadData", "cuModuleGetFunction", 
+         "cuKernelGetFunction", "cuLibraryGetKernel", "cuLibraryGetModule",
+-        "cuLibraryLoadData", "cuLaunchKernel", "cuGetProcAddress_v2",  "cuGetProcAddress", 
++        "cuLibraryLoadData", "cuLaunchKernel",
+         "cuModuleLoadDataEx", "cuModuleLoad", "cuModuleLoadFatBinary", "cuLaunchKernelEx"],
+     "hip": ["hipModuleLoadData", "hipModuleLoadDataEx", "hipModuleGetFunction", 
+         "hipModuleLaunchKernel", "hipMalloc", "hipFree", "hipModuleLoad", "hipKernelNameRef",
+         "hipEventRecord", "hipGetErrorName", "hipGetErrorString", "hipApiName", 
+         "hipKernelNameRefByPtr", "hip_init"] # "hip_init" is weird in hip_runtime_api.h
++}
++
++# Symbols whose real-function pointer is generated but whose wrapper is
++# implemented by hand in cuda.c/hip.c.
++CUSTOM_WRAPPER_FUNCTIONS: Dict[str, List[str]] = {
++    "cu": ["cuLaunchKernelEx_ptsz", "cuGetProcAddress_v2", "cuGetProcAddress"],
++    "hip": [],
+ }
+ 
+ CODEGEN_TEMPLATE: Dict[str, str] = {
+@@ -299,8 +306,9 @@
+     inits = []
+     for signature in signatures:
+         if signature.func_name not in MODIFIED_FUNCTIONS[target]: # REMOVE MODIFIED
+-            code = gencode(signature, CODEGEN_TEMPLATE[target])
+-            print(code, file=unmodified_c)
++            if signature.func_name not in CUSTOM_WRAPPER_FUNCTIONS[target]:
++                code = gencode(signature, CODEGEN_TEMPLATE[target])
++                print(code, file=unmodified_c)
+             signautre_ = gensignature(signature, SIGNATURE_TEMPLATE[target])
+             print(signautre_, file=signature_c)
+             init_ = geninit(signature)
+@@ -308,4 +316,4 @@
+     
+     print("\nstatic void init_unmodified(void) {", file=signature_c)
+     print("\n".join(inits), file=signature_c)
+-    print("}", file=signature_c)
+\ No newline at end of file
++    print("}", file=signature_c)

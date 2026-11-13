@@ -1,0 +1,17 @@
+--- a/experiments/document-qa/runtime/neutrino/build.py
++++ b/experiments/document-qa/runtime/neutrino/build.py
+@@ -47,6 +47,7 @@
+ # Internal Configurations
+ SRC_DIR = os.path.join(CURDIR, "src")
+ BUILD_DIR = os.path.join(CURDIR, "build")
++os.makedirs(BUILD_DIR, exist_ok=True)
+ CC = "cc" # NOTE don't use nvcc or hipcc, need gcc or clang
+ PY = sys.executable
+ 
+@@ -126,4 +127,4 @@
+ 
+ print("Build Success, Configuration")
+ print("============================")
+-pprint(config)
+\ No newline at end of file
++pprint(config)

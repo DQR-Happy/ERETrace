@@ -1,0 +1,394 @@
+{
+  "source_study": "3090-new document QA, existing 4 complete paired blocks; 16 captured requests plus 8 native controls",
+  "new_experiments_run": false,
+  "primary_end": "request inference starts to full trace drain/file close, no offline analysis/extra verification/archive",
+  "means_ms": {
+    "native": {
+      "prefill_ms": 568.36681825,
+      "model_steps_ms": 521.567535875,
+      "token_control_ms": 10.389803375,
+      "tail_ms": 0.0,
+      "capture_ms": 1100.3241575000002,
+      "trace_bytes": 0.0
+    },
+    "serial_neutrino": {
+      "prefill_ms": 4199.098202499999,
+      "model_steps_ms": 18572.885124250002,
+      "token_control_ms": 16.826434,
+      "tail_ms": 0.24536199999999997,
+      "capture_ms": 22789.05512275,
+      "trace_bytes": 6534696832.0
+    },
+    "async_raw": {
+      "prefill_ms": 1128.023639,
+      "model_steps_ms": 2449.1526515,
+      "token_control_ms": 17.1489355,
+      "tail_ms": 34.3848365,
+      "capture_ms": 3628.7100625000003,
+      "trace_bytes": 6535093832.0
+    },
+    "nvcomp_cascaded": {
+      "prefill_ms": 625.433184,
+      "model_steps_ms": 1151.5959715,
+      "token_control_ms": 15.81232225,
+      "tail_ms": 15.5832745,
+      "capture_ms": 1808.42475225,
+      "trace_bytes": 2729509362.0
+    },
+    "ispa_ere": {
+      "prefill_ms": 591.4127615,
+      "model_steps_ms": 681.42256225,
+      "token_control_ms": 13.20731625,
+      "tail_ms": 9.43297525,
+      "capture_ms": 1295.47561525,
+      "trace_bytes": 1778320677.0
+    }
+  },
+  "sample_sd_ms": {
+    "native": {
+      "prefill_ms": 1.9566065050016797,
+      "model_steps_ms": 1.6383823625912437,
+      "token_control_ms": 0.6138976893575698,
+      "tail_ms": 0.0,
+      "capture_ms": 3.9068991407275155
+    },
+    "serial_neutrino": {
+      "prefill_ms": 109.62325377532359,
+      "model_steps_ms": 428.27088346728635,
+      "token_control_ms": 0.41975127611082524,
+      "tail_ms": 0.13475784813509006,
+      "capture_ms": 537.4239360120739
+    },
+    "async_raw": {
+      "prefill_ms": 39.596487855199136,
+      "model_steps_ms": 23.711015848864577,
+      "token_control_ms": 5.7633667343935056,
+      "tail_ms": 0.5976239458781765,
+      "capture_ms": 34.8792303468671
+    },
+    "nvcomp_cascaded": {
+      "prefill_ms": 1.5663070227872466,
+      "model_steps_ms": 36.9453160450624,
+      "token_control_ms": 2.713577823112552,
+      "tail_ms": 0.5142692085671999,
+      "capture_ms": 40.11840056643934
+    },
+    "ispa_ere": {
+      "prefill_ms": 2.8167804363119258,
+      "model_steps_ms": 11.386313337001168,
+      "token_control_ms": 1.2113755373558808,
+      "tail_ms": 0.3770532875933014,
+      "capture_ms": 15.16729160422386
+    }
+  },
+  "paired_ere_savings": [
+    {
+      "baseline": "serial_neutrino",
+      "stage": "prefill_ms",
+      "mean_saved_ms": 3607.685441,
+      "descriptive_paired_ci95_ms": [
+        3518.1302594999997,
+        3697.2406224999995
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        3506.6451739999998,
+        3665.9038029999997,
+        3728.577442,
+        3529.6153449999997
+      ],
+      "share_of_total_saving_pct": 16.78494473077939
+    },
+    {
+      "baseline": "serial_neutrino",
+      "stage": "model_steps_ms",
+      "mean_saved_ms": 17891.462562,
+      "descriptive_paired_ci95_ms": [
+        17536.5259545,
+        18246.3991695
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        17474.280502,
+        18148.806947,
+        18343.991392,
+        17598.771407
+      ],
+      "share_of_total_saving_pct": 83.2409629850483
+    },
+    {
+      "baseline": "serial_neutrino",
+      "stage": "token_control_ms",
+      "mean_saved_ms": 3.61911775,
+      "descriptive_paired_ci95_ms": [
+        2.3175797499999997,
+        4.8196685
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        4.356973,
+        3.199352000000001,
+        1.6377819999999996,
+        5.282363999999999
+      ],
+      "share_of_total_saving_pct": 0.016838134144836786
+    },
+    {
+      "baseline": "serial_neutrino",
+      "stage": "tail_ms",
+      "mean_saved_ms": -9.18761325,
+      "descriptive_paired_ci95_ms": [
+        -9.5652405,
+        -8.809985999999999
+      ],
+      "ere_faster_blocks": 0,
+      "paired_saved_ms": [
+        -9.685411,
+        -8.737585,
+        -9.44507,
+        -8.882387
+      ],
+      "share_of_total_saving_pct": -0.042745849972518825
+    },
+    {
+      "baseline": "serial_neutrino",
+      "stage": "capture_ms",
+      "mean_saved_ms": 21493.5795075,
+      "descriptive_paired_ci95_ms": [
+        21050.1919835,
+        21936.9670315
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        20975.597238,
+        21809.172517,
+        22064.761546,
+        21124.786729
+      ],
+      "share_of_total_saving_pct": 100.0
+    },
+    {
+      "baseline": "async_raw",
+      "stage": "prefill_ms",
+      "mean_saved_ms": 536.6108775,
+      "descriptive_paired_ci95_ms": [
+        506.5941225,
+        572.5274815
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        496.346713,
+        588.6747399999999,
+        524.0857060000001,
+        537.336351
+      ],
+      "share_of_total_saving_pct": 22.998583709942263
+    },
+    {
+      "baseline": "async_raw",
+      "stage": "model_steps_ms",
+      "mean_saved_ms": 1767.73008925,
+      "descriptive_paired_ci95_ms": [
+        1741.9100349999999,
+        1796.0024919999998
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        1773.501006,
+        1743.2121249999998,
+        1740.6079450000002,
+        1813.5992809999998
+      ],
+      "share_of_total_saving_pct": 75.76307178789874
+    },
+    {
+      "baseline": "async_raw",
+      "stage": "token_control_ms",
+      "mean_saved_ms": 3.9416192500000005,
+      "descriptive_paired_ci95_ms": [
+        -1.8946859999999992,
+        9.777924500000001
+      ],
+      "ere_faster_blocks": 2,
+      "paired_saved_ms": [
+        9.525172000000001,
+        -0.2678989999999999,
+        -3.5214729999999985,
+        10.030676999999999
+      ],
+      "share_of_total_saving_pct": 0.1689336986536298
+    },
+    {
+      "baseline": "async_raw",
+      "stage": "tail_ms",
+      "mean_saved_ms": 24.95186125,
+      "descriptive_paired_ci95_ms": [
+        24.520680999999996,
+        25.5115095
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        24.972888,
+        24.666452999999997,
+        24.374909000000002,
+        25.793195
+      ],
+      "share_of_total_saving_pct": 1.0694108035053569
+    },
+    {
+      "baseline": "async_raw",
+      "stage": "capture_ms",
+      "mean_saved_ms": 2333.23444725,
+      "descriptive_paired_ci95_ms": [
+        2294.946433,
+        2371.5224614999997
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        2304.345779,
+        2356.285419,
+        2285.547087,
+        2386.759504
+      ],
+      "share_of_total_saving_pct": 99.99999999999997
+    },
+    {
+      "baseline": "nvcomp_cascaded",
+      "stage": "prefill_ms",
+      "mean_saved_ms": 34.020422499999995,
+      "descriptive_paired_ci95_ms": [
+        31.892472249999997,
+        37.16248074999996
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        33.42016000000001,
+        32.59246900000005,
+        31.383242999999993,
+        38.68581799999993
+      ],
+      "share_of_total_saving_pct": 6.632318888178575
+    },
+    {
+      "baseline": "nvcomp_cascaded",
+      "stage": "model_steps_ms",
+      "mean_saved_ms": 470.1734092500001,
+      "descriptive_paired_ci95_ms": [
+        443.16311500000006,
+        503.052248
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        437.3838660000001,
+        521.088876,
+        448.9423640000001,
+        473.27853100000004
+      ],
+      "share_of_total_saving_pct": 91.66082469693288
+    },
+    {
+      "baseline": "nvcomp_cascaded",
+      "stage": "token_control_ms",
+      "mean_saved_ms": 2.6050060000000004,
+      "descriptive_paired_ci95_ms": [
+        0.6909280000000004,
+        4.978384750000001
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        2.7484909999999996,
+        6.289677000000001,
+        0.3373480000000004,
+        1.0445080000000004
+      ],
+      "share_of_total_saving_pct": 0.5078487928131556
+    },
+    {
+      "baseline": "nvcomp_cascaded",
+      "stage": "tail_ms",
+      "mean_saved_ms": 6.15029925,
+      "descriptive_paired_ci95_ms": [
+        5.353600249999998,
+        6.814742500000001
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        5.033938999999998,
+        7.002148000000002,
+        6.252526,
+        6.312583999999999
+      ],
+      "share_of_total_saving_pct": 1.1990076220754025
+    },
+    {
+      "baseline": "nvcomp_cascaded",
+      "stage": "capture_ms",
+      "mean_saved_ms": 512.9491370000001,
+      "descriptive_paired_ci95_ms": [
+        482.7509685,
+        546.9587477499999
+      ],
+      "ere_faster_blocks": 4,
+      "paired_saved_ms": [
+        478.586456,
+        566.97317,
+        486.915481,
+        519.321441
+      ],
+      "share_of_total_saving_pct": 100.0
+    }
+  ],
+  "phase_definitions": {
+    "prefill_ms": "begin -> qwen_prefill return, including request mark/probes and interleaved collection",
+    "model_steps_ms": "sum of 63 independently recorded qwen_step wall intervals; model generation and overlapping instrumentation/collection, not pure GPU compute",
+    "token_control_ms": "decode_ns - sum(decode_steps_ns), including 64 logits retrievals/greedy selections, token/request marks and any waits, loop and timestamp overhead; derived aggregate, not isolated CPU/transfer time",
+    "tail_ms": "model generation complete -> capture boundary return; remaining synchronization, drain and file close; for Native no capture stage",
+    "capture_ms": "sum of above 4 windows, original capture endpoint; native uses inference end"
+  },
+  "no_component_times_inferred": [
+    "encoding",
+    "D2H",
+    "writer work (these overlap and need dedicated diagnostics)"
+  ],
+  "native_aggregation": "mean of before/after controls within each block, then mean/SD across 4 blocks",
+  "baseline_note": "This case async raw uses the same arena infrastructure as ERE. Main paper +Async uses 32 reusable slots. Do not identify them as identical implementations or mix 256-token main results with 2663-2665-token case.",
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 2026101319,
+    "unit": "paired process block",
+    "interval": "exploratory percentile 95%, n=4, not general significance"
+  },
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "sources": {
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-native_before/workload.json": "457c3877bd80be4864e2000ddbc5efc731e278cc718decbf93d4779127c97e35",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-native_after/workload.json": "c1990b0095c7c609dd0482e1c0bcf56dece022338882de97ec26091fb3155bdc",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-native_before/workload.json": "acbf6b2ef6536f0d6e9fb1775f6bab592d2390e8600891186a27067a85e255cb",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-native_after/workload.json": "e8ad79ba7b1f222c5a642e87dc96d9591b7ace21a687d71a0f9862c685d01ec4",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-native_before/workload.json": "27ccd16b721e8a5979d4c5b733f63eb958de871f59421d5d7d103b97f842e874",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-native_after/workload.json": "b5aad817ec49a0a1d682db4e99fbccaa1f1f9ad24fceaabc75544d29151da4a9",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-native_before/workload.json": "e08cc35943ef0dba37a8db5de897080c872965faab4674e43609d99a05327ff6",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-native_after/workload.json": "58020d4bc138f6534b95fac3d8adfe45e4e3814126aa7ef645aa1bdd672ae1df",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-serial_neutrino/workload.json": "0df0862662f695ec04235269976501b72b051cdf7bd142f311cbba1c7c565b77",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-serial_neutrino/workload.json": "6b5bf9789d7cfaefa5ab2382f4e15b9e1cf3fe584d65dc792458974db7964f24",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-serial_neutrino/workload.json": "a74ab1ae8efb19b5a6e9a1e75305781316f66a34d243ce105050a26d819432ad",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-serial_neutrino/workload.json": "051667523ec390f9c6d5f5b39852c1d77813158764667274a847944091acd61c",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-async_raw/workload.json": "1a3c177496fadcecda8a8642398e84f108e0086076d845db97482f2cf8ebbe68",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-async_raw/workload.json": "79675b493beb401a0513e1f9a5abff732bdbd9a30a2e223e6997467f2443b423",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-async_raw/workload.json": "11602d48d3e8fadcc312cacdf4a1fe6d8ddfa13354550de8b4d27eb64f10afb2",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-async_raw/workload.json": "2df0a331f21491fb3e294196898ed9b9ddd54828bfba5a32b2025da95a961380",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-nvcomp_cascaded/workload.json": "8d417a41fc09d0b827bcabb933b4f7b1bdd3e7f7329599cc8af5e9e3c2cd4100",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-nvcomp_cascaded/workload.json": "a8ab7815cd20d37891dd4e7f880be5b28ec60081521d39e9e8ef6ab982b2d4d4",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-nvcomp_cascaded/workload.json": "56bc5a36ea7edb366fd683e0c758b1c5eb0d66f00ae1aa534034ad7b1ab2d9cb",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-nvcomp_cascaded/workload.json": "8c12ef7231d45f1e2a0aea65793a3ab9286bf8aa2d673bbc07e5ae37aee9cf4d",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r1-ispa_ere/workload.json": "5f43273821cb4cd060997984bacc0573b6d60667c5ce6d34d4aa0d0cee1a14d1",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r2-ispa_ere/workload.json": "d6c9d38390660f93e8762cbf3fa5026f3dd75d81d306aa169bb6cada8e4b2c24",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r3-ispa_ere/workload.json": "3333c6c7355802811569b11706c42672d6e79db095ce14c6f6b52524dfd2ceb5",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/inputs/capture/r4-ispa_ere/workload.json": "2de5d796c1f23e68ce75fffacfc11722f30e47cd4a61b3016a45e95a5e0c2dbe",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-e2e-noverify-20261013/statistics.json": "b187d7ab25a07b167d8cbf3ccb662400c3b2de2ddf2cf67d3a0e592360483d1e",
+    "/Users/dengqirui/Documents/BITS/reports/ispa-capture-breakdown-20261013/make_table.py": "9dc46d71c3ddd69b88b6ff49d6d811ba2bcebe092913adaa36f4055b14d5092d"
+  }
+}

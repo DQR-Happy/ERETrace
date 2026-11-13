@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eretrace"
+version = "1.0.0"
+description = "Lossless execution-reference encoding and recovery-aware GPU trace collection"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["toml==0.10.2"]
+classifiers = ["Development Status :: 4 - Beta", "Operating System :: POSIX :: Linux", "Topic :: System :: Monitoring"]
+
+[project.optional-dependencies]
+test = ["numpy==2.2.6"]
+plots = ["numpy==2.2.6", "matplotlib>=3.8,<4"]
+case = ["numpy==2.2.6", "zstandard>=0.23,<1"]
+
+[project.scripts]
+eretrace = "neutrino.cli:main"
+neutrino = "neutrino.cli:main"
+
+[project.urls]
+Homepage = "https://dqr-happy.github.io/ERETrace/"
+Repository = "https://github.com/DQR-Happy/ERETrace"
+Issues = "https://github.com/DQR-Happy/ERETrace/issues"
+
+[tool.setuptools.packages.find]
+include = ["neutrino*"]
+
+[tool.setuptools.package-data]
+neutrino = ["src/*.h", "src/*.c", "tools/*.cc"]

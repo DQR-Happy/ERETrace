@@ -1,0 +1,266 @@
+--- a/neutrino/probe/cuda.py
++++ b/neutrino/probe/cuda.py
+@@ -1,16 +1,20 @@
+ """Neutrino Probing Engine, CUDA Implementation"""
+ 
++import time
++_entry_ns = time.perf_counter_ns()
+ import os
++import re
+ import sys
+ import shutil
+ import subprocess
+ import traceback # usef for print backtrace to log file instead of stdout
+-import toml      # to load probes from envariables
+ from neutrino.common import Register, Probe, Map, load
+ from neutrino.probe import Ref, KernelParam
+-
+-workdir = sys.argv[1]     # directory contains original.bin
+-log = open(os.path.join(workdir, "process.log"), 'w')
++from neutrino.probe.timing import PhaseTimer
++
++workdir = None
++log = sys.stderr
++timer = None
+ 
+ # a macro like terms
+ SUPPORTED_DATAMODEL = { "thread": 0, "warp": 1 }
+@@ -241,6 +245,7 @@
+ @%leader mad.lo.s32 %warpbuf17, %warpbuf16, %warpbuf12, %warpbuf9;  // block_idx = (gridDim.y * blockIdx.z + blockIdx.y) * gridDim.x + blockIdx.x
+ @%leader mul.lo.s32 %warpbuf19, %warpbuf7, %warpbuf8;
+ @%leader mul.lo.s32 %warpbuf20, %warpbuf19, %warpbuf18;
++@%leader add.u32 %warpbuf20, %warpbuf20, 31; // ceil: include a partial warp
+ @%leader div.s32 %warpbuf20, %warpbuf20, 32;
+ @%leader mad.lo.s32 %warpbuf1,  %warpbuf17, %warpbuf20,  %warpbuf15; // buf_idx = block_idx * warpSize + warpIdx
+ // end buffer calculation"""
+@@ -302,9 +307,27 @@
+ before = "add.u64 %NR0, %NR0, {count_size};"
+ """
+ 
+-def probing(asm: str, probes: list[Probe], maps: list[Map], regs: int) -> tuple[str, list[int]]:
++def _instruction_matches(line: str, position: str) -> bool:
++    # Match an opcode, never a comment, declaration, label, or operand name.
++    code = line.split("//", 1)[0].strip()
++    match = re.match(r"(?:@[!]?%[\w$]+\s+)?([a-z][\w.]*)\s*(?:;|\s)", code + " ")
++    if not match or ";" not in code:
++        return False
++    opcode = match.group(1)
++    wanted = position.rstrip(";")
++    return opcode == wanted or opcode.startswith(wanted + ".")
++
++
++def probing(asm: str, probes: list[Probe], maps: list[Map], regs: int,
++            core_mode: str | None = None) -> str:
+     """Process the probes, the core function of probing engine"""
+ 
++    core_mode = core_mode or os.environ.get("NEUTRINO_CORE_MODE", "corrected")
++    if core_mode == "legacy_reference":
++        from neutrino.probe.reference_core import probing as reference_probing
++        return reference_probing(asm, probes, maps, regs)
++    from neutrino.probe.core_codegen import validate_mode, finish_codegen
++    validate_mode(core_mode, probes, maps)
+     # NOTE parse interesting locations
+     # A mapping from location to probes, a probe can hook at multiple location
+     positions: dict[str, list[Probe]] = dict()
+@@ -315,10 +338,8 @@
+         for position in probe.pos:
+             if position == "kernel": # turn into listening instructions
+                 if probe.after is not None:
+-                    if "ret;" in positions:
+-                        positions["ret;"].append(probe)
+-                    else:
+-                        positions["ret;"] = [probe, ]
++                    for terminal in ("ret;", "exit;"):
++                        positions.setdefault(terminal, []).append(probe)
+                 if probe.before is not None:
+                     kernel_start_probes.append(probe)
+             else:
+@@ -352,13 +373,13 @@
+             # here pattern matching positions TODO optimize performance here
+             else:
+                 for position, probes in positions.items():
+-                    if position in line: # BUG might mismatch parameter with confused naming
++                    if _instruction_matches(line, position):
+                         # NOTE we got a match, then every probe will insert snippet before or after the line
+                         # this might cause idx fluctuatting if we use idx to process it
+                         line_idx = idx # a copy to fix the insertion position
+                         for probe in probes: 
+                             # specially handle ret;, we need to place it before ret or it won't be executed
+-                            if position == "ret;" and probe.after is not None:
++                            if position in ("ret;", "exit;") and probe.after is not None:
+                                 ptx_lines.insert(line_idx, Ref(line=line, probe=probe, before_after=False))
+                                 idx += 1
+                                 line_idx += 1
+@@ -375,7 +396,10 @@
+     # Now add the probes to PTX Assembly
+     offset: int = 0 # adding every line need to offset 1 to make it correct
+     # First let's add parameters
+-    ptx_lines[param_end_line] = ptx_lines[param_end_line] + "," # add , to indicate more param
++    if maps and param_end_line:
++        ptx_lines[param_end_line] += ","
++    if not param_end_line:
++        param_end_line = entry_last_line - 1
+     # NOTE parameter layouts: Parameters are pointers to buffer, or buffer size
+     # We arange buffer pointers linearly in advance (u64), and later size (u32)
+     params_added: list[str] = []
+@@ -510,6 +534,7 @@
+             in3 = operands[3] if len(operands) >= 4 else None
+             # TODO handle some weird syntax like + 0 used meaninglessly to locate correct places
+             # Currently only a minimal solution
++            addr_out, addr_in1 = out, in1
+             if out is not None and "+" in out: out = out[:out.find("+")]
+             if in1 is not None and "+" in in1: in1 = in1[:in1.find("+")]
+             # print(line, out, in1, in2, sep=" / ")
+@@ -521,10 +546,16 @@
+             snippet = snippet.replace("IN3", in3) if "IN3" in snippet else snippet
+             # NOTE add a new helper named ADDR referencing gmem address
+             if "ADDR" in snippet:
+-                if "ld" in operands[0] or "cp.async" in operands[0]:
+-                    snippet = snippet.replace("ADDR", in1)
+-                elif "st" in operands[0]: # st has 
+-                    snippet = snippet.replace("ADDR", out)
++                address = addr_in1 if ("ld" in operands[0] or "cp.async" in operands[0]) else addr_out
++                match = re.fullmatch(r"\s*(%[\w$]+)(?:\s*([+-])\s*(0[xX][0-9a-fA-F]+|[0-9]+))?\s*", address or "")
++                if not match:
++                    raise ValueError(f"Unsupported ADDR expression: {address!r}")
++                if match.group(2):
++                    op = "add" if match.group(2) == "+" else "sub"
++                    snippet = (f".reg .u64 %core_addr;\n{op}.u64 %core_addr, {match.group(1)}, {match.group(3)};\n"
++                               + snippet.replace("ADDR", "%core_addr"))
++                else:
++                    snippet = snippet.replace("ADDR", match.group(1))
+             if mem_bytes is not None:
+                 snippet = snippet.replace("BYTES", mem_bytes) if "BYTES" in snippet else snippet
+             # now handles STORE helpers
+@@ -570,18 +601,22 @@
+                 else:
+                     # or just add the pred!
+                     # NOTE handling warp that having double buffer
+-                    if ".reg" not in snippet_line and snippet_line.strip() not in ("{", "}"):
++                    if ".reg" not in snippet_line and snippet_line.strip() not in ("{", "}", "") and not snippet_line.lstrip().startswith("//"):
+                         snippet_lines[snippet_line_idx] = pred + snippet_line
+                     else:
+                         snippet_lines[snippet_line_idx] = snippet_line
+             if probe.level == "warp" and org_pred != "":
+-                snippet_lines.insert(0, f"and.pred %tmp, %leader, {org_pred[1:]}; // joint prediction") # ignore the '@' signal at first
+-            snippet = "\n".join(snippet_lines)
++                operand_pred = org_pred.strip()[1:]
++                if operand_pred.startswith("!"):
++                    snippet_lines.insert(0, f"not.pred %joint_pred, {operand_pred[1:]};\nand.pred %joint_pred, %leader, %joint_pred;")
++                else:
++                    snippet_lines.insert(0, f"and.pred %joint_pred, %leader, {operand_pred};")
++            snippet = "{\n" + "\n".join(snippet_lines) + "\n}"
+             # finally replace the Ref with snippet to finish the probing!
+             ptx_lines[idx] = snippet
+ 
+     # Finally finished.1
+-    return "\n".join(ptx_lines)
++    return finish_codegen("\n".join(ptx_lines), core_mode, maps)
+ 
+ def assemble(workdir: str, name: str) -> None:
+     """compile the ptx into cubin via ptxas
+@@ -591,7 +626,10 @@
+     """
+     ptx_path = os.path.join(workdir, name) + ".ptx"
+     bin_path = os.path.join(workdir, name) + ".bin" # target binary
+-    command = ["ptxas", f'-arch={get_arch()}', '-m64', "--verbose", ptx_path, '-o', bin_path]
++    timer.stage(f'{name}_arch_query')
++    arch = get_arch()
++    timer.stage(f'{name}_ptxas')
++    command = ["ptxas", f'-arch={arch}', '-m64', "--verbose", ptx_path, '-o', bin_path]
+     print(" ".join(command), file=log)
+     result = subprocess.run(
+         command, 
+@@ -654,8 +692,12 @@
+ 
+ # ENTRY for this tool
+ if __name__ == "__main__":
++    import toml
+     # no argparse as the CLI is straightforward
+     workdir = sys.argv[1]     # directory contains original.bin
++    log = open(os.path.join(workdir, "process.log"), "w")
++    timer = PhaseTimer(workdir, _entry_ns)
++    timer.stage("setup")
+     kernel_name = sys.argv[2].encode('utf-8', 'ignore').decode('utf-8', 'ignore') # for possible case with multiple entry in one binary
+ 
+     probes: dict
+@@ -695,10 +737,13 @@
+ 
+     try:
+         # first objdump binary to ptx
++        timer.stage('ptx_extract')
+         ptx = dump(workdir)
+         # then truncate ptx for entry_name
++        timer.stage('ptx_prune')
+         global_section, func_section, entry_section, _ = prune(ptx, kernel_name)
+         # split and process ptx lines and write kernel info
++        timer.stage('params_and_filter')
+         params, kernel_name = parse_params(entry_section)
+ 
+         # basic logging
+@@ -710,23 +755,28 @@
+                     matched = True
+             if not matched:
+                 print(f"{kernel_name} is not in {filter_in}", file=log)
++                timer.status = 'filtered'
+                 exit(1)
+         if filter_out:
+             for tmp in filter_out:
+                 if tmp != "" and tmp in kernel_name:
+                     print(f"{kernel_name} filtered out from {filter_out}", file=log)
++                    timer.status = 'filtered'
+                     exit(1)
+ 
+         # write pruned ptx to file
++        timer.stage('pruned_ptx_write')
+         pruned_ptx = global_section + "\n" + func_section + "\n" + entry_section
+         with open(os.path.join(workdir, "pruned.ptx"), "w") as f:
+             f.write(pruned_ptx)
+ 
+         # convert probes from Python Dict to data structure
++        timer.stage('probe_load')
+         probes, maps, regs = load(probes)
+ 
+         # NOTE generate the trace reading code
+         if dynamic:
++            timer.stage('count_probe_generate_and_write')
+             # First check the probe with size is dynamic, aka size = -1
+             count_inst = []
+             count_size = 0
+@@ -753,6 +803,7 @@
+             with open(os.path.join(workdir, "countd.ptx"), "w") as f:
+                 f.write(count_ptx)
+ 
++        timer.stage('map_size_plan')
+         map_sizes: list[tuple[str, int]] = []
+         for map_ in maps:
+             if isinstance(map_.cap, int):
+@@ -763,12 +814,14 @@
+                 raise NotImplementedError
+ 
+         # process ptx lines
++        timer.stage('probe_injection')
+         probed_ptx = probing(entry_section, probes, maps, regs)
+ 
+         # merge global and func back
+         probed_ptx  = global_section + "\n" + func_section + "\n" + probed_ptx
+ 
+         # write ptx to file
++        timer.stage('probed_ptx_and_metadata_write')
+         with open(os.path.join(workdir, "probed.ptx"), "w") as f:
+             f.write(probed_ptx)
+         
+@@ -780,7 +833,11 @@
+         assemble(workdir, "pruned")
+         if dynamic:
+             assemble(workdir, "countd")
++        timer.status = 'success'
+ 
+     except Exception as e:
++        timer.status = 'error'
+         traceback.print_exc(file=log)
+-        exit(1)
+\ No newline at end of file
++        exit(1)
++    finally:
++        timer.finish()

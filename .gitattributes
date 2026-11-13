@@ -1,0 +1,2 @@
+# Keep measured source and retained evidence bytes stable across platforms.
+* -text
