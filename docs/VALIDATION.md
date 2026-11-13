@@ -7,6 +7,7 @@ hashes are in [release-validation.json](../provenance/release-validation.json).
 |---|---|---|
 | Pinned dependency + patch reconstruction | Pinned upstream commit | All 91 resulting file SHA-256 values matched |
 | CPU suite, including public B16/case wrappers | Isolated Python 3.12, NumPy 2.2.6 | 61 tests passed |
+| Clean GitHub clone, runtime reconstruction and CPU tests | Public repository | 538 payload files and 91 runtime files verified; 61 tests passed |
 | Public CLI and retained-table generation | Same environment | `eretrace --help` and `summarize_paper.py` passed |
 | Hook, preload and CUDA encoder build | Jetson Orin, AArch64, CUDA 12.6.85, sm_87 | Passed; new binary hashes recorded |
 | Reference / flexible / hierarchical / fixed / batch-delta CUDA checks | Same Jetson; same-buffer oracle and range/fallback cases | 24 / 36 / 12 / 2 / 5 groups passed (79 total) |

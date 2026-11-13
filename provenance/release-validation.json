@@ -1214,7 +1214,16 @@
     "mobile_390x844": "visually reviewed; no horizontal overflow",
     "model_selector": "Llama3.2-1B displayed the correct retained rows",
     "copy_button": "reported Copied",
-    "viewport_override": "reset"
+    "viewport_override": "reset",
+    "public_homepage": "https://eretrace.golden-mole-0361.chatgpt.site",
+    "deployment": "succeeded, public access"
   },
-  "scope": "Release correctness and packaging checks, separate from retained paper performance; no new full LLM or external frontend performance ranking."
+  "scope": "Release correctness and packaging checks, separate from retained paper performance; no new full LLM or external frontend performance ranking.",
+  "public_clone": {
+    "payload_files_verified": 538,
+    "runtime_files_verified": 91,
+    "cpu_tests_passed": 61,
+    "code_validation_commit": "bcb3b021a53ec92f45695d4f00ecc79b212d3155",
+    "final_changes": "Homepage URL and release documentation only; primary runtime and test code unchanged."
+  }
 }

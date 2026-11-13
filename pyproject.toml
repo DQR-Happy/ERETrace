@@ -21,7 +21,7 @@ eretrace = "neutrino.cli:main"
 neutrino = "neutrino.cli:main"
 
 [project.urls]
-Homepage = "https://dqr-happy.github.io/ERETrace/"
+Homepage = "https://eretrace.golden-mole-0361.chatgpt.site"
 Repository = "https://github.com/DQR-Happy/ERETrace"
 Issues = "https://github.com/DQR-Happy/ERETrace/issues"
 
