@@ -1215,8 +1215,17 @@
     "model_selector": "Llama3.2-1B displayed the correct retained rows",
     "copy_button": "reported Copied",
     "viewport_override": "reset",
-    "public_homepage": "https://eretrace.golden-mole-0361.chatgpt.site",
-    "deployment": "succeeded, public access"
+    "public_homepage": "https://dengqirui.me/ERETrace/",
+    "deployment": "GitHub Pages build succeeded; valid domain certificate; HTTPS HTML matches repository source",
+    "hosting_provider": "GitHub Pages",
+    "hosting_migration": {
+      "date": "2026-11-14",
+      "provider": "GitHub Pages",
+      "source": "main:/docs",
+      "https_verified": true,
+      "html_sha256": "3bece7943e6fc72c4e8efb7d1730ad3b92e94b85bf9d736ce9d2fdc390028c4a",
+      "runtime_code_changed": false
+    }
   },
   "scope": "Release correctness and packaging checks, separate from retained paper performance; no new full LLM or external frontend performance ranking.",
   "public_clone": {

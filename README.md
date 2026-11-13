@@ -7,7 +7,7 @@
 <a href="LICENSE"><img alt="Original additions licensed MIT" src="https://img.shields.io/badge/additions-MIT-33454e?style=flat-square"></a>
 </p>
 
-<p align="center"><a href="https://eretrace.golden-mole-0361.chatgpt.site"><b>Project home</b></a> · <a href="docs/INSTALL.md">Install</a> · <a href="docs/REPRODUCE.md">Reproduce</a> · <a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/README.zh-CN.md">简体中文</a></p>
+<p align="center"><a href="https://dengqirui.me/ERETrace/"><b>Project home</b></a> · <a href="docs/INSTALL.md">Install</a> · <a href="docs/REPRODUCE.md">Reproduce</a> · <a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/README.zh-CN.md">简体中文</a></p>
 
 **ERETrace** is the research implementation of **Execution-Reference Encoding and Recovery-Aware Collection for GPU Profiling**, accepted at **ISPA 2026**.
 It compresses fine-grained GPU execution records within SM/CTA reference domains and carries them through a bounded asynchronous collector. Every captured field remains exactly recoverable; out-of-range records follow a checked raw path.
